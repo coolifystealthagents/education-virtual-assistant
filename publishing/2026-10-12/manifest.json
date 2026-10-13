@@ -1,0 +1,167 @@
+{
+  "site": "EducationVirtualAssistant.com",
+  "repository": "coolifystealthagents/education-virtual-assistant",
+  "branch": "main",
+  "baseSha": "4baa875a6c50f45491f187da3951dc67ef9af6de",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "thumbnails": 17
+  },
+  "registryPaths": [
+    "lib/october-12/blogPosts.ts",
+    "lib/october-12/researchPosts.ts",
+    "lib/content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sidebarPaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "articles": [
+    {
+      "section": "Blog",
+      "title": "Building a Verifiable Student Enrollment Document Handoff",
+      "slug": "student-enrollment-document-handoff",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/student-enrollment-document-handoff.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Routing Accessible Course Material Requests to the Right Owner",
+      "slug": "accessible-course-material-request",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/accessible-course-material-request.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Maintaining an Academic Calendar Change Record",
+      "slug": "academic-calendar-change-record",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/academic-calendar-change-record.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Coordinating Faculty Office Hours Without Changing Academic Decisions",
+      "slug": "faculty-office-hours-scheduling-boundary",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/faculty-office-hours-scheduling-boundary.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Handling Learning Platform Access Recovery with Identity Boundaries",
+      "slug": "learning-platform-access-recovery",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/learning-platform-access-recovery.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Routing Assignment Extension Requests Without Making the Decision",
+      "slug": "assignment-extension-request-routing",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/assignment-extension-request-routing.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Preserving Custody in Education Record Correction Requests",
+      "slug": "education-record-correction-custody",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/education-record-correction-custody.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Verifying a Virtual Class Session Before Learners Arrive",
+      "slug": "virtual-class-session-readiness",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/virtual-class-session-readiness.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Creating a Bounded Student Support Referral Handoff",
+      "slug": "student-support-referral-handoff",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/student-support-referral-handoff.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Releasing Course Content with Version and Approval Evidence",
+      "slug": "course-content-version-release",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/course-content-version-release.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Tracking Practicum Placement Documents Without Inventing Compliance",
+      "slug": "practicum-placement-document-tracker",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/practicum-placement-document-tracker.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Blog",
+      "title": "Reviewing Access to Student Data Exports",
+      "slug": "student-data-export-access-review",
+      "sourcePath": "lib/october-12/blogPosts.ts",
+      "thumbnailPath": "public/october-12/student-data-export-access-review.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Reproducibility of Student Record Correction Reviews",
+      "slug": "student-record-correction-reproducibility-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/student-record-correction-reproducibility-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Completeness of Learning Platform Access Recovery Evidence",
+      "slug": "learning-platform-access-recovery-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/learning-platform-access-recovery-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Accessible Course Material Fulfillment Evidence",
+      "slug": "accessible-material-fulfillment-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/accessible-material-fulfillment-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Publication Drift in Academic Calendar Changes",
+      "slug": "academic-calendar-publication-drift-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/academic-calendar-publication-drift-study.webp",
+      "registryPath": "lib/content.ts"
+    },
+    {
+      "section": "Research",
+      "title": "Revocation of Student Data Export Access",
+      "slug": "student-data-export-revocation-study",
+      "sourcePath": "lib/october-12/researchPosts.ts",
+      "thumbnailPath": "public/october-12/student-data-export-revocation-study.webp",
+      "registryPath": "lib/content.ts"
+    }
+  ]
+}
