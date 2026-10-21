@@ -4,6 +4,7 @@ import { Header, Footer } from '@/components/SiteChrome';
 import { site } from '@/lib/site';
 import './globals.css';
 import '@/components/site-chrome.css';
+import './long-form.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${site.domain}`),
