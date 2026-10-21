@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Resource Library Support Workflow Boundary Review</title><desc id="desc">Branded education operations diagram showing connected workflow records and review points.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173B70"/><stop offset="1" stop-color="#3C7AE8"/></linearGradient><pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#fff" stroke-opacity=".08"/></pattern></defs>
+<rect width="1200" height="630" rx="34" fill="url(#bg)"/><rect width="1200" height="630" rx="34" fill="url(#grid)"/>
+<g fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="5"><path d="M142 226 C430 70 610 270 916 417"/><path d="M232 436 C500 560 720 510 1036 257"/></g>
+<g fill="#FFD166" stroke="#fff" stroke-width="6"><circle cx="142" cy="226" r="32"/><rect x="182" y="396" width="84" height="84" rx="18"/><circle cx="916" cy="417" r="43"/><rect x="991" y="212" width="96" height="96" rx="48"/></g>
+<g fill="#fff"><rect x="76" y="414" width="720" height="3" opacity=".45"/><text x="76" y="468" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="3" opacity=".8">EDUCATION OPERATIONS</text><text x="76" y="526" font-family="Arial, sans-serif" font-size="42" font-weight="800">Resource Library Support Workflow Boundary Review</text></g>
+</svg>

@@ -94,7 +94,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/learner-records",
     "internalSibling": "/blog/accessible-course-material-request",
     "source": {
       "label": "FERPA General Guidance",
@@ -195,7 +195,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/resource-library-support",
     "internalSibling": "/blog/academic-calendar-change-record",
     "source": {
       "label": "Section 508 Guidance",
@@ -296,7 +296,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/scheduling-support",
     "internalSibling": "/blog/faculty-office-hours-scheduling-boundary",
     "source": {
       "label": "Federal Plain Language Guidelines",
@@ -397,7 +397,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/scheduling-support",
     "internalSibling": "/blog/learning-platform-access-recovery",
     "source": {
       "label": "FERPA General Guidance",
@@ -498,7 +498,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/course-administration",
     "internalSibling": "/blog/assignment-extension-request-routing",
     "source": {
       "label": "NIST Digital Identity Guidelines",
@@ -599,7 +599,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/family-learner-communication",
     "internalSibling": "/blog/education-record-correction-custody",
     "source": {
       "label": "ADA Effective Communication",
@@ -700,7 +700,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/learner-records",
     "internalSibling": "/blog/virtual-class-session-readiness",
     "source": {
       "label": "FERPA General Guidance",
@@ -801,7 +801,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/course-administration",
     "internalSibling": "/blog/student-support-referral-handoff",
     "source": {
       "label": "CISA Secure Our World",
@@ -902,7 +902,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/family-learner-communication",
     "internalSibling": "/blog/course-content-version-release",
     "source": {
       "label": "Department of Education Student Support",
@@ -1003,7 +1003,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/resource-library-support",
     "internalSibling": "/blog/practicum-placement-document-tracker",
     "source": {
       "label": "Section 508 Guidance",
@@ -1104,7 +1104,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/learner-records",
     "internalSibling": "/blog/student-data-export-access-review",
     "source": {
       "label": "Department of Labor Internship Guidance",
@@ -1205,7 +1205,7 @@ export const october12BlogPosts: BlogPost[] = [
         "a": "An authorized action, confirmed delivery, customer or system acknowledgement, and a retained endpoint."
       }
     ],
-    "internalService": "/services/live-chat-support",
+    "internalService": "/services/reporting-preparation",
     "internalSibling": "/blog/student-enrollment-document-handoff",
     "source": {
       "label": "Department of Education Data Security",

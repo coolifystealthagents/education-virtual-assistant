@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Education Communication Escalation</title><desc id="desc">Branded education operations diagram showing connected workflow records and review points.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#114B5F"/><stop offset="1" stop-color="#1A936F"/></linearGradient><pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#fff" stroke-opacity=".08"/></pattern></defs>
+<rect width="1200" height="630" rx="34" fill="url(#bg)"/><rect width="1200" height="630" rx="34" fill="url(#grid)"/>
+<g fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="5"><path d="M301 121 C430 70 610 270 847 413"/><path d="M391 331 C500 560 720 510 967 253"/></g>
+<g fill="#F3E9D2" stroke="#fff" stroke-width="6"><circle cx="301" cy="121" r="32"/><rect x="341" y="291" width="84" height="84" rx="18"/><circle cx="847" cy="413" r="43"/><rect x="922" y="208" width="96" height="96" rx="48"/></g>
+<g fill="#fff"><rect x="76" y="414" width="720" height="3" opacity=".45"/><text x="76" y="468" font-family="Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="3" opacity=".8">EDUCATION OPERATIONS</text><text x="76" y="526" font-family="Arial, sans-serif" font-size="42" font-weight="800">Education Communication Escalation</text></g>
+</svg>
