@@ -30,7 +30,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="contact-page">
+    <main id="main-content" tabIndex={-1} className="contact-page">
       <section className="contact-first-fold" aria-labelledby="contact-title">
         <div className="contact-intro">
           <p className="eyebrow">Contact Us</p>

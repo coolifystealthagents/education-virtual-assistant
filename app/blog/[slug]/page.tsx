@@ -52,7 +52,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   ];
 
   return (
-    <main className="editorial-page">
+    <main id="main-content" tabIndex={-1} className="editorial-page">
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <ol><li><Link href="/">Home</Link></li><li><Link href="/blog">Blog</Link></li><li aria-current="page">{post.title}</li></ol>
       </nav>

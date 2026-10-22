@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function ServicesPage() {
-  return <main className="lf-page">
+  return <main id="main-content" tabIndex={-1} className="lf-page">
     <header className="page-hero lf-page-hero"><p className="eyebrow">Services</p><h1>Specialist support for education operations.</h1><p>Choose a focused role by the queue you need to improve, not by the longest possible task list. Each service below makes inputs, deliverables, escalation, and human decisions visible.</p><div className="hero-actions"><Link className="button primary" href="/contact-us" id="cta-services-index-hero">Discuss your workflow</Link><a className="quiet-link" href="#compare-services">Compare services</a></div></header>
 
     <section className="content-wrap lf-index-intro"><div><p className="eyebrow">Decision support</p><h2>Match the service to the source of friction.</h2></div><div><p>Start with learner records when updates are incomplete or hard to trace. Choose course administration when approved content and delivery settings drift apart. Scheduling support fits repeated coordination across calendars and time zones.</p><p>Communication support is useful when routine messages need consistent facts and sensitive questions need reliable routing. Resource library support improves discovery and version status. Reporting preparation gives leaders a traceable review pack without transferring analysis or approval.</p></div></section>

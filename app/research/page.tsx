@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function ResearchPage() {
   const clusters = [...new Set(researchPosts.map((post) => post.cluster))];
   return (
-    <main className="editorial-page editorial-index">
+    <main id="main-content" tabIndex={-1} className="editorial-page editorial-index">
       <header className="index-hero research-index-hero">
         <p className="eyebrow">Research library</p>
         <h1>Evidence boundaries made visible.</h1>

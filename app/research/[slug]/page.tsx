@@ -65,7 +65,7 @@ export default async function ResearchPostPage({ params }: { params: Promise<{ s
       ];
 
   return (
-    <main className="editorial-page research-article">
+    <main id="main-content" tabIndex={-1} className="editorial-page research-article">
       <nav className="breadcrumbs" aria-label="Breadcrumb">
         <ol><li><Link href="/">Home</Link></li><li><Link href="/research">Research</Link></li><li aria-current="page">{title}</li></ol>
       </nav>

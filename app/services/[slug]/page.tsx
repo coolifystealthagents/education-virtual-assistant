@@ -25,7 +25,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   if (!service) notFound();
   const related = service.relatedServices.map((relatedSlug) => serviceBySlug(relatedSlug)).filter((item) => item !== undefined);
 
-  return <main className="lf-page service-detail">
+  return <main id="main-content" tabIndex={-1} className="lf-page service-detail">
     <header className="lf-service-hero"><div><p className="eyebrow">Specialist education support</p><h1>{service.name}</h1><p className="hero-body">{service.short}</p><p><strong>Designed for:</strong> {service.audience}</p><div className="hero-actions"><Link id={`cta-services-${service.slug}-bookcall`} className="button primary" href="/contact-us">Discuss this role <ArrowIcon /></Link><a className="quiet-link" href="#scope">Review the scope</a></div></div><Image src={service.image.src} alt={service.image.alt} width={service.image.width} height={service.image.height} priority sizes="(max-width: 900px) 100vw, 48vw" /></header>
 
     <section className="section lf-problem"><div><p className="eyebrow">The operating problem</p><h2>Why this work needs a defined handoff.</h2></div><p>{service.problem}</p></section>

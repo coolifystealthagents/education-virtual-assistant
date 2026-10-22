@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const categories = [...new Set(blogPosts.map((post) => post.category))];
   return (
-    <main className="editorial-page editorial-index">
+    <main id="main-content" tabIndex={-1} className="editorial-page editorial-index">
       <header className="index-hero">
         <p className="eyebrow">Practical field notes</p>
         <h1>Clearer roles. Better handoffs.</h1>
