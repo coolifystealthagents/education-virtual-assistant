@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArticleToc } from '@/components/ArticleToc';
+import { MobileToc } from '@/components/MobileToc';
 import { researchPosts, researchBySlug } from '@/lib/content';
 import { editorialImage, formatEditorialDate, researchDisplayTitle, researchReadTime, researchService } from '@/lib/editorial';
 import { site } from '@/lib/site';
@@ -75,7 +76,7 @@ export default async function ResearchPostPage({ params }: { params: Promise<{ s
           <h1>{title}</h1>
           <p className="article-deck">{post.summary}</p>
           <dl className="article-meta">
-            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{formatEditorialDate(post.publishedAt)}</time></dd></div>
+            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{`Published ${formatEditorialDate(post.publishedAt)}`}</time></dd></div>
             <div><dt>Reading time</dt><dd>{readTime}</dd></div>
             <div><dt>By</dt><dd>{site.name} Editorial Team</dd></div>
           </dl>
@@ -86,6 +87,7 @@ export default async function ResearchPostPage({ params }: { params: Promise<{ s
       </header>
 
       <div className="editorial-shell">
+        <MobileToc items={tocItems} />
         <article className="editorial-prose">
           {isProtocol ? (
             <>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArticleToc } from '@/components/ArticleToc';
+import { MobileToc } from '@/components/MobileToc';
 import { blogPosts, blogBySlug } from '@/lib/content';
 import { editorialImage, formatEditorialDate, headingId } from '@/lib/editorial';
 import { site } from '@/lib/site';
@@ -62,7 +63,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <h1>{post.title}</h1>
           <p className="article-deck">{post.description}</p>
           <dl className="article-meta">
-            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{formatEditorialDate(post.publishedAt)}</time></dd></div>
+            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{`Published ${formatEditorialDate(post.publishedAt)}`}</time></dd></div>
             <div><dt>Reading time</dt><dd>{post.readTime}</dd></div>
             <div><dt>By</dt><dd>{site.name} Editorial Team</dd></div>
           </dl>
@@ -73,13 +74,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       </header>
 
       <div className="editorial-shell">
+        <MobileToc items={tocItems} />
         <article className="editorial-prose">
           {sectionItems.map(({ id, label, section, index }) => (
             <section id={id} key={id}>
               <h2>{label}</h2>
               {section.paragraphs.map((paragraph, paragraphIndex) => <p key={paragraphIndex}>{paragraph}</p>)}
-              {index === 2 && <p className="inline-route">See how the <Link href={post.internalService}>related specialist service</Link> can support this operating lane while your team retains accountable decisions.</p>}
-              {index === 6 && <p className="inline-route">Continue with <Link href={post.internalSibling}>this related education workflow guide</Link>.</p>}
+              {index === 1 && <p className="inline-route">See how the <Link href={post.internalService}>related specialist service</Link> can support this operating lane while your team retains accountable decisions.</p>}
+              {index === 3 && <p className="inline-route">Continue with <Link href={post.internalSibling}>this related education workflow guide</Link>.</p>}
             </section>
           ))}
           <section id="common-questions">
