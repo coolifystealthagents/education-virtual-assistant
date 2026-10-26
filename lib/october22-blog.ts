@@ -890,42 +890,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Intake Request Triage",
         "paragraphs": [
           "Intake Request Triage gives Education Support teams a bounded way to coordinate intake request triage. The operating risk is that a request can be marked complete without the source, owner, or a usable next action. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Administrative preparation stays separate from the decision reserved to the accountable owner."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; administrative advising preparation stays separate from decisions reserved to the program owner."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture request, source, owner, due time, status, exception reason, and completion evidence. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student request, source, advisor owner, due time, status, exception reason, and completion evidence; an advising note without a close event is still an open student case.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for intake request triage by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education intake requests by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Sample new, closed, and reopened records and compare the final state with the source. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; sample new, closed, and reopened student records and compare the final state with the source.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -936,11 +936,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -963,42 +963,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Evidence Capture Standard",
         "paragraphs": [
           "Evidence Capture Standard gives Education Support teams a bounded way to coordinate evidence capture. The operating risk is that a later summary can replace the original evidence and hide what was actually known. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Staff may preserve and label evidence but may not invent a rationale or approval."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; advisors may preserve and label student evidence but may not invent a rationale or approval."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture request key, source artifact, received time, patient or client reference, owner, decision boundary, and correction history. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student request key, source transcript, received time, student reference, assigned advisor, decision boundary, and correction history; keep the original wording beside any later correction.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for evidence capture by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education evidence-capture items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Trace a sample from the original message to the recorded outcome. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; trace a sample from the first student message to the recorded academic outcome.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1009,11 +1009,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1036,42 +1036,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Owner Handoff Map",
         "paragraphs": [
           "Owner Handoff Map gives Education Support teams a bounded way to coordinate owner handoffs. The operating risk is that two people can each believe the other owns the next step. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. A handoff transfers ownership only when the receiving role acknowledges it."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; a handoff transfers ownership only when the receiving advisor acknowledges it."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture record, current owner, receiving owner, handoff reason, acknowledgement, due time, and open question. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student record, current advisor, receiving advisor, handoff reason, acknowledgement, due time, and open question; an advising transfer is complete only when the receiving advisor acknowledges it.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for owner handoffs by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education handoffs by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Inspect handoffs that crossed shifts, teams, or systems. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; inspect handoffs that crossed shifts, campuses, or student systems.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1082,11 +1082,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1109,42 +1109,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Queue Aging Review",
         "paragraphs": [
           "Queue Aging Review gives Education Support teams a bounded way to coordinate queue aging. The operating risk is that an old item can disappear into an average while a patient or client waits. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Age is an administrative signal and does not determine clinical or commercial priority."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; student age is an administrative signal, not an academic-priority decision."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture arrival time, priority basis, owner, dependency, last action, age band, and next review time. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture student arrival time, priority basis, assigned advisor, dependency, last action, age band, and next review time; link each student claim to its application, transcript, or LMS record and mark missing information rather than guessing.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for queue aging by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort aging education cases by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Review the oldest open items and the reasons they remain open. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; review the oldest open student items and the reasons they remain open.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1155,11 +1155,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1182,42 +1182,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Exception Escalation Path",
         "paragraphs": [
           "Exception Escalation Path gives Education Support teams a bounded way to coordinate exception escalation. The operating risk is that an unanswered escalation can be mistaken for approval. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The escalation asks for a decision; it does not make the decision."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; the escalation asks for a decision, it does not make the decision."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture exception type, affected record, evidence conflict, action already taken, safe next step, owner, and deadline. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the education exception type, affected student record, conflicting statement, action already taken, safe next step, owner, and deadline; link the advising note and keep missing facts visible.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for exception escalation by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education escalations by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Sample exceptions by reason and check whether the right owner responded. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; sample exceptions by reason and check whether the right program owner responded.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1228,11 +1228,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1255,42 +1255,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Access Permission Review",
         "paragraphs": [
           "Access Permission Review gives Education Support teams a bounded way to coordinate access and permissions. The operating risk is that temporary or inherited access can outlive the task that justified it. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Access to a system is not authorization to make every decision available in it."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; access to an LMS is not authorization to make every academic decision available in it."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture role, system, permitted action, approval source, last review, temporary access, and removal evidence. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the advisor role, student system, permitted action, approval source, last review, temporary access, and removal evidence; access to a registrar screen is not authorization to promise an exception.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for access and permissions by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education access issues by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Compare the current roster with approved roles and remove unexplained access. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; compare the live advisor roster with approved student-support roles and remove unexplained access.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1301,11 +1301,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1328,42 +1328,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Documentation Version Control",
         "paragraphs": [
           "Documentation Version Control gives Education Support teams a bounded way to coordinate documentation version control. The operating risk is that an older script or form can remain in use after the approved version changes. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Staff follow the approved version and route proposed changes to its owner."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; advisors follow the approved catalog and policy version and route proposed changes to its owner."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture document name, version, owner, effective date, approval, location, and superseded copy. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the policy or course-catalog article name, version, owner, effective date, approval, location, and superseded copy; link every student answer to the approved version so advisors do not quote stale requirements.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for documentation version control by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education documentation-version issues by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Match live documents to the current approved version. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; match live catalog, policy, and LMS content to the current approved version.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1374,11 +1374,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1401,42 +1401,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Vendor Coordination Ledger",
         "paragraphs": [
           "Vendor Coordination Ledger gives Education Support teams a bounded way to coordinate vendor coordination. The operating risk is that a vendor promise can be treated as a completed service. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The vendor supplies a service; the accountable owner accepts the result."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; the vendor supplies an education service, while the accountable owner accepts the result."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture vendor, service, request, commitment, contact, due date, evidence, exception, and closure. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the vendor or partner, education service, request, commitment, contact, due date, evidence, exception, and closure; a vendor promise is not a resolved student issue until the record shows the outcome.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for vendor coordination by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education vendor items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Compare vendor confirmations with the evidence held by the business. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; compare partner confirmations with the advising note and LMS record held by the institution.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1447,11 +1447,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1474,42 +1474,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Reporting Cadence Review",
         "paragraphs": [
           "Reporting Cadence Review gives Education Support teams a bounded way to coordinate reporting cadence. The operating risk is that a recurring report can become a ritual that no one uses to change a decision. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The report informs an owner; it does not replace judgment."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; the enrollment report informs a program owner but does not replace judgment."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture metric, definition, source, owner, review date, denominator, exclusion, and action. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the education metric name, definition, source, owner, review date, denominator, exclusions, and action; an enrollment or response-time number without its denominator is not a student-support measure.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for reporting cadence by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education reporting items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Trace one metric from source to decision and remove unused fields. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; trace one metric from student record to decision and remove fields nobody uses.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1520,11 +1520,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1547,42 +1547,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Client Onboarding Brief",
         "paragraphs": [
           "Client Onboarding Brief gives Education Support teams a bounded way to coordinate client onboarding. The operating risk is that a new client can begin work before ownership, access, and boundaries are confirmed. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Onboarding prepares the relationship; authorized leaders approve scope and exceptions."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; onboarding prepares advisor coverage, while authorized leaders approve scope and exceptions."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture client, service scope, hours, contacts, escalation path, systems, permissions, and first review. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the institution, programs covered, service hours, contacts, escalation path, student systems, permissions, and first review; link each consequential value to its source and keep missing details visible.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for client onboarding by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education onboarding items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Compare the first week of work with the signed onboarding record. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; compare the first week of advising coverage with the signed onboarding record and correct gaps.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1593,11 +1593,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1620,42 +1620,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Quality Sample Review",
         "paragraphs": [
           "Quality Sample Review gives Education Support teams a bounded way to coordinate quality sampling. The operating risk is that a convenient sample can make a queue look better than it is. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Reviewers classify against written criteria and escalate professional questions."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; reviewers classify against written academic criteria and escalate policy questions."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture sample frame, record, reviewer, criteria, result, correction, and retest date. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the education sample frame, student record, reviewer, criteria, result, correction, and retest date; the sample must be reproducible from the advising note and LMS record.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for quality sampling by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education quality samples by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Include routine, difficult, reopened, and unresolved records. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; include routine, difficult, reopened, and unresolved student records in the QA sample.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1666,11 +1666,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1693,42 +1693,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Closeout Audit",
         "paragraphs": [
           "Closeout Audit gives Education Support teams a bounded way to coordinate closeout audits. The operating risk is that a closed status can be recorded before the evidence or communication is complete. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Closure confirms the administrative record; it does not certify a professional outcome."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; closure confirms the advising record, not a grade, credential, or eligibility outcome."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture record, required evidence, final owner, completion event, communication, exception, and audit date. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student record, required evidence, final owner, completion event, student communication, exception, and audit date; do not close an advising case because the term went quiet.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for closeout audits by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education closeout items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Sample closed records and verify the completion event and source. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; sample closed advising records and verify the completion event against the student system.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1739,11 +1739,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1766,42 +1766,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Intake Request Triage",
         "paragraphs": [
           "Intake Request Triage gives Education Support teams a bounded way to coordinate intake request triage. The operating risk is that a request can be marked complete without the source, owner, or a usable next action. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Administrative preparation stays separate from the decision reserved to the accountable owner."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; administrative advising preparation stays separate from decisions reserved to the program owner."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture request, source, owner, due time, status, exception reason, and completion evidence. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student request, source, advisor owner, due time, status, exception reason, and completion evidence; an advising note without a close event is still an open student case.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for intake request triage by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education intake requests by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Sample new, closed, and reopened records and compare the final state with the source. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; sample new, closed, and reopened student records and compare the final state with the source.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1812,11 +1812,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1839,42 +1839,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Evidence Capture Standard",
         "paragraphs": [
           "Evidence Capture Standard gives Education Support teams a bounded way to coordinate evidence capture. The operating risk is that a later summary can replace the original evidence and hide what was actually known. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Staff may preserve and label evidence but may not invent a rationale or approval."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; advisors may preserve and label student evidence but may not invent a rationale or approval."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture request key, source artifact, received time, patient or client reference, owner, decision boundary, and correction history. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student request key, source transcript, received time, student reference, assigned advisor, decision boundary, and correction history; keep the original wording beside any later correction.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for evidence capture by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education evidence-capture items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Trace a sample from the original message to the recorded outcome. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; trace a sample from the first student message to the recorded academic outcome.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1885,11 +1885,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1912,42 +1912,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Owner Handoff Map",
         "paragraphs": [
           "Owner Handoff Map gives Education Support teams a bounded way to coordinate owner handoffs. The operating risk is that two people can each believe the other owns the next step. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. A handoff transfers ownership only when the receiving role acknowledges it."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; a handoff transfers ownership only when the receiving advisor acknowledges it."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture record, current owner, receiving owner, handoff reason, acknowledgement, due time, and open question. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student record, current advisor, receiving advisor, handoff reason, acknowledgement, due time, and open question; an advising transfer is complete only when the receiving advisor acknowledges it.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for owner handoffs by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education handoffs by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Inspect handoffs that crossed shifts, teams, or systems. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; inspect handoffs that crossed shifts, campuses, or student systems.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -1958,11 +1958,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -1985,42 +1985,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Queue Aging Review",
         "paragraphs": [
           "Queue Aging Review gives Education Support teams a bounded way to coordinate queue aging. The operating risk is that an old item can disappear into an average while a patient or client waits. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Age is an administrative signal and does not determine clinical or commercial priority."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; student age is an administrative signal, not an academic-priority decision."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture arrival time, priority basis, owner, dependency, last action, age band, and next review time. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture student arrival time, priority basis, assigned advisor, dependency, last action, age band, and next review time; link each student claim to its application, transcript, or LMS record and mark missing information rather than guessing.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for queue aging by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort aging education cases by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Review the oldest open items and the reasons they remain open. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; review the oldest open student items and the reasons they remain open.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2031,11 +2031,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2058,42 +2058,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Exception Escalation Path",
         "paragraphs": [
           "Exception Escalation Path gives Education Support teams a bounded way to coordinate exception escalation. The operating risk is that an unanswered escalation can be mistaken for approval. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The escalation asks for a decision; it does not make the decision."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; the escalation asks for a decision, it does not make the decision."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture exception type, affected record, evidence conflict, action already taken, safe next step, owner, and deadline. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the education exception type, affected student record, conflicting statement, action already taken, safe next step, owner, and deadline; link the advising note and keep missing facts visible.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for exception escalation by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education escalations by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Sample exceptions by reason and check whether the right owner responded. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; sample exceptions by reason and check whether the right program owner responded.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2104,11 +2104,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2131,42 +2131,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Access Permission Review",
         "paragraphs": [
           "Access Permission Review gives Education Support teams a bounded way to coordinate access and permissions. The operating risk is that temporary or inherited access can outlive the task that justified it. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Access to a system is not authorization to make every decision available in it."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; access to an LMS is not authorization to make every academic decision available in it."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture role, system, permitted action, approval source, last review, temporary access, and removal evidence. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the advisor role, student system, permitted action, approval source, last review, temporary access, and removal evidence; access to a registrar screen is not authorization to promise an exception.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for access and permissions by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education access issues by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Compare the current roster with approved roles and remove unexplained access. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; compare the live advisor roster with approved student-support roles and remove unexplained access.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2177,11 +2177,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2204,42 +2204,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Documentation Version Control",
         "paragraphs": [
           "Documentation Version Control gives Education Support teams a bounded way to coordinate documentation version control. The operating risk is that an older script or form can remain in use after the approved version changes. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Staff follow the approved version and route proposed changes to its owner."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; advisors follow the approved catalog and policy version and route proposed changes to its owner."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture document name, version, owner, effective date, approval, location, and superseded copy. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the policy or course-catalog article name, version, owner, effective date, approval, location, and superseded copy; link every student answer to the approved version so advisors do not quote stale requirements.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for documentation version control by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education documentation-version issues by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Match live documents to the current approved version. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; match live catalog, policy, and LMS content to the current approved version.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2250,11 +2250,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2277,42 +2277,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Vendor Coordination Ledger",
         "paragraphs": [
           "Vendor Coordination Ledger gives Education Support teams a bounded way to coordinate vendor coordination. The operating risk is that a vendor promise can be treated as a completed service. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The vendor supplies a service; the accountable owner accepts the result."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; the vendor supplies an education service, while the accountable owner accepts the result."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture vendor, service, request, commitment, contact, due date, evidence, exception, and closure. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the vendor or partner, education service, request, commitment, contact, due date, evidence, exception, and closure; a vendor promise is not a resolved student issue until the record shows the outcome.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for vendor coordination by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education vendor items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Compare vendor confirmations with the evidence held by the business. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; compare partner confirmations with the advising note and LMS record held by the institution.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2323,11 +2323,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2350,42 +2350,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Reporting Cadence Review",
         "paragraphs": [
           "Reporting Cadence Review gives Education Support teams a bounded way to coordinate reporting cadence. The operating risk is that a recurring report can become a ritual that no one uses to change a decision. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The report informs an owner; it does not replace judgment."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; the enrollment report informs a program owner but does not replace judgment."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture metric, definition, source, owner, review date, denominator, exclusion, and action. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the education metric name, definition, source, owner, review date, denominator, exclusions, and action; an enrollment or response-time number without its denominator is not a student-support measure.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for reporting cadence by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education reporting items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Trace one metric from source to decision and remove unused fields. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; trace one metric from student record to decision and remove fields nobody uses.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2396,11 +2396,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2423,42 +2423,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Client Onboarding Brief",
         "paragraphs": [
           "Client Onboarding Brief gives Education Support teams a bounded way to coordinate client onboarding. The operating risk is that a new client can begin work before ownership, access, and boundaries are confirmed. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Onboarding prepares the relationship; authorized leaders approve scope and exceptions."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; onboarding prepares advisor coverage, while authorized leaders approve scope and exceptions."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture client, service scope, hours, contacts, escalation path, systems, permissions, and first review. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the institution, programs covered, service hours, contacts, escalation path, student systems, permissions, and first review; link each consequential value to its source and keep missing details visible.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for client onboarding by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education onboarding items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Compare the first week of work with the signed onboarding record. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; compare the first week of advising coverage with the signed onboarding record and correct gaps.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2469,11 +2469,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2496,42 +2496,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Quality Sample Review",
         "paragraphs": [
           "Quality Sample Review gives Education Support teams a bounded way to coordinate quality sampling. The operating risk is that a convenient sample can make a queue look better than it is. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Reviewers classify against written criteria and escalate professional questions."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; reviewers classify against written academic criteria and escalate policy questions."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture sample frame, record, reviewer, criteria, result, correction, and retest date. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the education sample frame, student record, reviewer, criteria, result, correction, and retest date; the sample must be reproducible from the advising note and LMS record.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for quality sampling by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education quality samples by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Include routine, difficult, reopened, and unresolved records. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; include routine, difficult, reopened, and unresolved student records in the QA sample.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2542,11 +2542,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",
@@ -2569,42 +2569,42 @@ export const october22BlogPosts: BlogPost[] = [
         "heading": "Define the outcome for Closeout Audit",
         "paragraphs": [
           "Closeout Audit gives Education Support teams a bounded way to coordinate closeout audits. The operating risk is that a closed status can be recorded before the evidence or communication is complete. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
-          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Closure confirms the administrative record; it does not certify a professional outcome."
+          "Name the event that creates an education record, the student system, the minimum evidence, the accountable program owner, and the clock start; closure confirms the advising record, not a grade, credential, or eligibility outcome."
         ]
       },
       {
         "heading": "Map the inputs and the record",
         "paragraphs": [
-          "Capture record, required evidence, final owner, completion event, communication, exception, and audit date. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
-          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+          "Capture the student record, required evidence, final owner, completion event, student communication, exception, and audit date; do not close an advising case because the term went quiet.",
+          "Use a small set of named education states such as received, incomplete, ready for review, exception, and closed; every exception needs a reason code, the role that must resolve it, and a dated next action."
         ]
       },
       {
         "heading": "Separate preparation from judgment",
         "paragraphs": [
-          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
-          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+          "Education support advisors may collect, label, route, and draft within approved language; they may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized program owner.",
+          "Use proceed, pause for review, and escalate now as education operational states; preserve the original student question when the answer depends on an academic or enrollment decision."
         ]
       },
       {
         "heading": "Run the daily queue",
         "paragraphs": [
-          "Sort open items for closeout audits by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
-          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+          "Sort open education closeout items by student impact, enrollment deadline, dependency, and age; update status only from a verifiable event, not from a conversation or assumption.",
+          "Before an education support handoff, give every open student item a named advisor, a dated next action, and a link to the advising or LMS evidence; a shared student inbox can receive work but cannot own an academic outcome."
         ]
       },
       {
         "heading": "Escalate with a bounded packet",
         "paragraphs": [
-          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
-          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+          "A student escalation should include the advising record link, verified facts, the unresolved academic decision, the enrollment deadline, actions already taken, and the safest permitted next step; use separate codes for missing transcript, conflicting student statement, wrong program record, expired policy, unavailable program owner, and LMS outage.",
+          "Do not convert student silence into approval; keep the advising action paused when the next step depends on authority or evidence that has not arrived."
         ]
       },
       {
         "heading": "Close, review, and improve",
         "paragraphs": [
-          "Close only when the completion event, communication, and evidence are present. Sample closed records and verify the completion event and source. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
-          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+          "Close an education case only when the completion event, student communication, and evidence are present; sample closed advising records and verify the completion event against the student system.",
+          "Test a revised advising macro or catalog answer on a bounded student sample and keep the prior version for audit; review quality with denominators and inspect routine, adverse, and unresolved student cases."
         ]
       }
     ],
@@ -2615,11 +2615,11 @@ export const october22BlogPosts: BlogPost[] = [
       },
       {
         "q": "What proves the workflow is complete?",
-        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+        "a": "The education completion event, student communication, source evidence, named advisor, and closure state must all be present before a student case leaves the open queue."
       },
       {
         "q": "What happens when evidence conflicts?",
-        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+        "a": "When a student statement and advising record conflict, preserve both values, pause the dependent academic action, and route a concise comparison to the authorized program owner."
       }
     ],
     "internalService": "/services/course-administration",

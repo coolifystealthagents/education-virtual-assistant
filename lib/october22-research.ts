@@ -251,7 +251,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-25",
     "image": "/october-22/educationvirtualassistant-intake-completeness-study.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for which required fields and source artifacts are present at the point of assignment.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for which required fields and student artifacts are present at the point of assignment.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -302,7 +302,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-25",
     "image": "/october-22/educationvirtualassistant-handoff-latency-study.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for how long each handoff takes and where acknowledgement or context is lost.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for how long each advising handoff takes and where acknowledgement or context is lost.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -353,7 +353,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-25",
     "image": "/october-22/educationvirtualassistant-exception-pattern-audit.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for which exception reasons recur and whether they receive a consistent owner and disposition.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for which exception reasons recur and whether they receive a consistent program owner and disposition.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -404,7 +404,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-25",
     "image": "/october-22/educationvirtualassistant-evidence-reliability-study.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for whether the source is reconstructable and consistent with the recorded final state.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for whether the advising record is reconstructable and consistent with the student system's final state.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -455,7 +455,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-25",
     "image": "/october-22/educationvirtualassistant-access-recertification-study.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for whether current access matches the approved role and whether removals are evidenced.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for whether current access matches the approved student-support role and whether removals are documented.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -506,7 +506,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-26",
     "image": "/october-22/educationvirtualassistant-intake-completeness-study-2.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for which required fields and source artifacts are present at the point of assignment.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for which required fields and student artifacts are present at the point of assignment.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -557,7 +557,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-26",
     "image": "/october-22/educationvirtualassistant-handoff-latency-study-2.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for how long each handoff takes and where acknowledgement or context is lost.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for how long each advising handoff takes and where acknowledgement or context is lost.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -608,7 +608,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-26",
     "image": "/october-22/educationvirtualassistant-exception-pattern-audit-2.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for which exception reasons recur and whether they receive a consistent owner and disposition.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for which exception reasons recur and whether they receive a consistent program owner and disposition.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -659,7 +659,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-26",
     "image": "/october-22/educationvirtualassistant-evidence-reliability-study-2.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for whether the source is reconstructable and consistent with the recorded final state.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for whether the advising record is reconstructable and consistent with the student system's final state.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
@@ -710,7 +710,7 @@ export const october22ResearchPosts: ResearchPost[] = [
     "cluster": "Education Support Research",
     "publishedAt": "2026-10-26",
     "image": "/october-22/educationvirtualassistant-access-recertification-study-2.svg",
-    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for whether current access matches the approved role and whether removals are evidenced.",
+    "finding": "The reviewable education signal is the source, advisor, timestamp, exception, and completion evidence for whether current access matches the approved student-support role and whether removals are documented.",
     "methodology": [
       "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
       "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
