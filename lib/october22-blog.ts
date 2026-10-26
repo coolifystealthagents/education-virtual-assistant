@@ -54,13 +54,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can the assistant answer admission chances?", "a": "No. The assistant can share approved program information and route the file-specific question to an admissions owner." },
-      { "q": "Who owns a fee waiver question?", "a": "The admissions or financial aid owner named in the policy. The assistant should not promise a waiver." },
-      { "q": "How should sensitive documents be handled?", "a": "Use the approved secure channel and retention rule. Do not request them in chat or email unless the policy allows it." }
+      {
+        "q": "Can the assistant answer admission chances?",
+        "a": "No. The assistant can share approved program information and route the file-specific question to an admissions owner."
+      },
+      {
+        "q": "Who owns a fee waiver question?",
+        "a": "The admissions or financial aid owner named in the policy. The assistant should not promise a waiver."
+      },
+      {
+        "q": "How should sensitive documents be handled?",
+        "a": "Use the approved secure channel and retention rule. Do not request them in chat or email unless the policy allows it."
+      }
     ],
     "internalService": "/services/course-administration",
     "internalSibling": "/blog/course-waitlist-promotion-records",
-    "source": { "label": "U.S. Department of Education", "url": "https://www.ed.gov/" }
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
   },
   {
     "slug": "tuition-payment-plan-documentation",
@@ -115,13 +127,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can the assistant approve a hardship exception?", "a": "Only if the delegation policy grants that authority. Otherwise route the request to the student accounts owner." },
-      { "q": "What if a payment is applied to the wrong term?", "a": "Record the error, preserve the original transaction, and route the correction to the owner." },
-      { "q": "Should the assistant give financial advice?", "a": "No. The assistant can explain the approved plan terms and route financial questions to a qualified owner." }
+      {
+        "q": "Can the assistant approve a hardship exception?",
+        "a": "Only if the delegation policy grants that authority. Otherwise route the request to the student accounts owner."
+      },
+      {
+        "q": "What if a payment is applied to the wrong term?",
+        "a": "Record the error, preserve the original transaction, and route the correction to the owner."
+      },
+      {
+        "q": "Should the assistant give financial advice?",
+        "a": "No. The assistant can explain the approved plan terms and route financial questions to a qualified owner."
+      }
     ],
     "internalService": "/services/learner-records",
     "internalSibling": "/blog/student-withdrawal-refund-routing",
-    "source": { "label": "Consumer Financial Protection Bureau", "url": "https://www.consumerfinance.gov/" }
+    "source": {
+      "label": "Consumer Financial Protection Bureau",
+      "url": "https://www.consumerfinance.gov/"
+    }
   },
   {
     "slug": "course-waitlist-promotion-records",
@@ -176,13 +200,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can the assistant hold a seat for a student?", "a": "Only under the approved rule and for the defined deadline. Record the hold and the owner." },
-      { "q": "What if the student misses the offer deadline?", "a": "Follow the approved expiration rule and move to the next eligible student." },
-      { "q": "Who approves an exception?", "a": "The enrollment or registrar owner named in the policy." }
+      {
+        "q": "Can the assistant hold a seat for a student?",
+        "a": "Only under the approved rule and for the defined deadline. Record the hold and the owner."
+      },
+      {
+        "q": "What if the student misses the offer deadline?",
+        "a": "Follow the approved expiration rule and move to the next eligible student."
+      },
+      {
+        "q": "Who approves an exception?",
+        "a": "The enrollment or registrar owner named in the policy."
+      }
     ],
     "internalService": "/services/course-administration",
     "internalSibling": "/blog/admissions-inquiry-response-queue",
-    "source": { "label": "U.S. Department of Education", "url": "https://www.ed.gov/" }
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
   },
   {
     "slug": "student-accommodation-request-intake",
@@ -237,13 +273,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can the assistant decide whether to approve an accommodation?", "a": "No. The designated accommodation reviewer decides. The assistant can acknowledge, check completeness, and route." },
-      { "q": "What information should be shared with faculty?", "a": "Only the approved adjustment needed for implementation, under the accommodation office's guidance." },
-      { "q": "How should urgent requests be handled?", "a": "Follow the approved escalation path and record the urgency reason and the owner contacted." }
+      {
+        "q": "Can the assistant decide whether to approve an accommodation?",
+        "a": "No. The designated accommodation reviewer decides. The assistant can acknowledge, check completeness, and route."
+      },
+      {
+        "q": "What information should be shared with faculty?",
+        "a": "Only the approved adjustment needed for implementation, under the accommodation office's guidance."
+      },
+      {
+        "q": "How should urgent requests be handled?",
+        "a": "Follow the approved escalation path and record the urgency reason and the owner contacted."
+      }
     ],
     "internalService": "/services/family-learner-communication",
     "internalSibling": "/blog/accessible-course-material-request",
-    "source": { "label": "U.S. Department of Justice ADA Guidance", "url": "https://www.ada.gov/resources/effective-communication/" }
+    "source": {
+      "label": "U.S. Department of Justice ADA Guidance",
+      "url": "https://www.ada.gov/resources/effective-communication/"
+    }
   },
   {
     "slug": "exam-proctoring-exception-log",
@@ -298,13 +346,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can a proctor decide to invalidate an exam?", "a": "Only if the academic policy grants that authority. Otherwise document and route to the academic integrity owner." },
-      { "q": "What should be recorded about a suspected violation?", "a": "Observable facts, time, evidence, action taken, and the owner. Avoid conclusions about intent." },
-      { "q": "How should student communication be handled?", "a": "Use neutral, approved language and state the next step and expected update." }
+      {
+        "q": "Can a proctor decide to invalidate an exam?",
+        "a": "Only if the academic policy grants that authority. Otherwise document and route to the academic integrity owner."
+      },
+      {
+        "q": "What should be recorded about a suspected violation?",
+        "a": "Observable facts, time, evidence, action taken, and the owner. Avoid conclusions about intent."
+      },
+      {
+        "q": "How should student communication be handled?",
+        "a": "Use neutral, approved language and state the next step and expected update."
+      }
     ],
     "internalService": "/services/course-administration",
     "internalSibling": "/blog/course-evaluation-release-checklist",
-    "source": { "label": "U.S. Department of Education", "url": "https://www.ed.gov/" }
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
   },
   {
     "slug": "transcript-request-verification",
@@ -359,13 +419,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can a parent request a transcript?", "a": "Only with the student's authorization or as permitted by policy. Verify the consent and scope before release." },
-      { "q": "What if there is a hold?", "a": "Follow the transcript policy and route the question to the hold owner. Do not override it without authority." },
-      { "q": "How should a delivery failure be handled?", "a": "Record the failure, notify the requester, and follow the approved resend or refund process." }
+      {
+        "q": "Can a parent request a transcript?",
+        "a": "Only with the student's authorization or as permitted by policy. Verify the consent and scope before release."
+      },
+      {
+        "q": "What if there is a hold?",
+        "a": "Follow the transcript policy and route the question to the hold owner. Do not override it without authority."
+      },
+      {
+        "q": "How should a delivery failure be handled?",
+        "a": "Record the failure, notify the requester, and follow the approved resend or refund process."
+      }
     ],
     "internalService": "/services/learner-records",
     "internalSibling": "/blog/learning-platform-roster-reconciliation",
-    "source": { "label": "Family Educational Rights and Privacy Act", "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html" }
+    "source": {
+      "label": "Family Educational Rights and Privacy Act",
+      "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html"
+    }
   },
   {
     "slug": "alumni-communication-list-hygiene",
@@ -420,13 +492,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can we email alumni who have not opted in?", "a": "Follow the applicable consent and privacy rules. Record the basis for the communication." },
-      { "q": "What should happen after a complaint?", "a": "Suppress the contact from the relevant messages, record the complaint, and review the content or frequency." },
-      { "q": "Can volunteers access the alumni list?", "a": "Only under the approved agreement and access controls. Limit the data to what the task requires." }
+      {
+        "q": "Can we email alumni who have not opted in?",
+        "a": "Follow the applicable consent and privacy rules. Record the basis for the communication."
+      },
+      {
+        "q": "What should happen after a complaint?",
+        "a": "Suppress the contact from the relevant messages, record the complaint, and review the content or frequency."
+      },
+      {
+        "q": "Can volunteers access the alumni list?",
+        "a": "Only under the approved agreement and access controls. Limit the data to what the task requires."
+      }
     ],
     "internalService": "/services/family-learner-communication",
     "internalSibling": "/blog/admissions-inquiry-response-queue",
-    "source": { "label": "Federal Trade Commission Data Security", "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security" }
+    "source": {
+      "label": "Federal Trade Commission Data Security",
+      "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
+    }
   },
   {
     "slug": "learning-platform-roster-reconciliation",
@@ -481,13 +565,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can the assistant add a student to the platform?", "a": "Only under the approved provisioning process. The enrollment record should support the action." },
-      { "q": "What if a student is enrolled but cannot access the course?", "a": "Record the difference, check the platform role and section, and route to the provisioning owner." },
-      { "q": "How should drops be handled?", "a": "Follow the access removal policy and record the date and evidence." }
+      {
+        "q": "Can the assistant add a student to the platform?",
+        "a": "Only under the approved provisioning process. The enrollment record should support the action."
+      },
+      {
+        "q": "What if a student is enrolled but cannot access the course?",
+        "a": "Record the difference, check the platform role and section, and route to the provisioning owner."
+      },
+      {
+        "q": "How should drops be handled?",
+        "a": "Follow the access removal policy and record the date and evidence."
+      }
     ],
     "internalService": "/services/course-administration",
     "internalSibling": "/blog/faculty-onboarding-access-checklist",
-    "source": { "label": "NIST Cybersecurity Framework", "url": "https://www.nist.gov/cyberframework" }
+    "source": {
+      "label": "NIST Cybersecurity Framework",
+      "url": "https://www.nist.gov/cyberframework"
+    }
   },
   {
     "slug": "course-evaluation-release-checklist",
@@ -542,13 +638,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can an instructor see evaluations before grades are submitted?", "a": "Follow the policy. Many institutions delay release until grades are final to protect the process." },
-      { "q": "What if a class is too small for anonymity?", "a": "Follow the approved suppression or aggregation rule. Do not release identifiable comments." },
-      { "q": "Who approves an exception?", "a": "The teaching and learning or evaluation owner named in the policy." }
+      {
+        "q": "Can an instructor see evaluations before grades are submitted?",
+        "a": "Follow the policy. Many institutions delay release until grades are final to protect the process."
+      },
+      {
+        "q": "What if a class is too small for anonymity?",
+        "a": "Follow the approved suppression or aggregation rule. Do not release identifiable comments."
+      },
+      {
+        "q": "Who approves an exception?",
+        "a": "The teaching and learning or evaluation owner named in the policy."
+      }
     ],
     "internalService": "/services/course-administration",
     "internalSibling": "/blog/exam-proctoring-exception-log",
-    "source": { "label": "U.S. Department of Education", "url": "https://www.ed.gov/" }
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
   },
   {
     "slug": "field-trip-consent-safety-records",
@@ -603,13 +711,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can a student attend without a signed consent?", "a": "Follow the policy and the approved exception process. Do not override a required consent at departure." },
-      { "q": "Who should see medical information?", "a": "Only the people with a safety role who need it. Limit access and store it securely." },
-      { "q": "What should happen after an incident?", "a": "Follow the school's incident process and record the facts and notifications." }
+      {
+        "q": "Can a student attend without a signed consent?",
+        "a": "Follow the policy and the approved exception process. Do not override a required consent at departure."
+      },
+      {
+        "q": "Who should see medical information?",
+        "a": "Only the people with a safety role who need it. Limit access and store it securely."
+      },
+      {
+        "q": "What should happen after an incident?",
+        "a": "Follow the school's incident process and record the facts and notifications."
+      }
     ],
     "internalService": "/services/family-learner-communication",
     "internalSibling": "/blog/student-accommodation-request-intake",
-    "source": { "label": "U.S. Department of Education", "url": "https://www.ed.gov/" }
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
   },
   {
     "slug": "faculty-onboarding-access-checklist",
@@ -664,13 +784,25 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can an instructor share their login with an assistant?", "a": "No. Use the approved delegated role or support process. Sharing credentials undermines accountability." },
-      { "q": "Who approves student records access?", "a": "The owner named in the access matrix, which may be the registrar or a designated data owner." },
-      { "q": "When should access be removed?", "a": "At the end date or triggering event defined by policy, with course ownership transferred as required." }
+      {
+        "q": "Can an instructor share their login with an assistant?",
+        "a": "No. Use the approved delegated role or support process. Sharing credentials undermines accountability."
+      },
+      {
+        "q": "Who approves student records access?",
+        "a": "The owner named in the access matrix, which may be the registrar or a designated data owner."
+      },
+      {
+        "q": "When should access be removed?",
+        "a": "At the end date or triggering event defined by policy, with course ownership transferred as required."
+      }
     ],
     "internalService": "/services/course-administration",
     "internalSibling": "/blog/learning-platform-roster-reconciliation",
-    "source": { "label": "CISA Identity and Access Management Guidance", "url": "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators" }
+    "source": {
+      "label": "CISA Identity and Access Management Guidance",
+      "url": "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators"
+    }
   },
   {
     "slug": "student-withdrawal-refund-routing",
@@ -725,12 +857,900 @@ export const october22BlogPosts: BlogPost[] = [
       }
     ],
     "faq": [
-      { "q": "Can the assistant approve a refund exception?", "a": "Only within the delegated authority. Otherwise prepare the record and route it to student accounts." },
-      { "q": "Which date determines the refund?", "a": "The date defined by the institution's policy. Record the source and the evidence." },
-      { "q": "What if the student disputes the date?", "a": "Record the dispute, preserve the evidence, and route it to the policy owner." }
+      {
+        "q": "Can the assistant approve a refund exception?",
+        "a": "Only within the delegated authority. Otherwise prepare the record and route it to student accounts."
+      },
+      {
+        "q": "Which date determines the refund?",
+        "a": "The date defined by the institution's policy. Record the source and the evidence."
+      },
+      {
+        "q": "What if the student disputes the date?",
+        "a": "Record the dispute, preserve the evidence, and route it to the policy owner."
+      }
     ],
     "internalService": "/services/learner-records",
     "internalSibling": "/blog/tuition-payment-plan-documentation",
-    "source": { "label": "U.S. Department of Education", "url": "https://www.ed.gov/" }
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-intake-request-triage",
+    "title": "Intake Request Triage for Education Support Teams",
+    "description": "A practical Education Support workflow for intake request triage for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-intake-request-triage.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Intake Request Triage",
+        "paragraphs": [
+          "Intake Request Triage gives Education Support teams a bounded way to coordinate intake request triage. The operating risk is that a request can be marked complete without the source, owner, or a usable next action. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Administrative preparation stays separate from the decision reserved to the accountable owner."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture request, source, owner, due time, status, exception reason, and completion evidence. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for intake request triage by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Sample new, closed, and reopened records and compare the final state with the source. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in intake request triage?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-evidence-capture-standard",
+    "title": "Evidence Capture Standard for Education Support Teams",
+    "description": "A practical Education Support workflow for evidence capture standard for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-evidence-capture-standard.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Evidence Capture Standard",
+        "paragraphs": [
+          "Evidence Capture Standard gives Education Support teams a bounded way to coordinate evidence capture. The operating risk is that a later summary can replace the original evidence and hide what was actually known. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Staff may preserve and label evidence but may not invent a rationale or approval."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture request key, source artifact, received time, patient or client reference, owner, decision boundary, and correction history. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for evidence capture by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Trace a sample from the original message to the recorded outcome. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in evidence capture?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-owner-handoff-map",
+    "title": "Owner Handoff Map for Education Support Teams",
+    "description": "A practical Education Support workflow for owner handoff map for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-owner-handoff-map.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Owner Handoff Map",
+        "paragraphs": [
+          "Owner Handoff Map gives Education Support teams a bounded way to coordinate owner handoffs. The operating risk is that two people can each believe the other owns the next step. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. A handoff transfers ownership only when the receiving role acknowledges it."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture record, current owner, receiving owner, handoff reason, acknowledgement, due time, and open question. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for owner handoffs by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Inspect handoffs that crossed shifts, teams, or systems. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in owner handoffs?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-queue-aging-review",
+    "title": "Queue Aging Review for Education Support Teams",
+    "description": "A practical Education Support workflow for queue aging review for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-queue-aging-review.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Queue Aging Review",
+        "paragraphs": [
+          "Queue Aging Review gives Education Support teams a bounded way to coordinate queue aging. The operating risk is that an old item can disappear into an average while a patient or client waits. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Age is an administrative signal and does not determine clinical or commercial priority."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture arrival time, priority basis, owner, dependency, last action, age band, and next review time. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for queue aging by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Review the oldest open items and the reasons they remain open. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in queue aging?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-exception-escalation-path",
+    "title": "Exception Escalation Path for Education Support Teams",
+    "description": "A practical Education Support workflow for exception escalation path for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-exception-escalation-path.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Exception Escalation Path",
+        "paragraphs": [
+          "Exception Escalation Path gives Education Support teams a bounded way to coordinate exception escalation. The operating risk is that an unanswered escalation can be mistaken for approval. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The escalation asks for a decision; it does not make the decision."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture exception type, affected record, evidence conflict, action already taken, safe next step, owner, and deadline. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for exception escalation by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Sample exceptions by reason and check whether the right owner responded. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in exception escalation?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-access-permission-review",
+    "title": "Access Permission Review for Education Support Teams",
+    "description": "A practical Education Support workflow for access permission review for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-access-permission-review.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Access Permission Review",
+        "paragraphs": [
+          "Access Permission Review gives Education Support teams a bounded way to coordinate access and permissions. The operating risk is that temporary or inherited access can outlive the task that justified it. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Access to a system is not authorization to make every decision available in it."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture role, system, permitted action, approval source, last review, temporary access, and removal evidence. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for access and permissions by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Compare the current roster with approved roles and remove unexplained access. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in access and permissions?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-documentation-version-control",
+    "title": "Documentation Version Control for Education Support Teams",
+    "description": "A practical Education Support workflow for documentation version control for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-documentation-version-control.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Documentation Version Control",
+        "paragraphs": [
+          "Documentation Version Control gives Education Support teams a bounded way to coordinate documentation version control. The operating risk is that an older script or form can remain in use after the approved version changes. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Staff follow the approved version and route proposed changes to its owner."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture document name, version, owner, effective date, approval, location, and superseded copy. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for documentation version control by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Match live documents to the current approved version. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in documentation version control?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-vendor-coordination-ledger",
+    "title": "Vendor Coordination Ledger for Education Support Teams",
+    "description": "A practical Education Support workflow for vendor coordination ledger for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-vendor-coordination-ledger.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Vendor Coordination Ledger",
+        "paragraphs": [
+          "Vendor Coordination Ledger gives Education Support teams a bounded way to coordinate vendor coordination. The operating risk is that a vendor promise can be treated as a completed service. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The vendor supplies a service; the accountable owner accepts the result."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture vendor, service, request, commitment, contact, due date, evidence, exception, and closure. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for vendor coordination by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Compare vendor confirmations with the evidence held by the business. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in vendor coordination?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-reporting-cadence-review",
+    "title": "Reporting Cadence Review for Education Support Teams",
+    "description": "A practical Education Support workflow for reporting cadence review for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-reporting-cadence-review.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Reporting Cadence Review",
+        "paragraphs": [
+          "Reporting Cadence Review gives Education Support teams a bounded way to coordinate reporting cadence. The operating risk is that a recurring report can become a ritual that no one uses to change a decision. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. The report informs an owner; it does not replace judgment."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture metric, definition, source, owner, review date, denominator, exclusion, and action. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for reporting cadence by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Trace one metric from source to decision and remove unused fields. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in reporting cadence?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-client-onboarding-brief",
+    "title": "Client Onboarding Brief for Education Support Teams",
+    "description": "A practical Education Support workflow for client onboarding brief for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-client-onboarding-brief.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Client Onboarding Brief",
+        "paragraphs": [
+          "Client Onboarding Brief gives Education Support teams a bounded way to coordinate client onboarding. The operating risk is that a new client can begin work before ownership, access, and boundaries are confirmed. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Onboarding prepares the relationship; authorized leaders approve scope and exceptions."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture client, service scope, hours, contacts, escalation path, systems, permissions, and first review. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for client onboarding by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Compare the first week of work with the signed onboarding record. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in client onboarding?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-quality-sample-review",
+    "title": "Quality Sample Review for Education Support Teams",
+    "description": "A practical Education Support workflow for quality sample review for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-quality-sample-review.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Quality Sample Review",
+        "paragraphs": [
+          "Quality Sample Review gives Education Support teams a bounded way to coordinate quality sampling. The operating risk is that a convenient sample can make a queue look better than it is. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Reviewers classify against written criteria and escalate professional questions."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture sample frame, record, reviewer, criteria, result, correction, and retest date. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for quality sampling by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Include routine, difficult, reopened, and unresolved records. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in quality sampling?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
+  },
+  {
+    "slug": "educationvirtualassistant-closeout-audit",
+    "title": "Closeout Audit for Education Support Teams",
+    "description": "A practical Education Support workflow for closeout audit for education support teams, with evidence, ownership, exceptions, and review.",
+    "category": "Education Support Operations",
+    "publishedAt": "2026-10-25",
+    "readTime": "9 min read",
+    "image": "/october-22/educationvirtualassistant-closeout-audit.svg",
+    "sections": [
+      {
+        "heading": "Define the outcome for Closeout Audit",
+        "paragraphs": [
+          "Closeout Audit gives Education Support teams a bounded way to coordinate closeout audits. The operating risk is that a closed status can be recorded before the evidence or communication is complete. A useful record keeps the request, source, owner, due time, exception state, and completion evidence together.",
+          "Name the event that creates a record, the source system, the minimum evidence, the accountable owner, and the clock start before the queue opens. Closure confirms the administrative record; it does not certify a professional outcome."
+        ]
+      },
+      {
+        "heading": "Map the inputs and the record",
+        "paragraphs": [
+          "Capture record, required evidence, final owner, completion event, communication, exception, and audit date. Link each consequential value to its source and record when it was observed. Missing information must remain visible rather than being replaced by a plausible assumption.",
+          "Use a small set of named states such as received, incomplete, ready for review, exception, and closed. Every exception needs a reason code, the role that must resolve it, and a dated next action."
+        ]
+      },
+      {
+        "heading": "Separate preparation from judgment",
+        "paragraphs": [
+          "The support role may collect, label, route, and draft within approved language. It may not invent a rationale, infer an approval, or make a commitment that belongs to an authorized owner.",
+          "Use proceed, pause for review, and escalate now as operational states. Preserve the original question when the answer depends on a professional or commercial decision."
+        ]
+      },
+      {
+        "heading": "Run the daily queue",
+        "paragraphs": [
+          "Sort open items for closeout audits by client impact, external deadline, dependency, and age. Update status only from a verifiable event, not from a conversation or an assumption.",
+          "Before handoff, give every open item a named owner, a dated next action, and a link to the evidence. A shared inbox may receive work, but it cannot own an outcome."
+        ]
+      },
+      {
+        "heading": "Escalate with a bounded packet",
+        "paragraphs": [
+          "An escalation should include the record link, verified facts, the unresolved decision, the deadline, actions already taken, and the safest permitted next step. Use distinct reason codes for missing source, conflicting source, wrong record, expired evidence, unavailable approver, and system outage.",
+          "Do not convert silence into approval. Keep the work paused when the next action depends on authority or evidence that has not arrived."
+        ]
+      },
+      {
+        "heading": "Close, review, and improve",
+        "paragraphs": [
+          "Close only when the completion event, communication, and evidence are present. Sample closed records and verify the completion event and source. When the same exception recurs, change the intake field, evidence rule, ownership map, or approval gate.",
+          "Test the revision on a bounded sample and keep the prior version for audit. Review quality with denominators and inspect routine, adverse, and unresolved records."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Who owns decisions in closeout audits?",
+        "a": "The accountable Education Support owner retains the professional or commercial decision; support prepares and routes the record."
+      },
+      {
+        "q": "What proves the workflow is complete?",
+        "a": "The completion event, communication, source evidence, named owner, and closure state must all be present."
+      },
+      {
+        "q": "What happens when evidence conflicts?",
+        "a": "Preserve both values, pause the dependent action, and route a concise comparison to the authorized owner."
+      }
+    ],
+    "internalService": "/services/course-administration",
+    "internalSibling": "/blog/course-waitlist-promotion-records",
+    "source": {
+      "label": "U.S. Department of Education",
+      "url": "https://www.ed.gov/"
+    }
   }
 ];

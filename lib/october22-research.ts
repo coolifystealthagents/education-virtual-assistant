@@ -26,10 +26,30 @@ export const october22ResearchPosts: ResearchPost[] = [
       "Completeness does not prove eligibility, funding, or compliance."
     ],
     "sources": [
-      { "label": "Family Educational Rights and Privacy Act", "publisher": "U.S. Department of Education", "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html", "checkedAt": "2026-10-22" },
-      { "label": "Standards for Internal Control in the Federal Government", "publisher": "U.S. Government Accountability Office", "url": "https://www.gao.gov/products/gao-14-704g", "checkedAt": "2026-10-22" },
-      { "label": "Privacy Framework", "publisher": "National Institute of Standards and Technology", "url": "https://www.nist.gov/privacy-framework", "checkedAt": "2026-10-22" },
-      { "label": "Records Management Policy and Guidance", "publisher": "National Archives and Records Administration", "url": "https://www.archives.gov/records-mgmt/policy", "checkedAt": "2026-10-22" }
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      }
     ]
   },
   {
@@ -57,9 +77,24 @@ export const october22ResearchPosts: ResearchPost[] = [
       "Calendar consistency does not validate the academic policy itself."
     ],
     "sources": [
-      { "label": "Standards for Internal Control in the Federal Government", "publisher": "U.S. Government Accountability Office", "url": "https://www.gao.gov/products/gao-14-704g", "checkedAt": "2026-10-22" },
-      { "label": "Records Management Policy and Guidance", "publisher": "National Archives and Records Administration", "url": "https://www.archives.gov/records-mgmt/policy", "checkedAt": "2026-10-22" },
-      { "label": "Federal Plain Language Guidelines", "publisher": "PlainLanguage.gov", "url": "https://www.plainlanguage.gov/guidelines/", "checkedAt": "2026-10-22" }
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Federal Plain Language Guidelines",
+        "publisher": "PlainLanguage.gov",
+        "url": "https://www.plainlanguage.gov/guidelines/",
+        "checkedAt": "2026-10-22"
+      }
     ]
   },
   {
@@ -87,9 +122,24 @@ export const october22ResearchPosts: ResearchPost[] = [
       "Timing does not prove that the access control is appropriate."
     ],
     "sources": [
-      { "label": "CISA Identity and Access Management Guidance", "publisher": "Cybersecurity and Infrastructure Security Agency", "url": "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators", "checkedAt": "2026-10-22" },
-      { "label": "Cybersecurity Framework", "publisher": "National Institute of Standards and Technology", "url": "https://www.nist.gov/cyberframework", "checkedAt": "2026-10-22" },
-      { "label": "Standards for Internal Control in the Federal Government", "publisher": "U.S. Government Accountability Office", "url": "https://www.gao.gov/products/gao-14-704g", "checkedAt": "2026-10-22" }
+      {
+        "label": "CISA Identity and Access Management Guidance",
+        "publisher": "Cybersecurity and Infrastructure Security Agency",
+        "url": "https://www.cisa.gov/resources-tools/resources/identity-and-access-management-recommended-best-practices-administrators",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Cybersecurity Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/cyberframework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      }
     ]
   },
   {
@@ -117,10 +167,30 @@ export const october22ResearchPosts: ResearchPost[] = [
       "A sample cannot certify every request."
     ],
     "sources": [
-      { "label": "Effective Communication", "publisher": "U.S. Department of Justice", "url": "https://www.ada.gov/resources/effective-communication/", "checkedAt": "2026-10-22" },
-      { "label": "Privacy Framework", "publisher": "National Institute of Standards and Technology", "url": "https://www.nist.gov/privacy-framework", "checkedAt": "2026-10-22" },
-      { "label": "Family Educational Rights and Privacy Act", "publisher": "U.S. Department of Education", "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html", "checkedAt": "2026-10-22" },
-      { "label": "Standards for Internal Control in the Federal Government", "publisher": "U.S. Government Accountability Office", "url": "https://www.gao.gov/products/gao-14-704g", "checkedAt": "2026-10-22" }
+      {
+        "label": "Effective Communication",
+        "publisher": "U.S. Department of Justice",
+        "url": "https://www.ada.gov/resources/effective-communication/",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      }
     ]
   },
   {
@@ -148,10 +218,505 @@ export const october22ResearchPosts: ResearchPost[] = [
       "The review maps gaps; it does not make a legal determination."
     ],
     "sources": [
-      { "label": "Records Management Policy and Guidance", "publisher": "National Archives and Records Administration", "url": "https://www.archives.gov/records-mgmt/policy", "checkedAt": "2026-10-22" },
-      { "label": "Privacy Framework", "publisher": "National Institute of Standards and Technology", "url": "https://www.nist.gov/privacy-framework", "checkedAt": "2026-10-22" },
-      { "label": "Family Educational Rights and Privacy Act", "publisher": "U.S. Department of Education", "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html", "checkedAt": "2026-10-22" },
-      { "label": "Data Security", "publisher": "Federal Trade Commission", "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security", "checkedAt": "2026-10-22" }
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Data Security",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security",
+        "checkedAt": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "slug": "educationvirtualassistant-intake-completeness-study",
+    "title": "Education Support Intake Completeness Study",
+    "summary": "A reproducible review of which required fields and source artifacts are present at the point of assignment in Education Support operations.",
+    "cluster": "Education Support Research",
+    "publishedAt": "2026-10-25",
+    "image": "/october-22/educationvirtualassistant-intake-completeness-study.svg",
+    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for which required fields and source artifacts are present at the point of assignment.",
+    "methodology": [
+      "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
+      "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
+      "For each field, name the authoritative source and the acceptable evidence. A value copied from an email is not the same as a value from the student information system. Record the source and the date the value was verified.",
+      "Review a stratified sample across programs, statuses, and intake channels. Include incomplete and withdrawn records so the result does not describe only the easy cases.",
+      "Classify missing or conflicting evidence by cause: not collected, not received, received but unreadable, conflicting sources, system error, or policy exception. Assign an owner and a resolution path.",
+      "Report the population, the sample, the field-level results, the exclusions, and the limits. Retain the review file and the source versions so another reviewer can reproduce the result."
+    ],
+    "findings": [
+      "A required field without a named source cannot be verified.",
+      "Intake requirements and later requirements should be separated.",
+      "Incomplete records should remain in the population, not disappear from the denominator.",
+      "A stratified sample is more useful than a convenience sample.",
+      "Missing and conflicting evidence need different remedies.",
+      "Completeness does not prove eligibility, funding, or compliance."
+    ],
+    "sources": [
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and scope",
+        "paragraphs": [
+          "This protocol examines which required fields and source artifacts are present at the point of assignment across intake records for the defined service in Education Support operations. It evaluates the administrative record, not the quality of a professional judgment or the truth of an underlying claim.",
+          "Leadership may use the result to improve forms, ownership, system configuration, reviewer coverage, or escalation rules. It should not rank people, clients, patients, or teams."
+        ]
+      },
+      {
+        "heading": "Population and evidence",
+        "paragraphs": [
+          "Define intake records for the defined service from a fixed export. Record the query time, systems, date boundaries, statuses, exclusions, deduplication rule, and resulting count.",
+          "A record belongs because it meets the written rule, not because it appears easy or unusual. Preserve excluded counts by reason so the denominator can be challenged."
+        ]
+      },
+      {
+        "heading": "Measurement method",
+        "paragraphs": [
+          "Capture the fields used for field completeness, missing evidence, owner assignment, exception state, and correction time. Define allowed values, source system, timestamp rule, and treatment of missing, unknown, and not applicable.",
+          "Retain a restricted crosswalk to source identifiers. When sources conflict, keep both values and create a conflict flag rather than selecting the cleaner result."
+        ]
+      },
+      {
+        "heading": "Sampling and reviewer agreement",
+        "paragraphs": [
+          "Draw a stratified sample across age, state, owner group, channel, exception type, and final disposition. Include completed and unresolved work. Record the random seed and every replacement.",
+          "Train two reviewers on a calibration set, preserve first-pass ratings, and adjudicate disagreements. Escalate professional questions rather than answering them to complete a classification."
+        ]
+      },
+      {
+        "heading": "Analysis and limitations",
+        "paragraphs": [
+          "Report counts, rates, medians, aging bands, denominators, and missingness for field completeness, missing evidence, owner assignment, exception state, and correction time. Inspect case narratives behind important differences before assigning a cause.",
+          "The study cannot determine service quality, legal compliance, or the correctness of a professional decision. System migrations, policy changes, staffing shifts, missing off-system contacts, and reviewer error may influence findings."
+        ]
+      },
+      {
+        "heading": "Privacy, reporting, and replication",
+        "paragraphs": [
+          "Use the minimum information needed for intake records for the defined service, limit access, log exports, and apply retention rules. Do not turn population patterns into assumptions about an individual.",
+          "Retain the query, exclusion log, sample seed, codebook, reviewer notes, classifications, adjudications, and calculations so a qualified reviewer can rebuild the sample and results."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "educationvirtualassistant-handoff-latency-study",
+    "title": "Education Support Handoff Latency Study",
+    "summary": "A reproducible review of how long each handoff takes and where acknowledgement or context is lost in Education Support operations.",
+    "cluster": "Education Support Research",
+    "publishedAt": "2026-10-25",
+    "image": "/october-22/educationvirtualassistant-handoff-latency-study.svg",
+    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for how long each handoff takes and where acknowledgement or context is lost.",
+    "methodology": [
+      "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
+      "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
+      "For each field, name the authoritative source and the acceptable evidence. A value copied from an email is not the same as a value from the student information system. Record the source and the date the value was verified.",
+      "Review a stratified sample across programs, statuses, and intake channels. Include incomplete and withdrawn records so the result does not describe only the easy cases.",
+      "Classify missing or conflicting evidence by cause: not collected, not received, received but unreadable, conflicting sources, system error, or policy exception. Assign an owner and a resolution path.",
+      "Report the population, the sample, the field-level results, the exclusions, and the limits. Retain the review file and the source versions so another reviewer can reproduce the result."
+    ],
+    "findings": [
+      "A required field without a named source cannot be verified.",
+      "Intake requirements and later requirements should be separated.",
+      "Incomplete records should remain in the population, not disappear from the denominator.",
+      "A stratified sample is more useful than a convenience sample.",
+      "Missing and conflicting evidence need different remedies.",
+      "Completeness does not prove eligibility, funding, or compliance."
+    ],
+    "sources": [
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and scope",
+        "paragraphs": [
+          "This protocol examines how long each handoff takes and where acknowledgement or context is lost across records that move between two named owners in Education Support operations. It evaluates the administrative record, not the quality of a professional judgment or the truth of an underlying claim.",
+          "Leadership may use the result to improve forms, ownership, system configuration, reviewer coverage, or escalation rules. It should not rank people, clients, patients, or teams."
+        ]
+      },
+      {
+        "heading": "Population and evidence",
+        "paragraphs": [
+          "Define records that move between two named owners from a fixed export. Record the query time, systems, date boundaries, statuses, exclusions, deduplication rule, and resulting count.",
+          "A record belongs because it meets the written rule, not because it appears easy or unusual. Preserve excluded counts by reason so the denominator can be challenged."
+        ]
+      },
+      {
+        "heading": "Measurement method",
+        "paragraphs": [
+          "Capture the fields used for handoff time, acknowledgement, missing context, rework, and unresolved records. Define allowed values, source system, timestamp rule, and treatment of missing, unknown, and not applicable.",
+          "Retain a restricted crosswalk to source identifiers. When sources conflict, keep both values and create a conflict flag rather than selecting the cleaner result."
+        ]
+      },
+      {
+        "heading": "Sampling and reviewer agreement",
+        "paragraphs": [
+          "Draw a stratified sample across age, state, owner group, channel, exception type, and final disposition. Include completed and unresolved work. Record the random seed and every replacement.",
+          "Train two reviewers on a calibration set, preserve first-pass ratings, and adjudicate disagreements. Escalate professional questions rather than answering them to complete a classification."
+        ]
+      },
+      {
+        "heading": "Analysis and limitations",
+        "paragraphs": [
+          "Report counts, rates, medians, aging bands, denominators, and missingness for handoff time, acknowledgement, missing context, rework, and unresolved records. Inspect case narratives behind important differences before assigning a cause.",
+          "The study cannot establish causation or whether a shorter handoff produced a better outcome. System migrations, policy changes, staffing shifts, missing off-system contacts, and reviewer error may influence findings."
+        ]
+      },
+      {
+        "heading": "Privacy, reporting, and replication",
+        "paragraphs": [
+          "Use the minimum information needed for records that move between two named owners, limit access, log exports, and apply retention rules. Do not turn population patterns into assumptions about an individual.",
+          "Retain the query, exclusion log, sample seed, codebook, reviewer notes, classifications, adjudications, and calculations so a qualified reviewer can rebuild the sample and results."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "educationvirtualassistant-exception-pattern-audit",
+    "title": "Education Support Exception Pattern Audit",
+    "summary": "A reproducible review of which exception reasons recur and whether they receive a consistent owner and disposition in Education Support operations.",
+    "cluster": "Education Support Research",
+    "publishedAt": "2026-10-25",
+    "image": "/october-22/educationvirtualassistant-exception-pattern-audit.svg",
+    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for which exception reasons recur and whether they receive a consistent owner and disposition.",
+    "methodology": [
+      "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
+      "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
+      "For each field, name the authoritative source and the acceptable evidence. A value copied from an email is not the same as a value from the student information system. Record the source and the date the value was verified.",
+      "Review a stratified sample across programs, statuses, and intake channels. Include incomplete and withdrawn records so the result does not describe only the easy cases.",
+      "Classify missing or conflicting evidence by cause: not collected, not received, received but unreadable, conflicting sources, system error, or policy exception. Assign an owner and a resolution path.",
+      "Report the population, the sample, the field-level results, the exclusions, and the limits. Retain the review file and the source versions so another reviewer can reproduce the result."
+    ],
+    "findings": [
+      "A required field without a named source cannot be verified.",
+      "Intake requirements and later requirements should be separated.",
+      "Incomplete records should remain in the population, not disappear from the denominator.",
+      "A stratified sample is more useful than a convenience sample.",
+      "Missing and conflicting evidence need different remedies.",
+      "Completeness does not prove eligibility, funding, or compliance."
+    ],
+    "sources": [
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and scope",
+        "paragraphs": [
+          "This protocol examines which exception reasons recur and whether they receive a consistent owner and disposition across exception records from the review window in Education Support operations. It evaluates the administrative record, not the quality of a professional judgment or the truth of an underlying claim.",
+          "Leadership may use the result to improve forms, ownership, system configuration, reviewer coverage, or escalation rules. It should not rank people, clients, patients, or teams."
+        ]
+      },
+      {
+        "heading": "Population and evidence",
+        "paragraphs": [
+          "Define exception records from the review window from a fixed export. Record the query time, systems, date boundaries, statuses, exclusions, deduplication rule, and resulting count.",
+          "A record belongs because it meets the written rule, not because it appears easy or unusual. Preserve excluded counts by reason so the denominator can be challenged."
+        ]
+      },
+      {
+        "heading": "Measurement method",
+        "paragraphs": [
+          "Capture the fields used for reason mix, repeat rate, age, owner, resolution, and reopened exceptions. Define allowed values, source system, timestamp rule, and treatment of missing, unknown, and not applicable.",
+          "Retain a restricted crosswalk to source identifiers. When sources conflict, keep both values and create a conflict flag rather than selecting the cleaner result."
+        ]
+      },
+      {
+        "heading": "Sampling and reviewer agreement",
+        "paragraphs": [
+          "Draw a stratified sample across age, state, owner group, channel, exception type, and final disposition. Include completed and unresolved work. Record the random seed and every replacement.",
+          "Train two reviewers on a calibration set, preserve first-pass ratings, and adjudicate disagreements. Escalate professional questions rather than answering them to complete a classification."
+        ]
+      },
+      {
+        "heading": "Analysis and limitations",
+        "paragraphs": [
+          "Report counts, rates, medians, aging bands, denominators, and missingness for reason mix, repeat rate, age, owner, resolution, and reopened exceptions. Inspect case narratives behind important differences before assigning a cause.",
+          "The audit describes documented exceptions and cannot infer undocumented causes. System migrations, policy changes, staffing shifts, missing off-system contacts, and reviewer error may influence findings."
+        ]
+      },
+      {
+        "heading": "Privacy, reporting, and replication",
+        "paragraphs": [
+          "Use the minimum information needed for exception records from the review window, limit access, log exports, and apply retention rules. Do not turn population patterns into assumptions about an individual.",
+          "Retain the query, exclusion log, sample seed, codebook, reviewer notes, classifications, adjudications, and calculations so a qualified reviewer can rebuild the sample and results."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "educationvirtualassistant-evidence-reliability-study",
+    "title": "Education Support Evidence Reliability Study",
+    "summary": "A reproducible review of whether the source is reconstructable and consistent with the recorded final state in Education Support operations.",
+    "cluster": "Education Support Research",
+    "publishedAt": "2026-10-25",
+    "image": "/october-22/educationvirtualassistant-evidence-reliability-study.svg",
+    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for whether the source is reconstructable and consistent with the recorded final state.",
+    "methodology": [
+      "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
+      "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
+      "For each field, name the authoritative source and the acceptable evidence. A value copied from an email is not the same as a value from the student information system. Record the source and the date the value was verified.",
+      "Review a stratified sample across programs, statuses, and intake channels. Include incomplete and withdrawn records so the result does not describe only the easy cases.",
+      "Classify missing or conflicting evidence by cause: not collected, not received, received but unreadable, conflicting sources, system error, or policy exception. Assign an owner and a resolution path.",
+      "Report the population, the sample, the field-level results, the exclusions, and the limits. Retain the review file and the source versions so another reviewer can reproduce the result."
+    ],
+    "findings": [
+      "A required field without a named source cannot be verified.",
+      "Intake requirements and later requirements should be separated.",
+      "Incomplete records should remain in the population, not disappear from the denominator.",
+      "A stratified sample is more useful than a convenience sample.",
+      "Missing and conflicting evidence need different remedies.",
+      "Completeness does not prove eligibility, funding, or compliance."
+    ],
+    "sources": [
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and scope",
+        "paragraphs": [
+          "This protocol examines whether the source is reconstructable and consistent with the recorded final state across records with a source artifact and a later outcome in Education Support operations. It evaluates the administrative record, not the quality of a professional judgment or the truth of an underlying claim.",
+          "Leadership may use the result to improve forms, ownership, system configuration, reviewer coverage, or escalation rules. It should not rank people, clients, patients, or teams."
+        ]
+      },
+      {
+        "heading": "Population and evidence",
+        "paragraphs": [
+          "Define records with a source artifact and a later outcome from a fixed export. Record the query time, systems, date boundaries, statuses, exclusions, deduplication rule, and resulting count.",
+          "A record belongs because it meets the written rule, not because it appears easy or unusual. Preserve excluded counts by reason so the denominator can be challenged."
+        ]
+      },
+      {
+        "heading": "Measurement method",
+        "paragraphs": [
+          "Capture the fields used for source presence, match, missing state, correction, reviewer agreement, and time. Define allowed values, source system, timestamp rule, and treatment of missing, unknown, and not applicable.",
+          "Retain a restricted crosswalk to source identifiers. When sources conflict, keep both values and create a conflict flag rather than selecting the cleaner result."
+        ]
+      },
+      {
+        "heading": "Sampling and reviewer agreement",
+        "paragraphs": [
+          "Draw a stratified sample across age, state, owner group, channel, exception type, and final disposition. Include completed and unresolved work. Record the random seed and every replacement.",
+          "Train two reviewers on a calibration set, preserve first-pass ratings, and adjudicate disagreements. Escalate professional questions rather than answering them to complete a classification."
+        ]
+      },
+      {
+        "heading": "Analysis and limitations",
+        "paragraphs": [
+          "Report counts, rates, medians, aging bands, denominators, and missingness for source presence, match, missing state, correction, reviewer agreement, and time. Inspect case narratives behind important differences before assigning a cause.",
+          "The study cannot prove that the source is truthful or that the final decision was correct. System migrations, policy changes, staffing shifts, missing off-system contacts, and reviewer error may influence findings."
+        ]
+      },
+      {
+        "heading": "Privacy, reporting, and replication",
+        "paragraphs": [
+          "Use the minimum information needed for records with a source artifact and a later outcome, limit access, log exports, and apply retention rules. Do not turn population patterns into assumptions about an individual.",
+          "Retain the query, exclusion log, sample seed, codebook, reviewer notes, classifications, adjudications, and calculations so a qualified reviewer can rebuild the sample and results."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "educationvirtualassistant-access-recertification-study",
+    "title": "Education Support Access Recertification Study",
+    "summary": "A reproducible review of whether current access matches the approved role and whether removals are evidenced in Education Support operations.",
+    "cluster": "Education Support Research",
+    "publishedAt": "2026-10-25",
+    "image": "/october-22/educationvirtualassistant-access-recertification-study.svg",
+    "finding": "The reviewable signal is the source, owner, timestamp, exception, and completion evidence for whether current access matches the approved role and whether removals are evidenced.",
+    "methodology": [
+      "Define the eligible enrollment population from a fixed system export. Record the term, program, query date, filters, and count. Exclude test records and duplicates only under a written rule.",
+      "List the required fields by enrollment type: student identity, program, section, start date, status, contact, consent, and any document required by policy. Separate fields that are mandatory at intake from fields that may be completed later.",
+      "For each field, name the authoritative source and the acceptable evidence. A value copied from an email is not the same as a value from the student information system. Record the source and the date the value was verified.",
+      "Review a stratified sample across programs, statuses, and intake channels. Include incomplete and withdrawn records so the result does not describe only the easy cases.",
+      "Classify missing or conflicting evidence by cause: not collected, not received, received but unreadable, conflicting sources, system error, or policy exception. Assign an owner and a resolution path.",
+      "Report the population, the sample, the field-level results, the exclusions, and the limits. Retain the review file and the source versions so another reviewer can reproduce the result."
+    ],
+    "findings": [
+      "A required field without a named source cannot be verified.",
+      "Intake requirements and later requirements should be separated.",
+      "Incomplete records should remain in the population, not disappear from the denominator.",
+      "A stratified sample is more useful than a convenience sample.",
+      "Missing and conflicting evidence need different remedies.",
+      "Completeness does not prove eligibility, funding, or compliance."
+    ],
+    "sources": [
+      {
+        "label": "Family Educational Rights and Privacy Act",
+        "publisher": "U.S. Department of Education",
+        "url": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Standards for Internal Control in the Federal Government",
+        "publisher": "U.S. Government Accountability Office",
+        "url": "https://www.gao.gov/products/gao-14-704g",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Privacy Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/privacy-framework",
+        "checkedAt": "2026-10-22"
+      },
+      {
+        "label": "Records Management Policy and Guidance",
+        "publisher": "National Archives and Records Administration",
+        "url": "https://www.archives.gov/records-mgmt/policy",
+        "checkedAt": "2026-10-22"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Research question and scope",
+        "paragraphs": [
+          "This protocol examines whether current access matches the approved role and whether removals are evidenced across role-based access records for the service in Education Support operations. It evaluates the administrative record, not the quality of a professional judgment or the truth of an underlying claim.",
+          "Leadership may use the result to improve forms, ownership, system configuration, reviewer coverage, or escalation rules. It should not rank people, clients, patients, or teams."
+        ]
+      },
+      {
+        "heading": "Population and evidence",
+        "paragraphs": [
+          "Define role-based access records for the service from a fixed export. Record the query time, systems, date boundaries, statuses, exclusions, deduplication rule, and resulting count.",
+          "A record belongs because it meets the written rule, not because it appears easy or unusual. Preserve excluded counts by reason so the denominator can be challenged."
+        ]
+      },
+      {
+        "heading": "Measurement method",
+        "paragraphs": [
+          "Capture the fields used for role match, excess access, temporary access age, removal evidence, and reviewer sign-off. Define allowed values, source system, timestamp rule, and treatment of missing, unknown, and not applicable.",
+          "Retain a restricted crosswalk to source identifiers. When sources conflict, keep both values and create a conflict flag rather than selecting the cleaner result."
+        ]
+      },
+      {
+        "heading": "Sampling and reviewer agreement",
+        "paragraphs": [
+          "Draw a stratified sample across age, state, owner group, channel, exception type, and final disposition. Include completed and unresolved work. Record the random seed and every replacement.",
+          "Train two reviewers on a calibration set, preserve first-pass ratings, and adjudicate disagreements. Escalate professional questions rather than answering them to complete a classification."
+        ]
+      },
+      {
+        "heading": "Analysis and limitations",
+        "paragraphs": [
+          "Report counts, rates, medians, aging bands, denominators, and missingness for role match, excess access, temporary access age, removal evidence, and reviewer sign-off. Inspect case narratives behind important differences before assigning a cause.",
+          "The study cannot determine legal sufficiency or whether a specific access decision was appropriate. System migrations, policy changes, staffing shifts, missing off-system contacts, and reviewer error may influence findings."
+        ]
+      },
+      {
+        "heading": "Privacy, reporting, and replication",
+        "paragraphs": [
+          "Use the minimum information needed for role-based access records for the service, limit access, log exports, and apply retention rules. Do not turn population patterns into assumptions about an individual.",
+          "Retain the query, exclusion log, sample seed, codebook, reviewer notes, classifications, adjudications, and calculations so a qualified reviewer can rebuild the sample and results."
+        ]
+      }
     ]
   }
 ];
