@@ -474,6 +474,7 @@ export const blogPosts: BlogPost[] = [
     }
   }
 ];
+blogPosts.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 export const researchPosts: ResearchPost[] = [
   ...october22ResearchPosts,
   ...october12ResearchPosts,
@@ -918,6 +919,7 @@ export const researchPosts: ResearchPost[] = [
     ]
   }
 ];
+researchPosts.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 
 export const nav = [
   { href: '/services', label: 'Services' },
