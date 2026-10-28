@@ -6,8 +6,10 @@ import { october22BlogPosts } from './october22-blog';
 import { october22ResearchPosts } from './october22-research';
 import { october27BlogPosts } from './october27-blog';
 import { october27ResearchPosts } from './october27-research';
+import { october28EducationBlogPosts, october28EducationResearchPosts } from './october28EducationBatch';
 
 export const blogPosts: BlogPost[] = [
+  ...october28EducationBlogPosts,
   ...october27BlogPosts,
   ...october22BlogPosts,
   ...october12BlogPosts,
@@ -479,6 +481,7 @@ export const blogPosts: BlogPost[] = [
 ];
 blogPosts.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 export const researchPosts: ResearchPost[] = [
+  ...october28EducationResearchPosts,
   ...october27ResearchPosts,
   ...october22ResearchPosts,
   ...october12ResearchPosts,
