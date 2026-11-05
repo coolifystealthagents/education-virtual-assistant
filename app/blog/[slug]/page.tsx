@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArticleToc } from '@/components/ArticleToc';
 import { MobileToc } from '@/components/MobileToc';
 import { blogPosts, blogBySlug } from '@/lib/content';
-import { editorialImage, formatEditorialDate, headingId } from '@/lib/editorial';
+import { editorialHeroImage, formatEditorialDate, headingId } from '@/lib/editorial';
 import { site } from '@/lib/site';
 
 export function generateStaticParams() {
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogBySlug(slug);
   if (!post) return {};
   const canonical = `/blog/${post.slug}`;
-  const image = editorialImage(post);
+  const image = editorialHeroImage(post);
   return {
     title: post.title,
     description: post.description,
@@ -69,7 +69,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </dl>
         </div>
         <figure className="article-hero-media">
-          <img src={editorialImage(post)} alt={`Education operations illustration for ${post.title}`} width="1200" height="630" fetchPriority="high" />
+          <img src={editorialHeroImage(post)} alt={`Education operations illustration for ${post.title}`} width="1200" height="630" fetchPriority="high" />
         </figure>
       </header>
 

@@ -17,6 +17,10 @@ export function editorialImage(post: BlogPost | ResearchPost) {
   return post.image ?? `/editorial/${post.slug}.svg`;
 }
 
+export function editorialHeroImage(post: BlogPost | ResearchPost) {
+  return editorialImage(post).replace('/thumbnails/november-05/', '/thumbnails/november-05/hero/');
+}
+
 export function researchDisplayTitle(post: ResearchPost) {
   if (post.methodology?.length) return post.title;
   const topic = post.title.split(':')[0];

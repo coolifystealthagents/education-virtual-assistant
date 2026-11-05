@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { ArticleToc } from '@/components/ArticleToc';
 import { MobileToc } from '@/components/MobileToc';
 import { researchPosts, researchBySlug } from '@/lib/content';
-import { editorialImage, formatEditorialDate, researchDisplayTitle, researchReadTime, researchService } from '@/lib/editorial';
+import { editorialHeroImage, formatEditorialDate, researchDisplayTitle, researchReadTime, researchService } from '@/lib/editorial';
 import { site } from '@/lib/site';
 
 export function generateStaticParams() {
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!post) return {};
   const title = researchDisplayTitle(post);
   const canonical = `/research/${post.slug}`;
-  const image = editorialImage(post);
+  const image = editorialHeroImage(post);
   return {
     title,
     description: post.summary,
@@ -82,7 +82,7 @@ export default async function ResearchPostPage({ params }: { params: Promise<{ s
           </dl>
         </div>
         <figure className="article-hero-media">
-          <img src={editorialImage(post)} alt={`Education operations diagram for ${title}`} width="1200" height="630" fetchPriority="high" />
+          <img src={editorialHeroImage(post)} alt={`Education operations diagram for ${title}`} width="1200" height="630" fetchPriority="high" />
         </figure>
       </header>
 
