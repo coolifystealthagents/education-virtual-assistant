@@ -113,6 +113,7 @@
 .article-hero-media img {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 1200 / 630;
   object-fit: cover;
 }
@@ -447,7 +448,32 @@
 
 /* October 22 article navigation: compact sticky mobile table of contents */
 .mobile-toc { display: none; }
+.mobile-toc-panel { display: none; }
 @media (max-width: 900px) {
+  .mobile-toc-panel {
+    display: block;
+    order: -1;
+    width: 100%;
+    max-height: min(55vh, 420px);
+    overflow: auto;
+    overscroll-behavior: contain;
+    margin: 0 0 1.4rem;
+    padding: .35rem .6rem .7rem;
+    background: white;
+    border: 1px solid var(--editorial-rule);
+    border-radius: 1rem;
+  }
+  .mobile-toc-panel a {
+    display: block;
+    padding: .55rem .5rem;
+    border-radius: .5rem;
+    font-size: .86rem;
+    line-height: 1.35;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .mobile-toc-panel a:hover, .mobile-toc-panel a:focus-visible { background: var(--editorial-soft); }
+  .mobile-toc-panel a:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
   .mobile-toc {
     display: block;
     position: sticky;
