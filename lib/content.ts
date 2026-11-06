@@ -1,5 +1,7 @@
 import { site } from './site';
 import type { BlogPost, ResearchPost } from './types';
+import { november06BlogPosts } from './november06-blog';
+import { november06ResearchPosts } from './november06-research';
 import { november05BlogPosts } from './november05-blog';
 import { november05ResearchPosts } from './november05-research';
 import { november04BlogPosts } from './november04-blog';
@@ -19,6 +21,7 @@ import { october27ResearchPosts } from './october27-research';
 import { october28EducationBlogPosts, october28EducationResearchPosts } from './october28EducationBatch';
 
 export const blogPosts: BlogPost[] = [
+  ...november06BlogPosts,
   ...november05BlogPosts,
   ...november04BlogPosts,
   ...november03BlogPosts,
@@ -496,6 +499,7 @@ export const blogPosts: BlogPost[] = [
 ];
 blogPosts.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 export const researchPosts: ResearchPost[] = [
+  ...november06ResearchPosts,
   ...november05ResearchPosts,
   ...november04ResearchPosts,
   ...november03ResearchPosts,
