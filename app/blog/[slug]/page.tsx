@@ -63,7 +63,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <h1>{post.title}</h1>
           <p className="article-deck">{post.description}</p>
           <dl className="article-meta">
-            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{`Published ${formatEditorialDate(post.publishedAt)}`}</time></dd></div>
+            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{formatEditorialDate(post.publishedAt)}</time></dd></div>
             <div><dt>Reading time</dt><dd>{post.readTime}</dd></div>
             <div><dt>By</dt><dd>{site.name} Editorial Team</dd></div>
           </dl>

@@ -76,7 +76,7 @@ export default async function ResearchPostPage({ params }: { params: Promise<{ s
           <h1>{title}</h1>
           <p className="article-deck">{post.summary}</p>
           <dl className="article-meta">
-            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{`Published ${formatEditorialDate(post.publishedAt)}`}</time></dd></div>
+            <div><dt>Published</dt><dd><time dateTime={post.publishedAt}>{formatEditorialDate(post.publishedAt)}</time></dd></div>
             <div><dt>Reading time</dt><dd>{readTime}</dd></div>
             <div><dt>By</dt><dd>{site.name} Editorial Team</dd></div>
           </dl>
