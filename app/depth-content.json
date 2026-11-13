@@ -1,0 +1,181 @@
+{
+  "heading": "Support the administration. Protect time for learning.",
+  "intro": "A learning program connects many small pieces: a current learner record, a working course link, a clear timetable, and a message that reaches the right person. When those pieces drift apart, teachers and program leaders spend time reconstructing the context. Education virtual assistant support helps maintain the administrative work around your existing program, with clear review boundaries and named owners.",
+  "chapters": [
+    [
+      "Before a learner starts",
+      "Organize approved inquiries, application checklists, enrollment updates, and course information. A support role can track what has arrived, what is missing, and who needs to respond. Eligibility, placement, exceptions, and sensitive circumstances remain with the admissions or program team.",
+      "admissions-inquiry-support"
+    ],
+    [
+      "During a busy teaching week",
+      "Maintain the schedule, prepare approved learning resources, and keep routine communication moving. When a session changes, the record should show which calendar was updated, who received a notice, and what remains unresolved. The aim is a coordinated day, not another separate spreadsheet for teachers to maintain.",
+      "scheduling-support"
+    ],
+    [
+      "When the program needs a clear picture",
+      "Bring together authorized records for operational reporting and review. Keep the reporting period, definitions, and source references visible, and flag incomplete data instead of filling gaps with assumptions. Leaders receive a prepared summary while retaining interpretation and decisions about the program.",
+      "reporting-preparation"
+    ]
+  ],
+  "bundles": [
+    [
+      "Preparing for a new intake",
+      "Combine admissions inquiry support, learner records, and routine family or learner communication. Define the approved program information, document checklist, and escalation owner before opening the queue. Keep administrative completeness separate from an admissions decision.",
+      [
+        6,
+        0,
+        3
+      ]
+    ],
+    [
+      "Keeping delivery organized",
+      "Connect course administration, scheduling, and resource library support. Maintain the release plan, check learner-facing links, and record changes in the shared system. Teachers approve content and program leads resolve scheduling or access exceptions.",
+      [
+        1,
+        2,
+        4
+      ]
+    ],
+    [
+      "Supporting the program office",
+      "Pair faculty coordination with reporting preparation. Gather routine inputs, track meeting actions, and compile the agreed operational views. Use a named source owner for each figure and a review step before reports leave the team.",
+      [
+        7,
+        5
+      ]
+    ]
+  ],
+  "ownership": [
+    "Educators retain teaching, assessment, curriculum, welfare, and placement decisions.",
+    "Administrative support follows your approved instructions for records, calendars, resources, and messages.",
+    "Program owners decide access, exceptions, publication, and handling of sensitive requests."
+  ],
+  "review": [
+    "Check a small sample of updates against the original request and approved procedure.",
+    "Review unresolved conflicts, missing permissions, and messages requiring a responsible professional.",
+    "Agree on the next scope only when source records and handoffs remain easy to trace."
+  ],
+  "services": {
+    "learner-records": {
+      "trigger": "When a record update needs a traceable source",
+      "example": "A routine enrollment update arrives through an approved channel, but one required field differs from the existing learner record. The assistant checks the request against your checklist, prepares the unambiguous updates, and records the conflict for the records owner. The change log links back to the original request. This keeps the queue moving without guessing which version of a sensitive detail should replace the current information.",
+      "fields": [
+        "Approved request and source reference",
+        "Required fields and completeness check",
+        "Permitted update and change note",
+        "Conflict requiring the records owner"
+      ],
+      "exception": "An administrative role should not infer consent, family relationships, eligibility, or authority to change a record. Conflicting identity or contact details follow your verification procedure. Access should be limited to the records and actions needed for the agreed task.",
+      "question": "Can support work with our existing learner system?",
+      "answer": "The role can be scoped around your authorized system and procedures. Define the permitted record types, fields, and review steps first. Start with a sample of routine updates and confirm that source references and correction logs are easy for your records owner to inspect.",
+      "pilot": "Begin with a routine update category and an approved records checklist. Define the source of truth, permitted fields, required evidence, and changes that always need review. Work through a small sample that includes an incomplete request and a conflict. Your records owner can then confirm that the process preserves the original request and does not expand access beyond the task.",
+      "review": "Compare completed updates with their source requests and inspect the change notes. Check that incomplete records have a clear next owner and that uncertain identity, consent, or authority questions have remained in the designated review process."
+    },
+    "course-administration": {
+      "trigger": "When an approved course plan needs careful publication support",
+      "example": "An instructor has approved a new module with a release date, supporting files, and a set of links. The assistant prepares the module in the agreed learning platform, checks labels and navigation, and records any missing or inconsistent materials. The instructor reviews the prepared version before publication. After release, the change log shows what was published and which later edits still require approval.",
+      "fields": [
+        "Approved course plan and content owner",
+        "Module, release date, and visibility setting",
+        "Link and file checks",
+        "Review status and publication record"
+      ],
+      "exception": "Content preparation should not change teaching intent, assessment rules, or learner access decisions. Missing materials, ambiguous instructions, and accessibility concerns go back to the designated owner. A routine platform setting can affect learners, so publication and access changes follow your approval rules.",
+      "question": "Can the assistant create teaching content independently?",
+      "answer": "This service focuses on administration of approved materials. Draft preparation may be separately defined, but educators retain responsibility for curriculum, accuracy, assessment, and suitability. The agreed review process should identify who approves every learner-facing change.",
+      "pilot": "Select one course or module and provide the approved plan, release requirements, and platform conventions. Agree on the distinction between preparation, review, and publication. The first assignment can produce a review-ready module with a short list of questions. This lets the educator inspect navigation, materials, and settings before the role takes on a larger recurring release queue.",
+      "review": "Review learner-facing labels, links, file versions, and visibility settings against the approved plan. Confirm the publication decision and keep later change requests separate from the released version. Instructional changes should be reviewed by the responsible educator."
+    },
+    "scheduling-support": {
+      "trigger": "When a timetable change affects several people",
+      "example": "A session needs to move because an instructor’s availability has changed. The assistant checks the approved scheduling rules, identifies affected calendars, and prepares the updated invitation or notice. Unresolved conflicts are recorded for the program lead instead of being silently overwritten. The final schedule shows the current time, location or access link, confirmation status, and any participant who still needs an approved follow-up.",
+      "fields": [
+        "Session and responsible program owner",
+        "Confirmed date, time zone, and access details",
+        "Affected calendars and notification status",
+        "Conflict or exception awaiting a decision"
+      ],
+      "exception": "A free calendar slot is not automatically an authorized change. Program rules, instructor approval, participant needs, and resource availability may all matter. Support records the options and coordinates the approved update; your team resolves exceptions and decisions affecting delivery.",
+      "question": "How are last-minute changes handled?",
+      "answer": "Set an urgent-change route, a responsible decision-maker, and the approved notification channels. The assistant can maintain the change log and communication status within that process. Any coverage window or response expectation should be agreed before urgent coordination becomes part of the role.",
+      "pilot": "Choose a defined set of sessions and the calendar your team treats as authoritative. Document availability rules, confirmation steps, and the person who resolves conflicts. Test the process with a routine booking, a reschedule, and a cancellation. A useful first assignment demonstrates that calendar changes, access details, and approved messages stay aligned through each of these situations.",
+      "review": "Check a sample of sessions for time-zone accuracy, participant details, and current access links. Review unanswered confirmations and conflicts with the program owner. The schedule should clearly distinguish a proposed change from one that has been approved and communicated."
+    },
+    "family-learner-communication": {
+      "trigger": "When routine messages need a clear route to the right owner",
+      "example": "A family asks about a timetable and includes a separate concern about a learner’s experience. The assistant separates the routine scheduling question from the concern, uses approved information for the administrative response, and routes the sensitive part to the responsible professional. The communication record preserves the original message, the action taken, and the next owner so the family does not have to repeat the context.",
+      "fields": [
+        "Original message and approved category",
+        "Routine information or template used",
+        "Concern routed to a responsible professional",
+        "Contact attempt and next-action record"
+      ],
+      "exception": "Welfare, complaints, assessment, policy exceptions, and sensitive personal circumstances need the appropriate professional. Do not diagnose a concern or infer the family’s situation. Use your organization’s urgency and escalation procedures rather than a general administrative reply.",
+      "question": "Can routine replies use our existing templates?",
+      "answer": "Yes. Maintain an approved template set with owners and review dates. The assistant should check that the template fits the actual question and route anything outside its scope. A current message history helps prevent contradictory or repeated responses.",
+      "pilot": "Start with a narrow set of routine inquiry categories and current approved responses. Identify the responsible owners for instructional, welfare, complaint, and policy questions. Review representative messages together, including one that mixes an administrative request with a sensitive concern. The initial scope should show that useful routine support can coexist with a reliable route to professional judgment.",
+      "review": "Inspect whether replies answer the actual administrative question and use current information. Check that the original context and follow-up status are retained. Sensitive or ambiguous content should have a named recipient and a visible handoff rather than a guessed response."
+    },
+    "resource-library-support": {
+      "trigger": "When the right learning resource is difficult to find",
+      "example": "A program keeps several versions of a worksheet across shared folders, and an older link still appears in a course module. The assistant inventories the approved resources, applies your naming conventions, and identifies the conflicting copies. The content owner confirms the current version. The assistant then updates authorized references, records the change, and keeps rights, accessibility, or content questions in a review queue.",
+      "fields": [
+        "Resource title and approved location",
+        "Version, content owner, and review status",
+        "Related course links or references",
+        "Broken link or unresolved rights question"
+      ],
+      "exception": "A newer file is not necessarily an approved replacement. Preserve the review history and follow your retention rules before archiving anything. Questions about content rights, accessibility, or instructional suitability require the designated owner rather than an administrative assumption.",
+      "question": "Will this require a new resource platform?",
+      "answer": "Not necessarily. Begin with the tools and folder structure you already use. A clear inventory, ownership record, and naming convention can make the current collection easier to maintain. Any migration or restructuring should have an approved scope and a plan for existing links.",
+      "pilot": "Choose one resource collection and agree on the naming, classification, and version conventions. Identify the content owner for each category and the actions the assistant may perform. A first inventory can show duplicates, broken links, and missing review information without changing publication status. Your team can then approve a focused cleanup and inspect the results before expanding the scope.",
+      "review": "Check resource locations, version references, and the effect of any approved changes on existing course links. Inspect unresolved rights or accessibility questions separately. Organizational consistency should make resources easier to review without implying that their content has been professionally validated."
+    },
+    "reporting-preparation": {
+      "trigger": "When a program report needs consistent definitions",
+      "example": "A program lead requests an operational summary for a specific period, but two source exports use different cutoff dates. The assistant records the mismatch, collects the authorized source set, and applies the definitions the report owner has approved. The prepared summary identifies its period, source references, and unresolved gaps. Leaders can review the evidence without mistaking an incomplete input for a change in program performance.",
+      "fields": [
+        "Reporting period and approved definitions",
+        "Source register and retrieval time",
+        "Reconciliation check and missing inputs",
+        "Reviewer questions before distribution"
+      ],
+      "exception": "Preparation does not establish causation or certify the underlying data. Differences in periods, definitions, or source completeness must remain visible. Interpretation, materiality, publication, and decisions affecting learners or staff belong to the accountable program or reporting owner.",
+      "question": "Can reports be prepared on a recurring schedule?",
+      "answer": "Yes, with an agreed cutoff, source list, template, and reviewer. Keep changes to definitions documented so periods remain comparable. If a required source is late, the report should show the limitation and follow your owner’s instruction for review or distribution.",
+      "pilot": "Begin with one recurring operational report and a clearly defined period. Identify the approved source for each measure, the reconciliation rules, and the review deadline. Prepare a sample that includes a missing or late source. The reporting owner can then confirm how limitations are presented and decide what needs to happen before the summary is distributed.",
+      "review": "Trace selected figures back to their source and verify the reporting period. Review missing inputs and changed definitions before comparing periods. The prepared report should make its limits easy to understand while leaving interpretation and consequential program decisions to the responsible leader."
+    },
+    "admissions-inquiry-support": {
+      "trigger": "When an inquiry needs clear information and a visible next step",
+      "example": "A prospective learner asks about a program and submits part of the administrative paperwork. The assistant logs the inquiry, shares current approved program information, and marks which checklist items have been received. A question about eligibility goes to the admissions owner with the original context. The queue distinguishes a complete administrative record from an admissions decision, so the next action remains clear to everyone involved.",
+      "fields": [
+        "Inquiry source and program of interest",
+        "Approved information provided",
+        "Administrative checklist status",
+        "Eligibility or exception question for review"
+      ],
+      "exception": "Administrative completeness is not acceptance. Do not infer eligibility, placement, financial arrangements, or suitability from a partially completed form. The admissions team owns those decisions and approves any communication that could be interpreted as an offer or commitment.",
+      "question": "Can support follow up on missing documents?",
+      "answer": "Routine follow-up can use your approved checklist and messages. Define who may receive the request, where documents should be submitted, and when the admissions owner should intervene. The assistant records the status without making judgments about the applicant’s eligibility.",
+      "pilot": "Choose one program and its current published information, administrative checklist, and inquiry route. Agree on approved follow-up messages and the owner for eligibility or exception questions. Use a small sample of inquiries to check that administrative status is recorded consistently. This gives the admissions team a clearer queue without implying acceptance, placement, or a promise that has not been authorized.",
+      "review": "Compare the information shared with the current approved program materials. Check the status of requested documents and the owner of unanswered questions. Review any wording that could be understood as a decision, offer, or guarantee before it reaches an applicant."
+    },
+    "faculty-coordination-support": {
+      "trigger": "When program administration needs one current action record",
+      "example": "A program meeting creates several administrative tasks involving instructors, resources, and the next timetable. The assistant prepares the owner-approved notes, confirms each assigned action, and tracks the requested inputs before the deadline. Unresolved requests are summarized for the program lead. Faculty can refer to one current record instead of reconstructing commitments from several message threads.",
+      "fields": [
+        "Approved meeting or program reference",
+        "Action, responsible owner, and due date",
+        "Required input and current status",
+        "Unresolved dependency for the program lead"
+      ],
+      "exception": "Coordination should not change workload expectations, teaching assignments, or staff commitments without approval. If a request conflicts with an existing plan, record the conflict and ask the program owner to resolve it. Keep personnel-sensitive information within the authorized process.",
+      "question": "Can this include recurring meeting preparation?",
+      "answer": "Yes. Define the agenda owner, input deadlines, distribution list, and approval step for notes. The assistant can gather routine updates and maintain the action register. Decisions, interpretations, and sensitive staff matters remain with the responsible program leadership.",
+      "pilot": "Start with a recurring meeting or program administration cycle. Define the agenda owner, requested inputs, action-log format, and distribution rules. Prepare a sample pack and owner-approved notes, then track the resulting actions through the next review. This establishes a shared record of responsibilities without changing faculty commitments or creating another competing source for schedules and decisions.",
+      "review": "Confirm that actions reflect what was approved, with the correct owner and due date. Check overdue dependencies and unanswered requests with the program lead. Sensitive personnel matters should stay in their authorized channel rather than enter a general coordination log."
+    }
+  }
+}
