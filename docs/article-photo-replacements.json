@@ -1,0 +1,650 @@
+[
+  {
+    "theme": "education",
+    "path": "/october-12/academic-calendar-change-record.webp",
+    "pexelsId": "5940832",
+    "width": 1200,
+    "height": 630,
+    "sha256": "5367fcf93158412114fa123d916c043fb30f06b56c2f5fc0cf81c6098130fa18"
+  },
+  {
+    "theme": "education",
+    "path": "/october-12/accessible-material-fulfillment-study.webp",
+    "pexelsId": "8342417",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8de51807b440153f0acb935e9776fd1e5723badd4428ca70c7782a7fa0932ccf"
+  },
+  {
+    "theme": "education",
+    "path": "/october-12/course-content-version-release.webp",
+    "pexelsId": "5940717",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8f8acc683493e71c1349ca797b7dc7bec9b0a50d436374d726c84559a4359983"
+  },
+  {
+    "theme": "education",
+    "path": "/october-12/student-record-correction-reproducibility-study.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/october-12/student-support-referral-handoff.webp",
+    "pexelsId": "5940717",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8f8acc683493e71c1349ca797b7dc7bec9b0a50d436374d726c84559a4359983"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-can-the-resource-library-report-be-reproduced-from-its-sources-2026-11-01.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-coach-a-specialist-through-a-education-scheduling-queue-near-miss-2026-11-01.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-how-complete-is-the-evidence-in-the-learner-records-record-2026-11-01.webp",
+    "pexelsId": "8199610",
+    "width": 1200,
+    "height": 630,
+    "sha256": "e16967e10740812b0889b6c6c95aac60db3e9b868845af883f7b3acd7e04fee2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-how-old-are-the-exceptions-in-the-education-scheduling-queue-2026-11-01.webp",
+    "pexelsId": "7742822",
+    "width": 1200,
+    "height": 630,
+    "sha256": "2de093cfd50c0faf5c20cf79127868b05da58f9ab4da11fe51aedda336b89e87"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-keep-learner-records-queue-evidence-durable-when-the-systems-change-2026-11-01.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-map-the-learner-records-decision-to-one-accountable-owner-2026-11-01.webp",
+    "pexelsId": "9159068",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f07c78570edf89dc8e779a1f7813d3f800ac802539c7aeddef40236114c7a2fa"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-sample-resource-library-quality-weekly-not-only-volume-2026-11-01.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-01/educationvirtualassistant-where-does-delay-accumulate-in-the-course-administration-handoff-2026-11-01.webp",
+    "pexelsId": "8088102",
+    "width": 1200,
+    "height": 630,
+    "sha256": "07b0e4df45cac007fb031e38f196309fefd454e209f3987508d16915703dd0b2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-can-the-resource-library-report-be-reproduced-from-its-sources-2026-11-03.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-how-complete-is-the-evidence-in-the-learner-records-record-2026-11-03.webp",
+    "pexelsId": "8199610",
+    "width": 1200,
+    "height": 630,
+    "sha256": "e16967e10740812b0889b6c6c95aac60db3e9b868845af883f7b3acd7e04fee2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-how-old-are-the-exceptions-in-the-education-scheduling-queue-2026-11-03.webp",
+    "pexelsId": "7742822",
+    "width": 1200,
+    "height": 630,
+    "sha256": "2de093cfd50c0faf5c20cf79127868b05da58f9ab4da11fe51aedda336b89e87"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-how-stable-is-learner-records-queue-coverage-when-one-specialist-is-away-2026-11-03.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-keep-learner-records-queue-evidence-durable-when-the-systems-change-2026-11-03.webp",
+    "pexelsId": "5306481",
+    "width": 1200,
+    "height": 630,
+    "sha256": "fc1e9d20d163998406c8022403d5bea88a95e97bb096e0efd00dbf65f87f9d95"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-map-the-learner-records-decision-to-one-accountable-owner-2026-11-03.webp",
+    "pexelsId": "5940832",
+    "width": 1200,
+    "height": 630,
+    "sha256": "5367fcf93158412114fa123d916c043fb30f06b56c2f5fc0cf81c6098130fa18"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-sample-resource-library-quality-weekly-not-only-volume-2026-11-03.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-03/educationvirtualassistant-where-does-delay-accumulate-in-the-course-administration-handoff-2026-11-03.webp",
+    "pexelsId": "7983563",
+    "width": 1200,
+    "height": 630,
+    "sha256": "56bcbe880657542e3c7c6cab9b60ca5f16b3e23e0102dfd7bedf4070fb0c1dcf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/audit-transcript-release-requests-before-the-registrar-responds.webp",
+    "pexelsId": "8088102",
+    "width": 1200,
+    "height": 630,
+    "sha256": "07b0e4df45cac007fb031e38f196309fefd454e209f3987508d16915703dd0b2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/build-a-tuition-payment-plan-exception-queue-families-can-follow.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/give-online-course-discussion-moderators-a-review-rubric-they-can-apply.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/how-long-do-transcript-release-requests-wait-on-missing-authorization.webp",
+    "pexelsId": "7742822",
+    "width": 1200,
+    "height": 630,
+    "sha256": "2de093cfd50c0faf5c20cf79127868b05da58f9ab4da11fe51aedda336b89e87"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/how-many-transfer-credit-evaluations-stall-after-the-initial-review.webp",
+    "pexelsId": "9159068",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f07c78570edf89dc8e779a1f7813d3f800ac802539c7aeddef40236114c7a2fa"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/how-often-do-accreditation-evidence-packets-miss-a-required-source-document.webp",
+    "pexelsId": "5940832",
+    "width": 1200,
+    "height": 630,
+    "sha256": "5367fcf93158412114fa123d916c043fb30f06b56c2f5fc0cf81c6098130fa18"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/keep-substitute-teacher-callouts-from-stalling-the-front-office.webp",
+    "pexelsId": "8088102",
+    "width": 1200,
+    "height": 630,
+    "sha256": "07b0e4df45cac007fb031e38f196309fefd454e209f3987508d16915703dd0b2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/prepare-accreditation-evidence-packets-without-last-minute-scavenging.webp",
+    "pexelsId": "5306481",
+    "width": 1200,
+    "height": 630,
+    "sha256": "fc1e9d20d163998406c8022403d5bea88a95e97bb096e0efd00dbf65f87f9d95"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/run-a-school-event-vendor-checklist-that-survives-rain-and-turnover.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/standardize-field-trip-consent-collection-before-the-permission-deadline.webp",
+    "pexelsId": "7742822",
+    "width": 1200,
+    "height": 630,
+    "sha256": "2de093cfd50c0faf5c20cf79127868b05da58f9ab4da11fe51aedda336b89e87"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/turn-transfer-credit-evaluations-into-a-tracked-student-queue.webp",
+    "pexelsId": "7983563",
+    "width": 1200,
+    "height": 630,
+    "sha256": "56bcbe880657542e3c7c6cab9b60ca5f16b3e23e0102dfd7bedf4070fb0c1dcf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/what-share-of-tuition-payment-plans-break-at-the-second-installment.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/when-do-field-trip-consent-forms-arrive-after-the-collection-deadline.webp",
+    "pexelsId": "8199610",
+    "width": 1200,
+    "height": 630,
+    "sha256": "e16967e10740812b0889b6c6c95aac60db3e9b868845af883f7b3acd7e04fee2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/where-do-event-vendor-confirmations-lapse-before-the-school-event.webp",
+    "pexelsId": "5940717",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8f8acc683493e71c1349ca797b7dc7bec9b0a50d436374d726c84559a4359983"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-08/where-do-substitute-teacher-callouts-fail-to-reach-a-confirmed-replacement.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/build-a-family-contact-preference-record-that-prevents-repeat-calls.webp",
+    "pexelsId": "8342417",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8de51807b440153f0acb935e9776fd1e5723badd4428ca70c7782a7fa0932ccf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/how-long-do-enrollment-withdrawals-wait-for-a-refund-decision.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/how-often-do-family-contact-preferences-go-stale-before-an-outreach-campaign.webp",
+    "pexelsId": "8342417",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8de51807b440153f0acb935e9776fd1e5723badd4428ca70c7782a7fa0932ccf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/how-often-do-online-program-onboarding-steps-remain-open-after-the-start-date.webp",
+    "pexelsId": "5306481",
+    "width": 1200,
+    "height": 630,
+    "sha256": "fc1e9d20d163998406c8022403d5bea88a95e97bb096e0efd00dbf65f87f9d95"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/keep-school-partnership-agreements-from-expiring-without-a-review.webp",
+    "pexelsId": "9159068",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f07c78570edf89dc8e779a1f7813d3f800ac802539c7aeddef40236114c7a2fa"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/onboard-online-program-students-with-a-checklist-that-closes-gaps.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/prepare-a-course-completion-certificate-batch-without-mismatched-names.webp",
+    "pexelsId": "8199610",
+    "width": 1200,
+    "height": 630,
+    "sha256": "e16967e10740812b0889b6c6c95aac60db3e9b868845af883f7b3acd7e04fee2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/run-a-textbook-and-device-inventory-reconciliation-before-term-start.webp",
+    "pexelsId": "7742822",
+    "width": 1200,
+    "height": 630,
+    "sha256": "2de093cfd50c0faf5c20cf79127868b05da58f9ab4da11fe51aedda336b89e87"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/set-a-clean-enrollment-withdrawal-and-refund-handoff.webp",
+    "pexelsId": "8088102",
+    "width": 1200,
+    "height": 630,
+    "sha256": "07b0e4df45cac007fb031e38f196309fefd454e209f3987508d16915703dd0b2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/set-a-volunteer-screening-renewal-calendar-schools-can-maintain.webp",
+    "pexelsId": "7983563",
+    "width": 1200,
+    "height": 630,
+    "sha256": "56bcbe880657542e3c7c6cab9b60ca5f16b3e23e0102dfd7bedf4070fb0c1dcf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/turn-assessment-windows-into-a-staffing-and-room-plan.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/what-share-of-course-completion-certificates-fail-a-name-and-completion-check.webp",
+    "pexelsId": "5940832",
+    "width": 1200,
+    "height": 630,
+    "sha256": "5367fcf93158412114fa123d916c043fb30f06b56c2f5fc0cf81c6098130fa18"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/when-do-volunteer-screening-renewals-fall-behind-the-school-calendar.webp",
+    "pexelsId": "5940717",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8f8acc683493e71c1349ca797b7dc7bec9b0a50d436374d726c84559a4359983"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/where-do-school-partnership-agreements-lapse-before-the-renewal-review.webp",
+    "pexelsId": "8342417",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8de51807b440153f0acb935e9776fd1e5723badd4428ca70c7782a7fa0932ccf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-09/where-does-device-inventory-reconciliation-diverge-from-the-physical-count.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/build-a-substitute-coverage-log-the-front-office-can-trust.webp",
+    "pexelsId": "5940832",
+    "width": 1200,
+    "height": 630,
+    "sha256": "5367fcf93158412114fa123d916c043fb30f06b56c2f5fc0cf81c6098130fa18"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/build-a-transcript-request-intake-that-answers-status-questions.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/create-a-stopped-out-learner-outreach-list-that-stays-current.webp",
+    "pexelsId": "5940717",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8f8acc683493e71c1349ca797b7dc7bec9b0a50d436374d726c84559a4359983"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/how-long-do-tuition-payment-plan-changes-wait-for-a-financial-aid-decision.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/how-often-do-field-trip-permission-forms-stay-unresolved-before-the-trip-date.webp",
+    "pexelsId": "7742822",
+    "width": 1200,
+    "height": 630,
+    "sha256": "2de093cfd50c0faf5c20cf79127868b05da58f9ab4da11fe51aedda336b89e87"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/how-often-do-transcript-requests-pass-the-stated-turnaround-without-an-update.webp",
+    "pexelsId": "8199610",
+    "width": 1200,
+    "height": 630,
+    "sha256": "e16967e10740812b0889b6c6c95aac60db3e9b868845af883f7b3acd7e04fee2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/keep-a-waitlist-moving-with-a-weekly-seat-release-routine.webp",
+    "pexelsId": "9159068",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f07c78570edf89dc8e779a1f7813d3f800ac802539c7aeddef40236114c7a2fa"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/run-a-course-section-rollover-audit-before-the-new-term-opens.webp",
+    "pexelsId": "5306481",
+    "width": 1200,
+    "height": 630,
+    "sha256": "fc1e9d20d163998406c8022403d5bea88a95e97bb096e0efd00dbf65f87f9d95"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/set-a-tuition-payment-plan-follow-up-queue-before-the-due-date.webp",
+    "pexelsId": "8088102",
+    "width": 1200,
+    "height": 630,
+    "sha256": "07b0e4df45cac007fb031e38f196309fefd454e209f3987508d16915703dd0b2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/standardize-a-resource-library-update-request-from-teachers.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/track-field-trip-permission-forms-without-chasing-every-family.webp",
+    "pexelsId": "7983563",
+    "width": 1200,
+    "height": 630,
+    "sha256": "56bcbe880657542e3c7c6cab9b60ca5f16b3e23e0102dfd7bedf4070fb0c1dcf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/what-share-of-stopped-out-learners-receive-no-outreach-within-two-weeks.webp",
+    "pexelsId": "5940832",
+    "width": 1200,
+    "height": 630,
+    "sha256": "5367fcf93158412114fa123d916c043fb30f06b56c2f5fc0cf81c6098130fa18"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/what-share-of-waitlisted-learners-never-receive-a-seat-release-notice.webp",
+    "pexelsId": "8088102",
+    "width": 1200,
+    "height": 630,
+    "sha256": "07b0e4df45cac007fb031e38f196309fefd454e209f3987508d16915703dd0b2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/where-do-course-section-rollovers-carry-a-wrong-start-date-into-the-learning-platform.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-10/where-do-substitute-coverage-requests-fail-when-the-absence-reason-is-missing.webp",
+    "pexelsId": "9159068",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f07c78570edf89dc8e779a1f7813d3f800ac802539c7aeddef40236114c7a2fa"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/build-a-midterm-grade-change-request-queue-with-a-written-audit-trail.webp",
+    "pexelsId": "8423123",
+    "width": 1200,
+    "height": 630,
+    "sha256": "d531dee9ab3323f71fb7110bb9b21a345f2e26aa8e42d09849f7623004f055d9"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/build-an-alumni-diploma-replacement-intake-that-routes-identity-checks.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/create-a-clinical-placement-compliance-binder-for-health-programs.webp",
+    "pexelsId": "5306481",
+    "width": 1200,
+    "height": 630,
+    "sha256": "fc1e9d20d163998406c8022403d5bea88a95e97bb096e0efd00dbf65f87f9d95"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/create-a-school-fee-waiver-review-queue-families-can-track.webp",
+    "pexelsId": "8199610",
+    "width": 1200,
+    "height": 630,
+    "sha256": "e16967e10740812b0889b6c6c95aac60db3e9b868845af883f7b3acd7e04fee2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/how-many-midterm-grade-change-requests-wait-on-missing-instructor-approval.webp",
+    "pexelsId": "8088102",
+    "width": 1200,
+    "height": 630,
+    "sha256": "07b0e4df45cac007fb031e38f196309fefd454e209f3987508d16915703dd0b2"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/how-often-do-classroom-app-data-sharing-reviews-lapse-after-the-renewal-date.webp",
+    "pexelsId": "7983563",
+    "width": 1200,
+    "height": 630,
+    "sha256": "56bcbe880657542e3c7c6cab9b60ca5f16b3e23e0102dfd7bedf4070fb0c1dcf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/how-often-do-school-fee-waiver-reviews-pass-the-published-family-response-window.webp",
+    "pexelsId": "7742822",
+    "width": 1200,
+    "height": 630,
+    "sha256": "2de093cfd50c0faf5c20cf79127868b05da58f9ab4da11fe51aedda336b89e87"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/how-often-do-tutoring-no-shows-go-unrecorded-before-the-next-session.webp",
+    "pexelsId": "5940717",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8f8acc683493e71c1349ca797b7dc7bec9b0a50d436374d726c84559a4359983"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/keep-dual-enrollment-registration-packets-from-stalling-at-the-high-school.webp",
+    "pexelsId": "8342417",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8de51807b440153f0acb935e9776fd1e5723badd4428ca70c7782a7fa0932ccf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/run-a-quarterly-classroom-app-data-sharing-review-before-renewal.webp",
+    "pexelsId": "5940717",
+    "width": 1200,
+    "height": 630,
+    "sha256": "8f8acc683493e71c1349ca797b7dc7bec9b0a50d436374d726c84559a4359983"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/set-a-course-media-captioning-request-routine-before-publishing.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/standardize-a-tutoring-no-show-follow-up-sequence-that-protects-the-schedule.webp",
+    "pexelsId": "8199622",
+    "width": 1200,
+    "height": 630,
+    "sha256": "f1a19aff7c82347fbd2b8bcee68ee9e7185e56120e70f7866ab68af449b91b51"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/what-share-of-dual-enrollment-packets-arrive-incomplete-before-the-college-deadline.webp",
+    "pexelsId": "5306481",
+    "width": 1200,
+    "height": 630,
+    "sha256": "fc1e9d20d163998406c8022403d5bea88a95e97bb096e0efd00dbf65f87f9d95"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/where-do-alumni-diploma-replacement-requests-fail-identity-verification.webp",
+    "pexelsId": "7983563",
+    "width": 1200,
+    "height": 630,
+    "sha256": "56bcbe880657542e3c7c6cab9b60ca5f16b3e23e0102dfd7bedf4070fb0c1dcf"
+  },
+  {
+    "theme": "education",
+    "path": "/thumbnails/november-11/where-do-course-media-captioning-requests-stall-before-the-publish-date.webp",
+    "pexelsId": "5212655",
+    "width": 1200,
+    "height": 630,
+    "sha256": "3f24c3fb19c35b3d3838328bfaa64de56cffd768e55c5b521b6e2e205d223dd7"
+  }
+]

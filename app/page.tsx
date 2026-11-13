@@ -1,11 +1,4 @@
-import type { Metadata } from 'next';
-import { HomePage } from '@/components/Marketing';
-import { site } from '@/lib/site';
-
-export const metadata: Metadata = {
-  title: `${site.name} | Specialist remote staff`,
-  description: site.heroBody,
-  alternates: { canonical: '/' }
-};
-
-export default function Page() { return <HomePage />; }
+import type {Metadata} from 'next';
+import {HomeExperience} from './experience';
+export const metadata:Metadata={title:"Education Virtual Assistant",description:"Thoughtful administrative support for the people who make learning happen. Keep courses, calendars, learner records, and communication organized around your education team.",alternates:{canonical:"/"}};
+export default function Page(){return <HomeExperience/>}

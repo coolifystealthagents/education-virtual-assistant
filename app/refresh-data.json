@@ -1,0 +1,2949 @@
+{
+  "short": "Education Virtual Assistant",
+  "heading": [
+    "More room",
+    "for learning."
+  ],
+  "intro": "Thoughtful administrative support for the people who make learning happen. Keep courses, calendars, learner records, and communication organized around your education team.",
+  "serviceHeading": "Practical support for a busy learning community.",
+  "storyHeading": "Good support gives teaching room to happen.",
+  "story": "Behind a learning program are schedules to coordinate, resources to organize, records to maintain, and families waiting for a clear update. Those details deserve care. Your educators keep their instructional judgment while a support role keeps the administration in order.",
+  "contact": "Tell us what your learning community needs.",
+  "footer": "Dedicated administrative support for schools, learning programs, course creators, and tutoring teams, with clear boundaries around educational decisions.",
+  "words": [
+    "Organized programs",
+    "Considered communication",
+    "More time to teach"
+  ],
+  "close": "Make more space for the work of education.",
+  "theme": "education",
+  "name": "education-virtual-assistant",
+  "domain": "educationvirtualassistant.com",
+  "root": "/Users/wrayns/Documents/Codex/2026-11-10/hi/work/portfolio-acr/repos/education-virtual-assistant--main",
+  "app": "/Users/wrayns/Documents/Codex/2026-11-10/hi/work/portfolio-acr/repos/education-virtual-assistant--main/app",
+  "brand": "Education Virtual Assistant",
+  "services": [
+    {
+      "slug": "learner-records",
+      "title": "Learner records support",
+      "description": "Maintain approved enrollment, progress, and contact records with a visible source trail.",
+      "intro": "Learner details often arrive through forms, email, and staff notes. When updates are copied without a consistent check, incomplete fields and conflicting versions become difficult to resolve.",
+      "audience": "Enrollment coordinators, tutoring programs, cohort operators, and school teams with recurring record updates and a named records owner.",
+      "inputs": [
+        "Approved intake forms or change requests",
+        "Field definitions and record status rules",
+        "Access to the designated system of record",
+        "Named reviewer and escalation criteria"
+      ],
+      "work": [
+        "Prepare approved enrollment and contact updates",
+        "Check required fields against an agreed checklist",
+        "Maintain source links and update notes",
+        "Queue corrections and sensitive changes for review"
+      ],
+      "outputs": [
+        "Updated or review-ready learner records",
+        "Incomplete request queue",
+        "Source and change log",
+        "Exception summary for the records owner"
+      ],
+      "controls": [
+        "Required field check before completion",
+        "Source reference attached to each material change",
+        "Access limited to the systems needed for the role",
+        "Periodic sample review by the designated records owner"
+      ],
+      "boundaries": [
+        "The assistant does not decide eligibility, placement, accommodations, discipline, or academic standing.",
+        "The organization defines access, retention, consent, and disclosure rules.",
+        "Conflicting identity or custody information pauses the workflow for an authorized reviewer."
+      ],
+      "workflow": [
+        "Validate the request: Confirm that the request uses an approved source and contains the required identifiers.",
+        "Prepare the record: Enter or stage only the permitted fields and preserve the source reference.",
+        "Check completeness: Compare the prepared record with the field checklist and flag conflicts rather than resolving them by assumption.",
+        "Route the exception: Send sensitive, ambiguous, or policy dependent changes to the accountable records owner."
+      ],
+      "scenarios": [
+        "Enrollment packet handoff: Compare an approved packet with the enrollment checklist, prepare complete fields, and return missing documents to the queue.",
+        "Contact detail correction: Stage a requested correction with its source and route any conflicting contact or custody detail for review."
+      ],
+      "faqs": [
+        {
+          "question": "Can an assistant approve enrollment?",
+          "answer": "No. The assistant can prepare and check records. Eligibility and enrollment approval remain with the authorized team member."
+        },
+        {
+          "question": "What should we provide first?",
+          "answer": "Provide the field checklist, approved source types, system access rules, and the person who reviews exceptions."
+        },
+        {
+          "question": "How is sensitive information handled?",
+          "answer": "Your organization sets access and handling requirements. The role should use least necessary access and a documented escalation path."
+        }
+      ],
+      "image": "/refresh-20261113/service1.webp",
+      "alt": "Teacher helping a student at a computer in a busy library setting, engaging in educational interaction.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "course-administration",
+      "title": "Course administration",
+      "description": "Keep modules, release dates, resources, and routine delivery details aligned to the approved course plan.",
+      "intro": "A course can have sound instruction while its links, dates, module states, and facilitator notes drift apart. Educators then spend delivery time finding preventable setup errors.",
+      "audience": "Course creators, program managers, tutoring organizations, and academic teams running repeatable online or blended courses.",
+      "inputs": [
+        "Approved syllabus or course map",
+        "Current content files and naming rules",
+        "Release calendar and platform access",
+        "Content owner for instructional questions"
+      ],
+      "work": [
+        "Build modules from approved course plans",
+        "Maintain release calendars and routine settings",
+        "Check links, labels, and learner facing files",
+        "Track requested changes through review and publication"
+      ],
+      "outputs": [
+        "Review-ready course modules",
+        "Release and change calendar",
+        "Link and visibility check log",
+        "Open content question list"
+      ],
+      "controls": [
+        "Prelaunch view using the learner perspective",
+        "Version label on approved source files",
+        "Two source check for dates that appear in multiple places",
+        "Change log with reviewer and publication state"
+      ],
+      "boundaries": [
+        "Educators retain curriculum, assessment, grading, and instructional decisions.",
+        "The assistant does not rewrite substantive content without an approved brief.",
+        "Platform changes with unclear learner impact remain unpublished until review."
+      ],
+      "workflow": [
+        "Reconcile the plan: Compare the syllabus, course map, and release calendar before making platform changes.",
+        "Prepare the build: Create or update modules, links, labels, and settings from approved material.",
+        "Run the delivery check: Inspect learner visibility, links, dates, and file versions against the launch checklist.",
+        "Publish or route: Publish only where authority is documented and route instructional uncertainty to the content owner."
+      ],
+      "scenarios": [
+        "New cohort setup: Duplicate an approved course shell, replace cohort dates, verify visibility, and present the shell for owner review.",
+        "Content revision release: Replace the approved file, check every linked location, record the version, and archive the superseded asset."
+      ],
+      "faqs": [
+        {
+          "question": "Can the assistant design the curriculum?",
+          "answer": "Not within this service. The assistant administers approved material while the educator owns curriculum and teaching choices."
+        },
+        {
+          "question": "Which platform can this support?",
+          "answer": "The workflow can be adapted to your learning platform when access, conventions, and a review path are available."
+        },
+        {
+          "question": "Should the assistant publish changes directly?",
+          "answer": "Only when publication authority and a tested checklist are explicit. New or high impact changes should be reviewed first."
+        }
+      ],
+      "image": "/refresh-20261113/service2.webp",
+      "alt": "Children focus on schoolwork as a teacher oversees in a bright, modern classroom.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "scheduling-support",
+      "title": "Education scheduling support",
+      "description": "Coordinate sessions, availability, approved reminders, and calendar exceptions without making program decisions.",
+      "intro": "Scheduling becomes expensive when availability, room or meeting links, attendance expectations, and exceptions live in separate conversations.",
+      "audience": "Tutors, cohort programs, faculty support teams, and learning organizations with repeated sessions across people and time zones.",
+      "inputs": [
+        "Session plan and scheduling rules",
+        "Participant availability and time zone",
+        "Approved message templates",
+        "Escalation owner for exceptions"
+      ],
+      "work": [
+        "Collect availability through an approved process",
+        "Prepare and update session calendars",
+        "Send approved confirmations and reminders",
+        "Identify conflicts, missing details, and unresolved exceptions"
+      ],
+      "outputs": [
+        "Current shared session calendar",
+        "Confirmation and reminder log",
+        "Conflict and exception queue",
+        "Session readiness checklist"
+      ],
+      "controls": [
+        "Time zone shown in confirmations",
+        "Meeting link and access check before the session",
+        "Calendar and source request reconciled after changes",
+        "Unconfirmed sessions remain visibly open"
+      ],
+      "boundaries": [
+        "The assistant does not decide attendance consequences, staffing priorities, or accommodation requests.",
+        "Educators decide whether missed instruction changes a learner plan.",
+        "Urgent welfare or safeguarding messages bypass routine scheduling and go to the named response path."
+      ],
+      "workflow": [
+        "Gather constraints: Collect availability, duration, location, access, and deadline details in one scheduling record.",
+        "Prepare the option: Apply documented rules to produce a proposed time or an exception list.",
+        "Confirm the schedule: Send the approved confirmation and update the shared calendar and session record.",
+        "Monitor changes: Process routine changes and route conflicts that require a policy or priority decision."
+      ],
+      "scenarios": [
+        "Weekly tutoring rota: Collect tutor availability, apply the approved matching rules, and route unmatched learners to the program lead.",
+        "Virtual class readiness: Verify calendar entry, host, link, participant message, and materials before the scheduled session."
+      ],
+      "faqs": [
+        {
+          "question": "Can the assistant choose which learner gets priority?",
+          "answer": "No. Priority rules must come from the program owner. Uncovered cases are escalated."
+        },
+        {
+          "question": "Can reminders be automated?",
+          "answer": "Routine approved reminders can use platform automation after the timing, audience, and exception path are tested."
+        },
+        {
+          "question": "What happens when a teacher cancels?",
+          "answer": "The assistant follows the approved cancellation path, records affected sessions, and routes decisions about substitutes or makeups."
+        }
+      ],
+      "image": "/refresh-20261113/service3.webp",
+      "alt": "Happy teacher and students taking a selfie in a library with a tablet.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "family-learner-communication",
+      "title": "Family and learner communication",
+      "description": "Prepare and route routine approved messages while preserving human judgment for sensitive conversations.",
+      "intro": "Routine questions can crowd out complex learner support, yet a fast response is not useful if it lacks context, promises an outcome, or misses a sensitive concern.",
+      "audience": "Schools, tutoring programs, course teams, and learner support operations with recurring questions and status messages.",
+      "inputs": [
+        "Approved templates and tone guidance",
+        "Current program facts and contact directory",
+        "Message categories and response targets",
+        "Named escalation owners"
+      ],
+      "work": [
+        "Triage inbound messages by approved categories",
+        "Draft or send routine template based replies",
+        "Record contact attempts and stated next steps",
+        "Route instructional, welfare, complaint, and policy questions"
+      ],
+      "outputs": [
+        "Triaged communication queue",
+        "Approved routine responses",
+        "Contact and follow up record",
+        "Context packet for escalated messages"
+      ],
+      "controls": [
+        "Source check for dates, policies, and status",
+        "Recipient and attachment check before sending",
+        "Clear next owner on every escalated item",
+        "Routine review of templates and repeated unanswered questions"
+      ],
+      "boundaries": [
+        "The assistant does not give instructional, clinical, legal, disciplinary, or safeguarding advice.",
+        "Complaints and emotionally sensitive messages move to the accountable team member.",
+        "A template is never used to imply a decision that has not been made."
+      ],
+      "workflow": [
+        "Read for intent and risk: Identify the request, required context, and any trigger that needs immediate human attention.",
+        "Verify the facts: Check the approved source before preparing a routine response.",
+        "Respond or route: Use the approved language for in scope questions and transfer judgment based messages with context.",
+        "Record the handoff: Log the response, status, next owner, and promised follow up without adding unsupported conclusions."
+      ],
+      "scenarios": [
+        "Program logistics question: Confirm the published session detail, answer with the approved template, and record the interaction.",
+        "Learner support concern: Acknowledge receipt without interpreting the concern, preserve the relevant context, and route it to the designated support owner."
+      ],
+      "faqs": [
+        {
+          "question": "Can the assistant answer academic questions?",
+          "answer": "The assistant can route them and share approved logistical information. Teaching and academic judgment stay with educators."
+        },
+        {
+          "question": "Can the role manage a shared inbox?",
+          "answer": "Yes, when categories, templates, access, response targets, and urgent escalation triggers are documented."
+        },
+        {
+          "question": "How do we avoid impersonal replies?",
+          "answer": "Use templates as controlled source language, then allow relevant factual context within a clear tone guide and review process."
+        }
+      ],
+      "image": "/refresh-20261113/service4.webp",
+      "alt": "A teacher and child reading a book together in a library, engaging in education.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "resource-library-support",
+      "title": "Resource library support",
+      "description": "Organize approved learning materials so teams can identify the current, accessible, and intended version.",
+      "intro": "A folder can contain useful material and still be hard to use. Ambiguous names, duplicates, missing accessibility status, and outdated links make staff recheck the same resources.",
+      "audience": "Course teams, tutoring organizations, training programs, and educators maintaining shared banks of learning material.",
+      "inputs": [
+        "Current files and links",
+        "Audience and subject taxonomy",
+        "Naming and archive rules",
+        "Content, accessibility, and rights owners"
+      ],
+      "work": [
+        "Inventory and classify approved resources",
+        "Apply naming, folder, and metadata conventions",
+        "Track review and version status",
+        "Route accessibility, rights, or content questions to owners"
+      ],
+      "outputs": [
+        "Searchable resource index",
+        "Consistent folder and naming structure",
+        "Version and review status register",
+        "Broken link and unresolved issue queue"
+      ],
+      "controls": [
+        "Stable naming and required metadata fields",
+        "Link and permission test from the intended user view",
+        "Visible owner and review date",
+        "Archive record for superseded material"
+      ],
+      "boundaries": [
+        "Educators decide instructional suitability and sequence.",
+        "Qualified owners determine accessibility conformance and usage rights.",
+        "The assistant does not delete or replace source material without an approved archive rule."
+      ],
+      "workflow": [
+        "Inventory the collection: List each resource, location, format, stated audience, owner, and current status.",
+        "Normalize the metadata: Apply approved names, categories, version labels, and review dates without changing instructional meaning.",
+        "Check usability: Test access and links, note accessibility status, and identify duplicate or orphaned material.",
+        "Publish the index: Make the approved collection findable and send unresolved content, rights, or access questions to their owners."
+      ],
+      "scenarios": [
+        "Tutor resource bank: Index approved worksheets by level and topic, identify duplicates, and expose the current version to tutors.",
+        "Accessible material request: Record the requested format, locate the approved source file, and route conversion and approval to the responsible owner."
+      ],
+      "faqs": [
+        {
+          "question": "Can the assistant choose the best teaching resource?",
+          "answer": "No. The role can improve discovery and status. An educator decides instructional suitability."
+        },
+        {
+          "question": "Will this fix inaccessible files?",
+          "answer": "The assistant can identify and track status. Remediation and conformance decisions stay with people assigned that responsibility."
+        },
+        {
+          "question": "Where should the library live?",
+          "answer": "Use the approved platform that your intended users can access. The operating model matters more than a particular tool."
+        }
+      ],
+      "image": "/refresh-20261113/service5.webp",
+      "alt": "A student studies on a laptop while a teacher supervises in a university library.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "reporting-preparation",
+      "title": "Reporting preparation",
+      "description": "Compile traceable operational summaries so education leaders can review evidence and make decisions.",
+      "intro": "Leaders lose review time when each update uses different definitions, missing periods, or figures detached from their source. Preparation needs consistency without turning an assistant into the analyst or decision maker.",
+      "audience": "Program leads, school operations teams, tutoring managers, and course businesses with recurring status and activity reviews.",
+      "inputs": [
+        "Report brief and intended audience",
+        "Metric definitions and reporting period",
+        "Approved source systems or exports",
+        "Reviewer and materiality rules"
+      ],
+      "work": [
+        "Collect approved data from named sources",
+        "Reconcile required periods and definitions",
+        "Prepare tables, status views, and exception notes",
+        "Package source references for accountable review"
+      ],
+      "outputs": [
+        "Review-ready operational summary",
+        "Source register and retrieval notes",
+        "Missing data and reconciliation log",
+        "Open question list for the report owner"
+      ],
+      "controls": [
+        "Period and definition check before compilation",
+        "Source reference for each reported measure",
+        "Reconciliation totals where the data permits",
+        "Reviewer signoff before external distribution"
+      ],
+      "boundaries": [
+        "The assistant does not certify accuracy, interpret causation, or make strategic decisions.",
+        "Metric definitions and materiality thresholds come from the report owner.",
+        "Sensitive exports follow the organization\u2019s access, storage, and deletion requirements."
+      ],
+      "workflow": [
+        "Confirm the brief: Verify the period, definitions, audience, format, and cut off time before collecting data.",
+        "Compile the source set: Gather approved exports or records and note their retrieval time and scope.",
+        "Run preparation checks: Reconcile totals, missing fields, duplicates, and period coverage using the supplied rules.",
+        "Package for review: Present the summary with caveats, source references, and open exceptions for the accountable analyst or leader."
+      ],
+      "scenarios": [
+        "Cohort operations summary: Compile approved enrollment and session status counts, flag missing records, and provide the source list to the program lead.",
+        "Access review preparation: Organize the current access export by approved role definitions and route unexpected permissions to the system owner."
+      ],
+      "faqs": [
+        {
+          "question": "Does the assistant analyze performance?",
+          "answer": "The assistant can prepare consistent views and flag exceptions. Interpretation and decisions remain with the accountable leader or analyst."
+        },
+        {
+          "question": "Can reports be sent to families or funders?",
+          "answer": "Only after an authorized owner reviews the content, audience, disclosure basis, and distribution method."
+        },
+        {
+          "question": "What makes a report review-ready?",
+          "answer": "It uses agreed definitions and periods, identifies sources and gaps, and makes unresolved questions visible."
+        }
+      ],
+      "image": "/refresh-20261113/service6.webp",
+      "alt": "A teacher guiding senior adults in a library, using laptops for learning and support.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "admissions-inquiry-support",
+      "title": "Admissions inquiry support",
+      "description": "Give routine program inquiries a clear record, approved response, and accountable next step.",
+      "intro": "Give routine program inquiries a clear record, approved response, and accountable next step. A focused administrative role maintains the agreed record and prepares useful next actions, with exceptions kept visible for the person who has authority to resolve them.",
+      "audience": "school leaders, course creators, tutors, and education teams",
+      "inputs": [
+        "The current workflow, source systems, and approved access",
+        "Your templates, definitions, and completion criteria",
+        "A named review owner, communication cadence, and escalation rules"
+      ],
+      "work": [
+        "Log program inquiries in the approved system",
+        "Share current published program information and application steps",
+        "Track missing administrative documents against your checklist",
+        "Route eligibility, placement, and sensitive questions to the admissions owner"
+      ],
+      "outputs": [
+        "A current inquiry queue",
+        "An administrative application checklist",
+        "An unanswered-question and follow-up record"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "No admissions, eligibility, placement, financial-aid, or accommodation decisions",
+        "Only approved information is shared under your organization\u2019s access rules",
+        "Requests involving student safety, protected records, or staff performance go to the designated school leader without an independent determination."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring admissions inquiry support queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service7.webp",
+      "alt": "A teacher supervising two smiling teenagers working on laptops in a classroom setting, focusing on technology and learning.",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "faculty-coordination-support",
+      "title": "Faculty coordination support",
+      "description": "Organize routine faculty communications, meeting logistics, and program handoffs.",
+      "intro": "Organize routine faculty communications, meeting logistics, and program handoffs. A focused administrative role maintains the agreed record and prepares useful next actions, with exceptions kept visible for the person who has authority to resolve them.",
+      "audience": "school leaders, course creators, tutors, and education teams",
+      "inputs": [
+        "The current workflow, source systems, and approved access",
+        "Your templates, definitions, and completion criteria",
+        "A named review owner, communication cadence, and escalation rules"
+      ],
+      "work": [
+        "Maintain approved meeting and availability records",
+        "Collect routine administrative inputs before deadlines",
+        "Distribute owner-approved schedules and resources",
+        "Track action items and route unresolved requests to the program lead"
+      ],
+      "outputs": [
+        "A coordinated faculty administration calendar",
+        "Meeting notes and an action register",
+        "A clear outstanding-input summary"
+      ],
+      "controls": [
+        "Compare each completed item with its approved source.",
+        "Check that the status, owner, and next action agree across records.",
+        "Keep missing or conflicting information visible until the review owner resolves it.",
+        "Review a sample together before expanding the volume or scope."
+      ],
+      "boundaries": [
+        "No instructional assessment, staff evaluation, or employment decisions",
+        "Program leaders approve schedules, policies, and substantive communications",
+        "Requests involving student safety, protected records, or staff performance go to the designated school leader without an independent determination."
+      ],
+      "workflow": [
+        "Agree on the first queue, the expected output, and who reviews the work.",
+        "Walk through representative records together and document ambiguous cases.",
+        "Begin with a manageable volume and a regular exception review.",
+        "Use corrections and completion checks to refine the handoff before expanding it."
+      ],
+      "scenarios": [
+        "A recurring faculty coordination support queue needs consistent attention while your manager focuses on decisions.",
+        "Several people contribute information, and the reviewer needs one current record with visible gaps."
+      ],
+      "faqs": [
+        {
+          "question": "What should we prepare for this role?",
+          "answer": "Bring a current example, the approved source systems, the output you need, and the manager who can answer questions. Together we define what complete means and which situations must be escalated."
+        },
+        {
+          "question": "Can we begin with a limited scope?",
+          "answer": "Yes. Start with one repeatable queue, review a sample of completed work, and improve the instructions before adding responsibilities."
+        },
+        {
+          "question": "Who handles exceptions or consequential decisions?",
+          "answer": "Your authorized owner does. Support collects the context and records the question so the decision can be made by the right person, then follows the approved instruction."
+        }
+      ],
+      "image": "/refresh-20261113/service8.webp",
+      "alt": "A teacher engages in an online class from an empty classroom, using a laptop for learning.",
+      "position": "50% 50%"
+    }
+  ],
+  "blog": [
+    {
+      "slug": "build-a-midterm-grade-change-request-queue-with-a-written-audit-trail",
+      "title": "Build a midterm grade change request queue with a written audit trail",
+      "description": "A practical queue design for collecting instructor approval, applying grade corrections, and leaving a reviewable trail after grades post.",
+      "category": "Learner records",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/build-a-midterm-grade-change-request-queue-with-a-written-audit-trail.webp"
+    },
+    {
+      "slug": "keep-dual-enrollment-registration-packets-from-stalling-at-the-high-school",
+      "title": "Keep dual enrollment registration packets from stalling at the high school",
+      "description": "A handoff routine for moving dual enrollment packets from the high school to the college without losing signatures or deadlines.",
+      "category": "Course administration",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/keep-dual-enrollment-registration-packets-from-stalling-at-the-high-school.webp"
+    },
+    {
+      "slug": "create-a-school-fee-waiver-review-queue-families-can-track",
+      "title": "Create a school fee waiver review queue families can track",
+      "description": "A review queue that standardizes fee waiver evidence, protects sensitive documents, and gives families a status they can follow.",
+      "category": "Learner operations",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/create-a-school-fee-waiver-review-queue-families-can-track.webp"
+    },
+    {
+      "slug": "set-a-course-media-captioning-request-routine-before-publishing",
+      "title": "Set a course media captioning request routine before publishing",
+      "description": "A request and review routine that gets accurate captions onto course video before the module opens to learners.",
+      "category": "Course systems",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/set-a-course-media-captioning-request-routine-before-publishing.webp"
+    },
+    {
+      "slug": "standardize-a-tutoring-no-show-follow-up-sequence-that-protects-the-schedule",
+      "title": "Standardize a tutoring no-show follow-up sequence that protects the schedule",
+      "description": "A follow-up sequence that records no-shows consistently, protects tutor time, and gives families a clear next step.",
+      "category": "Education communication",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/standardize-a-tutoring-no-show-follow-up-sequence-that-protects-the-schedule.webp"
+    },
+    {
+      "slug": "build-an-alumni-diploma-replacement-intake-that-routes-identity-checks",
+      "title": "Build an alumni diploma replacement intake that routes identity checks",
+      "description": "An intake design for diploma replacement requests that separates identity verification, production, and delivery without losing the record.",
+      "category": "Learner records",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/build-an-alumni-diploma-replacement-intake-that-routes-identity-checks.webp"
+    },
+    {
+      "slug": "run-a-quarterly-classroom-app-data-sharing-review-before-renewal",
+      "title": "Run a quarterly classroom app data-sharing review before renewal",
+      "description": "A review routine for classroom apps that checks data terms, district ownership, and renewal dates before another year begins.",
+      "category": "Course systems",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/run-a-quarterly-classroom-app-data-sharing-review-before-renewal.webp"
+    },
+    {
+      "slug": "create-a-clinical-placement-compliance-binder-for-health-programs",
+      "title": "Create a clinical placement compliance binder for health programs",
+      "description": "A binder and tracking routine that keeps clinical placement documents current without exposing student health information.",
+      "category": "Learner operations",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/create-a-clinical-placement-compliance-binder-for-health-programs.webp"
+    },
+    {
+      "slug": "build-a-transcript-request-intake-that-answers-status-questions",
+      "title": "Build a transcript request intake that answers status questions",
+      "description": "A repeatable intake and status routine so the registrar can answer transcript requests without rebuilding each case from email.",
+      "category": "Learner records",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/build-a-transcript-request-intake-that-answers-status-questions.webp"
+    },
+    {
+      "slug": "run-a-course-section-rollover-audit-before-the-new-term-opens",
+      "title": "Run a course section rollover audit before the new term opens",
+      "description": "A pre-term checklist for confirming that copied course sections carry the right dates, enrollments, content, and student view.",
+      "category": "Course administration",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/run-a-course-section-rollover-audit-before-the-new-term-opens.webp"
+    },
+    {
+      "slug": "keep-a-waitlist-moving-with-a-weekly-seat-release-routine",
+      "title": "Keep a waitlist moving with a weekly seat release routine",
+      "description": "A weekly routine for releasing waitlisted seats, ranking families fairly, and confirming enrollment before the add deadline.",
+      "category": "Enrollment operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/keep-a-waitlist-moving-with-a-weekly-seat-release-routine.webp"
+    },
+    {
+      "slug": "track-field-trip-permission-forms-without-chasing-every-family",
+      "title": "Track field trip permission forms without chasing every family",
+      "description": "A form-tracking routine that shows which learners are cleared for a trip and which families still need a specific follow-up.",
+      "category": "Scheduling support",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/track-field-trip-permission-forms-without-chasing-every-family.webp"
+    },
+    {
+      "slug": "build-a-substitute-coverage-log-the-front-office-can-trust",
+      "title": "Build a substitute coverage log the front office can trust",
+      "description": "A daily coverage log that records the absence, the unfilled gap, and the handoff so the front office is not rebuilding the morning from memory.",
+      "category": "Scheduling support",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/build-a-substitute-coverage-log-the-front-office-can-trust.webp"
+    },
+    {
+      "slug": "set-a-tuition-payment-plan-follow-up-queue-before-the-due-date",
+      "title": "Set a tuition payment plan follow-up queue before the due date",
+      "description": "A pre-due-date outreach queue that separates routine reminders from hardship and dispute cases before they reach collections.",
+      "category": "Family communication",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/set-a-tuition-payment-plan-follow-up-queue-before-the-due-date.webp"
+    },
+    {
+      "slug": "create-a-stopped-out-learner-outreach-list-that-stays-current",
+      "title": "Create a stopped-out learner outreach list that stays current",
+      "description": "A routine for defining stopped-out status, keeping the outreach list accurate, and contacting learners without duplicating or ignoring them.",
+      "category": "Learner operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/create-a-stopped-out-learner-outreach-list-that-stays-current.webp"
+    },
+    {
+      "slug": "standardize-a-resource-library-update-request-from-teachers",
+      "title": "Standardize a resource library update request from teachers",
+      "description": "An intake and review path for teacher requests to correct, replace, or add materials in a shared resource library.",
+      "category": "Resource library",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/standardize-a-resource-library-update-request-from-teachers.webp"
+    },
+    {
+      "slug": "build-a-family-contact-preference-record-that-prevents-repeat-calls",
+      "title": "Build a family contact preference record that prevents repeat calls",
+      "description": "A practical routine for recording how each family wants to be contacted, who may receive updates, and when a message must escalate.",
+      "category": "Family communication",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/build-a-family-contact-preference-record-that-prevents-repeat-calls.webp"
+    },
+    {
+      "slug": "prepare-a-course-completion-certificate-batch-without-mismatched-names",
+      "title": "Prepare a course completion certificate batch without mismatched names",
+      "description": "A certificate release routine that checks completion status, legal name spelling, required approvals, and delivery before a batch reaches learners.",
+      "category": "Course administration",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/prepare-a-course-completion-certificate-batch-without-mismatched-names.webp"
+    },
+    {
+      "slug": "run-a-textbook-and-device-inventory-reconciliation-before-term-start",
+      "title": "Run a textbook and device inventory reconciliation before term start",
+      "description": "A term-start inventory routine that counts by location, explains every difference, and gives teaching teams a shortage list they can act on.",
+      "category": "Resource operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/run-a-textbook-and-device-inventory-reconciliation-before-term-start.webp"
+    },
+    {
+      "slug": "set-a-clean-enrollment-withdrawal-and-refund-handoff",
+      "title": "Set a clean enrollment withdrawal and refund handoff",
+      "description": "A withdrawal workflow that starts the clock at family notice, applies the written refund policy, and closes every system the enrollment touched.",
+      "category": "Enrollment operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/set-a-clean-enrollment-withdrawal-and-refund-handoff.webp"
+    },
+    {
+      "slug": "keep-school-partnership-agreements-from-expiring-without-a-review",
+      "title": "Keep school partnership agreements from expiring without a review",
+      "description": "An agreement register that tracks obligations, notice windows, and owners so a school partnership does not lapse while everyone assumes someone else is watching.",
+      "category": "Vendor operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/keep-school-partnership-agreements-from-expiring-without-a-review.webp"
+    },
+    {
+      "slug": "onboard-online-program-students-with-a-checklist-that-closes-gaps",
+      "title": "Onboard online program students with a checklist that closes gaps",
+      "description": "A first-week onboarding routine that separates access from readiness and gives every stalled student a named next step.",
+      "category": "Course systems",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/onboard-online-program-students-with-a-checklist-that-closes-gaps.webp"
+    },
+    {
+      "slug": "turn-assessment-windows-into-a-staffing-and-room-plan",
+      "title": "Turn assessment windows into a staffing and room plan",
+      "description": "A planning routine that maps each assessment window to rooms, proctors, accommodations, and a reserve before the calendar is published.",
+      "category": "Scheduling operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/turn-assessment-windows-into-a-staffing-and-room-plan.webp"
+    },
+    {
+      "slug": "set-a-volunteer-screening-renewal-calendar-schools-can-maintain",
+      "title": "Set a volunteer screening renewal calendar schools can maintain",
+      "description": "A renewal calendar that tracks screening type, expiration, and access so volunteers do not work with students on an expired clearance.",
+      "category": "Compliance operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/set-a-volunteer-screening-renewal-calendar-schools-can-maintain.webp"
+    },
+    {
+      "slug": "audit-transcript-release-requests-before-the-registrar-responds",
+      "title": "Audit transcript release requests before the registrar responds",
+      "description": "A transcript release audit that checks authorization, identity, holds, and delivery method before the registrar sends a student record.",
+      "category": "Records operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/audit-transcript-release-requests-before-the-registrar-responds.webp"
+    },
+    {
+      "slug": "keep-substitute-teacher-callouts-from-stalling-the-front-office",
+      "title": "Keep substitute teacher callouts from stalling the front office",
+      "description": "A substitute coverage routine that captures callouts in one queue, ranks classroom risk, and confirms a qualified replacement before the day begins.",
+      "category": "Staffing operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/keep-substitute-teacher-callouts-from-stalling-the-front-office.webp"
+    },
+    {
+      "slug": "build-a-tuition-payment-plan-exception-queue-families-can-follow",
+      "title": "Build a tuition payment plan exception queue families can follow",
+      "description": "A tuition exception process with a single request form, written hardship criteria, dated decisions, and a billing record that matches the letter sent home.",
+      "category": "Billing operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/build-a-tuition-payment-plan-exception-queue-families-can-follow.webp"
+    },
+    {
+      "slug": "prepare-accreditation-evidence-packets-without-last-minute-scavenging",
+      "title": "Prepare accreditation evidence packets without last minute scavenging",
+      "description": "An accreditation packet workflow built on a standards index, named evidence owners, version control, and a dry review before submission.",
+      "category": "Compliance operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/prepare-accreditation-evidence-packets-without-last-minute-scavenging.webp"
+    },
+    {
+      "slug": "run-a-school-event-vendor-checklist-that-survives-rain-and-turnover",
+      "title": "Run a school event vendor checklist that survives rain and turnover",
+      "description": "A school event vendor checklist with a decision log, insurance checks, a weather trigger, and a reconciliation that holds up after the organizer leaves.",
+      "category": "Event operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/run-a-school-event-vendor-checklist-that-survives-rain-and-turnover.webp"
+    },
+    {
+      "slug": "turn-transfer-credit-evaluations-into-a-tracked-student-queue",
+      "title": "Turn transfer credit evaluations into a tracked student queue",
+      "description": "A transfer credit queue that separates transcript receipt, equivalency review, faculty approval, and posting so students see a status they can act on.",
+      "category": "Enrollment operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/turn-transfer-credit-evaluations-into-a-tracked-student-queue.webp"
+    },
+    {
+      "slug": "standardize-field-trip-consent-collection-before-the-permission-deadline",
+      "title": "Standardize field trip consent collection before the permission deadline",
+      "description": "A field trip consent workflow with one form per trip, channel records, separate payment status, and a final roster reconciled before departure.",
+      "category": "Family communication",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/standardize-field-trip-consent-collection-before-the-permission-deadline.webp"
+    },
+    {
+      "slug": "give-online-course-discussion-moderators-a-review-rubric-they-can-apply",
+      "title": "Give online course discussion moderators a review rubric they can apply",
+      "description": "A discussion moderation rubric that separates safety from tone, sets response targets, and documents decisions so students can appeal them.",
+      "category": "Course systems",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/give-online-course-discussion-moderators-a-review-rubric-they-can-apply.webp"
+    },
+    {
+      "slug": "run-parent-conference-scheduling-without-double-booking-interpreters",
+      "title": "Run parent conference scheduling without double booking interpreters",
+      "description": "A conference scheduling routine that counts interpreter demand, records language needs at intake, and protects confirmed slots when families change plans.",
+      "category": "Scheduling operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/run-parent-conference-scheduling-without-double-booking-interpreters.webp"
+    },
+    {
+      "slug": "turn-an-admissions-waitlist-into-a-governed-seat-offer-queue",
+      "title": "Turn an admissions waitlist into a governed seat offer queue",
+      "description": "A waitlist operating model with recorded positions, timed seat offers, documented priority rules, and an honest view of how many seats were actually accepted.",
+      "category": "Enrollment operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/turn-an-admissions-waitlist-into-a-governed-seat-offer-queue.webp"
+    },
+    {
+      "slug": "keep-iep-meeting-minutes-reviewable-without-exposing-student-details",
+      "title": "Keep IEP meeting minutes reviewable without exposing student details",
+      "description": "A minutes workflow for special education meetings that separates working notes from the official record, limits access, and keeps corrections traceable.",
+      "category": "Learner operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/keep-iep-meeting-minutes-reviewable-without-exposing-student-details.webp"
+    },
+    {
+      "slug": "triage-course-refund-requests-inside-the-written-policy",
+      "title": "Triage course refund requests inside the written policy",
+      "description": "A refund triage routine for course teams that verifies the request facts, applies the published tiers, and keeps the response clock honest.",
+      "category": "Billing operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/triage-course-refund-requests-inside-the-written-policy.webp"
+    },
+    {
+      "slug": "track-professional-development-compliance-without-chasing-staff-twice",
+      "title": "Track professional development compliance without chasing staff twice",
+      "description": "A professional development tracking routine with a requirement map, one evidence record per staff member, and reminders that fire from the right date.",
+      "category": "Records control",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/track-professional-development-compliance-without-chasing-staff-twice.webp"
+    },
+    {
+      "slug": "prepare-state-reporting-extracts-with-a-source-to-field-crosswalk",
+      "title": "Prepare state reporting extracts with a source to field crosswalk",
+      "description": "A state reporting preparation routine that starts from the data dictionary, maps every field to a source, and freezes the version actually submitted.",
+      "category": "Reporting operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/prepare-state-reporting-extracts-with-a-source-to-field-crosswalk.webp"
+    },
+    {
+      "slug": "set-a-retention-schedule-for-retired-courses-and-old-syllabi",
+      "title": "Set a retention schedule for retired courses and old syllabi",
+      "description": "A records routine for retired courses that classifies the material, sets a retention trigger, and separates the archive from the live learner library.",
+      "category": "Course systems",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/set-a-retention-schedule-for-retired-courses-and-old-syllabi.webp"
+    },
+    {
+      "slug": "screen-school-supply-purchase-requests-before-the-business-office",
+      "title": "Screen school supply purchase requests before the business office",
+      "description": "A purchase request screening routine with a clear standard, budget and vendor checks, and a log that the school can actually use.",
+      "category": "Procurement operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/screen-school-supply-purchase-requests-before-the-business-office.webp"
+    },
+    {
+      "slug": "screen-substitute-teacher-requests-without-losing-the-approval-trail",
+      "title": "Screen substitute teacher requests without losing the approval trail",
+      "description": "A practical screening workflow for school operations teams that need coverage decisions recorded, reviewed, and defensible without slowing down the morning callout.",
+      "category": "Scheduling operations",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/screen-substitute-teacher-requests-without-losing-the-approval-trail.webp"
+    },
+    {
+      "slug": "run-a-weekly-enrollment-follow-up-queue-that-families-trust",
+      "title": "Run a weekly enrollment follow-up queue that families trust",
+      "description": "A repeatable weekly enrollment follow-up routine for education teams, with contact rules, reply handling, sensitive-case boundaries, and honest queue measures.",
+      "category": "Enrollment operations",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/run-a-weekly-enrollment-follow-up-queue-that-families-trust.webp"
+    },
+    {
+      "slug": "keep-course-launch-checklists-honest-across-three-review-gates",
+      "title": "Keep course launch checklists honest across three review gates",
+      "description": "How course operations teams can use three review gates to catch broken links, accessibility gaps, and unclear approvals before a launch reaches learners.",
+      "category": "Course systems",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/keep-course-launch-checklists-honest-across-three-review-gates.webp"
+    },
+    {
+      "slug": "audit-tuition-payment-reminders-before-they-reach-families",
+      "title": "Audit tuition payment reminders before they reach families",
+      "description": "A pre-send audit routine for tuition reminders that checks balances, dates, approved language, and escalation paths before a message reaches a family.",
+      "category": "Billing operations",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/audit-tuition-payment-reminders-before-they-reach-families.webp"
+    },
+    {
+      "slug": "turn-accommodation-letters-into-a-tracked-service-calendar",
+      "title": "Turn accommodation letters into a tracked service calendar",
+      "description": "A workflow for converting approved accommodation letters into scheduled services, with review points, confidentiality rules, and coverage planning.",
+      "category": "Learner operations",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/turn-accommodation-letters-into-a-tracked-service-calendar.webp"
+    },
+    {
+      "slug": "handle-transcript-requests-with-a-two-person-release-check",
+      "title": "Handle transcript requests with a two-person release check",
+      "description": "A controlled transcript request workflow with identity verification, a second-person release check, exception handling, and a durable audit record.",
+      "category": "Records control",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/handle-transcript-requests-with-a-two-person-release-check.webp"
+    },
+    {
+      "slug": "write-a-tutoring-session-note-that-survives-a-parent-review",
+      "title": "Write a tutoring session note that survives a parent review",
+      "description": "A practical note-writing standard for tutoring teams, with evidence rules, parent-facing language, and a review routine that keeps records useful.",
+      "category": "Tutoring operations",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/write-a-tutoring-session-note-that-survives-a-parent-review.webp"
+    },
+    {
+      "slug": "build-a-school-social-media-approval-queue-that-respects-ferpa",
+      "title": "Build a school social media approval queue that respects FERPA",
+      "description": "A draft-to-publish approval queue for school social media that checks consent, student privacy, accessibility, and the record of who approved what.",
+      "category": "Privacy review",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/build-a-school-social-media-approval-queue-that-respects-ferpa.webp"
+    },
+    {
+      "slug": "map-the-course-administration-decision-to-one-accountable-owner",
+      "title": "Map the course administration decision to one accountable owner",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Owner mapping",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/map-the-course-administration-decision-to-one-accountable-owner.webp"
+    },
+    {
+      "slug": "write-the-education-scheduling-intake-note-that-survives-a-later-review",
+      "title": "Write the education scheduling intake note that survives a later review",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on education scheduling and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Documentation",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/write-the-education-scheduling-intake-note-that-survives-a-later-review.webp"
+    },
+    {
+      "slug": "cut-rework-at-the-family-and-learner-communication-handoff-with-a-two-field-check",
+      "title": "Cut rework at the family and learner communication handoff with a two-field check",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on family and learner communication and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Handoff design",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/cut-rework-at-the-family-and-learner-communication-handoff-with-a-two-field-check.webp"
+    },
+    {
+      "slug": "resolve-a-conflicting-resource-library-record-without-erasing-history",
+      "title": "Resolve a conflicting resource library record without erasing history",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on resource library and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Record integrity",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/resolve-a-conflicting-resource-library-record-without-erasing-history.webp"
+    },
+    {
+      "slug": "sample-reporting-quality-weekly-not-only-volume",
+      "title": "Sample reporting quality weekly, not only volume",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on reporting and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Quality sampling",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/sample-reporting-quality-weekly-not-only-volume.webp"
+    },
+    {
+      "slug": "build-an-exception-code-list-the-learner-records-team-will-use",
+      "title": "Build an exception code list the learner records team will use",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on learner records and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Exception control",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/build-an-exception-code-list-the-learner-records-team-will-use.webp"
+    },
+    {
+      "slug": "keep-course-administration-queue-evidence-durable-when-the-systems-change",
+      "title": "Keep course administration queue evidence durable when the systems change",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Evidence retention",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/keep-course-administration-queue-evidence-durable-when-the-systems-change.webp"
+    },
+    {
+      "slug": "prepare-education-scheduling-queue-work-for-month-end-without-a-scramble",
+      "title": "Prepare education scheduling queue work for month-end without a scramble",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on education scheduling queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Month-end readiness",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/prepare-education-scheduling-queue-work-for-month-end-without-a-scramble.webp"
+    },
+    {
+      "slug": "map-the-learner-records-decision-to-one-accountable-owner",
+      "title": "Map the learner records decision to one accountable owner",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on learner records and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Owner mapping",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/map-the-learner-records-decision-to-one-accountable-owner.webp"
+    },
+    {
+      "slug": "write-the-course-administration-intake-note-that-survives-a-later-review",
+      "title": "Write the course administration intake note that survives a later review",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Documentation",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/write-the-course-administration-intake-note-that-survives-a-later-review.webp"
+    },
+    {
+      "slug": "cut-rework-at-the-education-scheduling-handoff-with-a-two-field-check",
+      "title": "Cut rework at the education scheduling handoff with a two-field check",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on education scheduling and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Handoff design",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/cut-rework-at-the-education-scheduling-handoff-with-a-two-field-check.webp"
+    },
+    {
+      "slug": "resolve-a-conflicting-family-and-learner-communication-record-without-erasing-history",
+      "title": "Resolve a conflicting family and learner communication record without erasing history",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on family and learner communication and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Record integrity",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/resolve-a-conflicting-family-and-learner-communication-record-without-erasing-history.webp"
+    },
+    {
+      "slug": "sample-resource-library-quality-weekly-not-only-volume",
+      "title": "Sample resource library quality weekly, not only volume",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on resource library and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Quality sampling",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/sample-resource-library-quality-weekly-not-only-volume.webp"
+    },
+    {
+      "slug": "build-an-exception-code-list-the-reporting-team-will-use",
+      "title": "Build an exception code list the reporting team will use",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on reporting and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Exception control",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/build-an-exception-code-list-the-reporting-team-will-use.webp"
+    },
+    {
+      "slug": "keep-learner-records-queue-evidence-durable-when-the-systems-change",
+      "title": "Keep learner records queue evidence durable when the systems change",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on learner records queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Evidence retention",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/keep-learner-records-queue-evidence-durable-when-the-systems-change.webp"
+    },
+    {
+      "slug": "prepare-course-administration-queue-work-for-month-end-without-a-scramble",
+      "title": "Prepare course administration queue work for month-end without a scramble",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Month-end readiness",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/prepare-course-administration-queue-work-for-month-end-without-a-scramble.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-map-the-learner-records-decision-to-one-accountable-owner-2026-11-03",
+      "title": "Map the learner records decision to one accountable owner",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on learner records and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Owner mapping",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-map-the-learner-records-decision-to-one-accountable-owner-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-write-the-course-administration-intake-note-that-survives-a-later-review-2026-11-03",
+      "title": "Write the course administration intake note that survives a later review",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Documentation",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-write-the-course-administration-intake-note-that-survives-a-later-review-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-cut-rework-at-the-education-scheduling-handoff-with-a-two-field-check-2026-11-03",
+      "title": "Cut rework at the education scheduling handoff with a two-field check",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on education scheduling and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Handoff design",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-cut-rework-at-the-education-scheduling-handoff-with-a-two-field-check-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-resolve-a-conflicting-family-and-learner-communication-record-without-erasing-history-2026-11-03",
+      "title": "Resolve a conflicting family and learner communication record without erasing history",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on family and learner communication and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Record integrity",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-resolve-a-conflicting-family-and-learner-communication-record-without-erasing-history-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-sample-resource-library-quality-weekly-not-only-volume-2026-11-03",
+      "title": "Sample resource library quality weekly, not only volume",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on resource library and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Quality sampling",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-sample-resource-library-quality-weekly-not-only-volume-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-build-an-exception-code-list-the-reporting-team-will-use-2026-11-03",
+      "title": "Build an exception code list the reporting team will use",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on reporting and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Exception control",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-build-an-exception-code-list-the-reporting-team-will-use-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-keep-learner-records-queue-evidence-durable-when-the-systems-change-2026-11-03",
+      "title": "Keep learner records queue evidence durable when the systems change",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on learner records queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Evidence retention",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-keep-learner-records-queue-evidence-durable-when-the-systems-change-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-prepare-course-administration-queue-work-for-month-end-without-a-scramble-2026-11-03",
+      "title": "Prepare course administration queue work for month-end without a scramble",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Month-end readiness",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-prepare-course-administration-queue-work-for-month-end-without-a-scramble-2026-11-03.webp"
+    },
+    {
+      "slug": "edu-nov02-enrollment-intake",
+      "title": "Enrollment Intake Call Checklist",
+      "description": "A enrollment intake call checklist control for education teams, with a source, owner, exception path, and close.",
+      "category": "Enrollment",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-enrollment-intake.webp"
+    },
+    {
+      "slug": "edu-nov02-attendance-followup",
+      "title": "Attendance Follow-Up Ownership",
+      "description": "A attendance follow-up ownership control for education teams, with a source, owner, exception path, and close.",
+      "category": "Attendance",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-attendance-followup.webp"
+    },
+    {
+      "slug": "edu-nov02-course-roster-change",
+      "title": "Course Roster Change Control",
+      "description": "A course roster change control control for education teams, with a source, owner, exception path, and close.",
+      "category": "Course operations",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-course-roster-change.webp"
+    },
+    {
+      "slug": "edu-nov02-family-message-routing",
+      "title": "Family Message Routing",
+      "description": "A family message routing control for education teams, with a source, owner, exception path, and close.",
+      "category": "Communication",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-family-message-routing.webp"
+    },
+    {
+      "slug": "edu-nov02-tutor-schedule-coverage",
+      "title": "Tutor Schedule Coverage",
+      "description": "A tutor schedule coverage control for education teams, with a source, owner, exception path, and close.",
+      "category": "Scheduling",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-tutor-schedule-coverage.webp"
+    },
+    {
+      "slug": "edu-nov02-progress-report-review",
+      "title": "Progress Report Review",
+      "description": "A progress report review control for education teams, with a source, owner, exception path, and close.",
+      "category": "Reporting",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-progress-report-review.webp"
+    },
+    {
+      "slug": "edu-nov02-learning-material-access",
+      "title": "Learning Material Access",
+      "description": "A learning material access control for education teams, with a source, owner, exception path, and close.",
+      "category": "Access",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-learning-material-access.webp"
+    },
+    {
+      "slug": "edu-nov02-assessment-accommodation",
+      "title": "Assessment Accommodation Record",
+      "description": "A assessment accommodation record control for education teams, with a source, owner, exception path, and close.",
+      "category": "Student support",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-assessment-accommodation.webp"
+    },
+    {
+      "slug": "edu-nov02-tuition-payment-question",
+      "title": "Tuition Payment Question Handoff",
+      "description": "A tuition payment question handoff control for education teams, with a source, owner, exception path, and close.",
+      "category": "Finance support",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-tuition-payment-question.webp"
+    },
+    {
+      "slug": "edu-nov02-school-calendar-change",
+      "title": "School Calendar Change Notice",
+      "description": "A school calendar change notice control for education teams, with a source, owner, exception path, and close.",
+      "category": "Calendar",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-school-calendar-change.webp"
+    },
+    {
+      "slug": "edu-nov02-staff-onboarding-access",
+      "title": "Staff Onboarding Access",
+      "description": "A staff onboarding access control for education teams, with a source, owner, exception path, and close.",
+      "category": "Access",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-staff-onboarding-access.webp"
+    },
+    {
+      "slug": "edu-nov02-monthly-enrollment-review",
+      "title": "Monthly Enrollment Review",
+      "description": "A monthly enrollment review control for education teams, with a source, owner, exception path, and close.",
+      "category": "Enrollment",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-monthly-enrollment-review.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-map-the-learner-records-decision-to-one-accountable-owner-2026-11-01",
+      "title": "Map the learner records decision to one accountable owner",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on learner records and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Owner mapping",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-map-the-learner-records-decision-to-one-accountable-owner-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-write-the-course-administration-intake-note-that-survives-a-later-review-2026-11-01",
+      "title": "Write the course administration intake note that survives a later review",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Documentation",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-write-the-course-administration-intake-note-that-survives-a-later-review-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-cut-rework-at-the-education-scheduling-handoff-with-a-two-field-check-2026-11-01",
+      "title": "Cut rework at the education scheduling handoff with a two-field check",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on education scheduling and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Handoff design",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-cut-rework-at-the-education-scheduling-handoff-with-a-two-field-check-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-resolve-a-conflicting-family-and-learner-communication-record-without-erasing-history-2026-11-01",
+      "title": "Resolve a conflicting family and learner communication record without erasing history",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on family and learner communication and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Record integrity",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-resolve-a-conflicting-family-and-learner-communication-record-without-erasing-history-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-sample-resource-library-quality-weekly-not-only-volume-2026-11-01",
+      "title": "Sample resource library quality weekly, not only volume",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on resource library and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Quality sampling",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-sample-resource-library-quality-weekly-not-only-volume-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-build-an-exception-code-list-the-reporting-team-will-use-2026-11-01",
+      "title": "Build an exception code list the reporting team will use",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on reporting and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Exception control",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-build-an-exception-code-list-the-reporting-team-will-use-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-keep-learner-records-queue-evidence-durable-when-the-systems-change-2026-11-01",
+      "title": "Keep learner records queue evidence durable when the systems change",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on learner records queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Evidence retention",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-keep-learner-records-queue-evidence-durable-when-the-systems-change-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-prepare-course-administration-queue-work-for-month-end-without-a-scramble-2026-11-01",
+      "title": "Prepare course administration queue work for month-end without a scramble",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on course administration queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Month-end readiness",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-prepare-course-administration-queue-work-for-month-end-without-a-scramble-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-coach-a-specialist-through-a-education-scheduling-queue-near-miss-2026-11-01",
+      "title": "Coach a specialist through a education scheduling queue near miss",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on education scheduling queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Coaching",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-coach-a-specialist-through-a-education-scheduling-queue-near-miss-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-decide-what-a-va-may-send-on-family-and-learner-communication-queue-without-a-second-review-2026-11-01",
+      "title": "Decide what a VA may send on family and learner communication queue without a second review",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on family and learner communication queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Delegation boundaries",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-decide-what-a-va-may-send-on-family-and-learner-communication-queue-without-a-second-review-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-turn-a-resource-library-queue-backlog-into-a-dated-work-plan-2026-11-01",
+      "title": "Turn a resource library queue backlog into a dated work plan",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on resource library queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Backlog planning",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-turn-a-resource-library-queue-backlog-into-a-dated-work-plan-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-protect-reporting-queue-coverage-during-leave-and-turnover-2026-11-01",
+      "title": "Protect reporting queue coverage during leave and turnover",
+      "description": "An education organizations guide for school leaders, course creators, tutors, and education teams, focused on reporting queue and bounded by honest evidence Written for the Education Virtual Assistant desk at educationvirtualassistant.com.",
+      "category": "Continuity",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-protect-reporting-queue-coverage-during-leave-and-turnover-2026-11-01.webp"
+    },
+    {
+      "slug": "registration-error-correction-window",
+      "title": "Correct Registration Errors Before the Add-Drop Window Closes",
+      "description": "A same-day control path for documenting registration errors, naming the authoritative record, and repairing schedule, tuition, and platform effects before the deadline.",
+      "category": "Enrollment operations",
+      "date": "2026-10-28",
+      "image": "/october-28/registration-error-correction-window.webp"
+    },
+    {
+      "slug": "make-up-exam-eligibility-scheduling",
+      "title": "Schedule Make-Up Exams Without Losing Eligibility Evidence",
+      "description": "A scheduling workflow that keeps the eligibility decision, the missed sitting, the approved format, and the proctor record connected from request to grade.",
+      "category": "Assessment operations",
+      "date": "2026-10-28",
+      "image": "/october-28/make-up-exam-eligibility-scheduling.webp"
+    },
+    {
+      "slug": "grade-submission-deadline-tracking",
+      "title": "Track Grade Submission Deadlines Across Every Section",
+      "description": "A section-level register for submission owners, roster exceptions, incomplete grades, posting verification, and deadline evidence.",
+      "category": "Academic records",
+      "date": "2026-10-28",
+      "image": "/october-28/grade-submission-deadline-tracking.webp"
+    },
+    {
+      "slug": "course-override-permission-numbers",
+      "title": "Run Course Override and Permission Number Requests Through One Queue",
+      "description": "A controlled queue for override evidence, approver scope, permission number issuance, expiry, reuse prevention, and enrollment reconciliation.",
+      "category": "Enrollment operations",
+      "date": "2026-10-28",
+      "image": "/october-28/course-override-permission-numbers.webp"
+    },
+    {
+      "slug": "diploma-name-address-verification",
+      "title": "Verify Diploma Names and Mailing Addresses Before the Order",
+      "description": "A pre-order control for candidate lists, diploma names, delivery addresses, holds, vendor files, and returned credentials.",
+      "category": "Records and credentials",
+      "date": "2026-10-28",
+      "image": "/october-28/diploma-name-address-verification.webp"
+    },
+    {
+      "slug": "student-immunization-clearance-records",
+      "title": "Track Student Immunization and Health Clearance Records",
+      "description": "A privacy-aware tracker for requirement sources, accepted evidence, clinical clearance, exemptions, follow-up, and record retention.",
+      "category": "Student compliance",
+      "date": "2026-10-28",
+      "image": "/october-28/student-immunization-clearance-records.webp"
+    },
+    {
+      "slug": "section-cancellation-teach-out-notices",
+      "title": "Manage Section Cancellations and Teach-Out Notices",
+      "description": "A sequenced control for cancellation authority, student mapping, teach-out options, notices, system updates, and term-level review.",
+      "category": "Scheduling operations",
+      "date": "2026-10-28",
+      "image": "/october-28/section-cancellation-teach-out-notices.webp"
+    },
+    {
+      "slug": "faculty-desk-copy-request-queue",
+      "title": "Run a Faculty Desk Copy and Sample Request Queue",
+      "description": "A request queue for adoption verification, publisher terms, shipment tracking, digital access, bookstore reconciliation, and closeout.",
+      "category": "Resource operations",
+      "date": "2026-10-28",
+      "image": "/october-28/faculty-desk-copy-request-queue.webp"
+    },
+    {
+      "slug": "interpreter-request-family-meetings",
+      "title": "Coordinate Interpreter Requests for Family Meetings",
+      "description": "A language-access workflow for intake, interpreter matching, pre-briefing, confidential sessions, cancellations, and translated follow-up.",
+      "category": "Family communication",
+      "date": "2026-10-28",
+      "image": "/october-28/interpreter-request-family-meetings.webp"
+    },
+    {
+      "slug": "student-upload-document-intake-check",
+      "title": "Check Student Uploads Before They Reach a Reviewer",
+      "description": "A pre-review queue for upload standards, identity matching, wrong-file detection, sensitive content, resubmission, and rework measurement.",
+      "category": "Records operations",
+      "date": "2026-10-28",
+      "image": "/october-28/student-upload-document-intake-check.webp"
+    },
+    {
+      "slug": "student-device-loan-agreement-log",
+      "title": "Track Student Device Loans From Issue to Return",
+      "description": "An inventory and agreement log for eligibility, device condition, return dates, damage, data wiping, and term closeout.",
+      "category": "Student support operations",
+      "date": "2026-10-28",
+      "image": "/october-28/student-device-loan-agreement-log.webp"
+    },
+    {
+      "slug": "orientation-accessibility-request-intake",
+      "title": "Take Orientation Accessibility Requests Before the Event",
+      "description": "An event-access intake for request channels, accommodation routing, venue checks, interpretation, staffing, and post-event review.",
+      "category": "Student support operations",
+      "date": "2026-10-28",
+      "image": "/october-28/orientation-accessibility-request-intake.webp"
+    },
+    {
+      "slug": "substitute-teacher-coverage-request-log",
+      "title": "Log Substitute Teacher Coverage From Absence Call to Classroom",
+      "description": "A school-office workflow for absence intake, approved substitute matching, classroom handoff, arrival checks, and weekly reconciliation.",
+      "category": "Substitute coordination",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "iep-meeting-notice-coordination",
+      "title": "Coordinate IEP Meeting Notices Without Moving the Timeline",
+      "description": "A special-education office workflow for notice packets, participant confirmation, interpretation, document distribution, and meeting-record closure.",
+      "category": "Special education operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "dual-enrollment-roster-verification",
+      "title": "Verify Dual Enrollment Rosters Before the Census Date",
+      "description": "A cross-institution workflow for matching high school and college records, checking eligibility evidence, reconciling sections, and closing billing discrepancies.",
+      "category": "Enrollment operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "transfer-credit-articulation-tracker",
+      "title": "Track Transfer Credit From Transcript to Evaluator Decision",
+      "description": "A registrar-support workflow for case intake, institution verification, catalog-year mapping, evaluator packets, appeals, and turnaround reporting.",
+      "category": "Registrar operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "library-course-reserve-requests",
+      "title": "Run Course Reserve Requests Without Copyright Guesswork",
+      "description": "A library workflow for request intake, licensed versus owned materials, copyright routing, reserve publishing, accessibility checks, and term-end takedown.",
+      "category": "Library services",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "adjunct-faculty-contract-onboarding",
+      "title": "Onboard Adjunct Faculty Without Missing a Contract Field",
+      "description": "A department and HR workflow for offer alignment, credential files, payroll routing, access provisioning, teaching handoff, and first-paycheck checks.",
+      "category": "Faculty operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "attendance-letter-escalation-queue",
+      "title": "Build an Attendance Letter Queue That Survives an Audit",
+      "description": "A district workflow for attendance extracts, threshold rules, absence verification, approved letters, translation, delivery logging, and truancy escalation.",
+      "category": "Attendance operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "financial-aid-document-followup",
+      "title": "Follow Up on Financial Aid Documents Without Guessing Eligibility",
+      "description": "A financial aid office workflow for verification queues, document matching, secure handling, reminder cadence, conflicting data, and counselor handoff.",
+      "category": "Financial aid operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "student-conduct-hearing-scheduling",
+      "title": "Schedule Student Conduct Hearings With a Clean Record",
+      "description": "A conduct office workflow for referral intake, conflict checks, notice packets, participant coordination, postponements, and outcome routing.",
+      "category": "Conduct operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "accreditation-evidence-collection-calendar",
+      "title": "Build an Accreditation Evidence Calendar Standard Owners Will Use",
+      "description": "A compliance-support workflow for evidence requests, backward planning, version control, completeness review, mock review, and archive.",
+      "category": "Accreditation operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "parent-portal-access-recovery",
+      "title": "Recover Parent Portal Access Without Weakening Identity Checks",
+      "description": "A school office workflow for access ticket categories, identity verification, least-privilege fixes, custody restrictions, logging, and root-cause review.",
+      "category": "Family access operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "course-evaluation-anonymity-release",
+      "title": "Release Course Evaluations With Anonymity Intact",
+      "description": "An academic affairs workflow for instrument approval, eligibility, anonymity thresholds, student testing, response monitoring, and report release.",
+      "category": "Academic administration",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-intake-request-triage-2",
+      "title": "Intake Request Triage for Education Support Teams",
+      "description": "A practical Education Support workflow for intake request triage for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-evidence-capture-standard-2",
+      "title": "Evidence Capture Standard for Education Support Teams",
+      "description": "A practical Education Support workflow for evidence capture standard for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-owner-handoff-map-2",
+      "title": "Owner Handoff Map for Education Support Teams",
+      "description": "A practical Education Support workflow for owner handoff map for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-queue-aging-review-2",
+      "title": "Queue Aging Review for Education Support Teams",
+      "description": "A practical Education Support workflow for queue aging review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-exception-escalation-path-2",
+      "title": "Exception Escalation Path for Education Support Teams",
+      "description": "A practical Education Support workflow for exception escalation path for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-access-permission-review-2",
+      "title": "Access Permission Review for Education Support Teams",
+      "description": "A practical Education Support workflow for access permission review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-documentation-version-control-2",
+      "title": "Documentation Version Control for Education Support Teams",
+      "description": "A practical Education Support workflow for documentation version control for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-vendor-coordination-ledger-2",
+      "title": "Vendor Coordination Ledger for Education Support Teams",
+      "description": "A practical Education Support workflow for vendor coordination ledger for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-reporting-cadence-review-2",
+      "title": "Reporting Cadence Review for Education Support Teams",
+      "description": "A practical Education Support workflow for reporting cadence review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-client-onboarding-brief-2",
+      "title": "Client Onboarding Brief for Education Support Teams",
+      "description": "A practical Education Support workflow for client onboarding brief for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-quality-sample-review-2",
+      "title": "Quality Sample Review for Education Support Teams",
+      "description": "A practical Education Support workflow for quality sample review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-closeout-audit-2",
+      "title": "Closeout Audit for Education Support Teams",
+      "description": "A practical Education Support workflow for closeout audit for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-intake-request-triage",
+      "title": "Intake Request Triage for Education Support Teams",
+      "description": "A practical Education Support workflow for intake request triage for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-evidence-capture-standard",
+      "title": "Evidence Capture Standard for Education Support Teams",
+      "description": "A practical Education Support workflow for evidence capture standard for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-owner-handoff-map",
+      "title": "Owner Handoff Map for Education Support Teams",
+      "description": "A practical Education Support workflow for owner handoff map for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-queue-aging-review",
+      "title": "Queue Aging Review for Education Support Teams",
+      "description": "A practical Education Support workflow for queue aging review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-exception-escalation-path",
+      "title": "Exception Escalation Path for Education Support Teams",
+      "description": "A practical Education Support workflow for exception escalation path for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-access-permission-review",
+      "title": "Access Permission Review for Education Support Teams",
+      "description": "A practical Education Support workflow for access permission review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-documentation-version-control",
+      "title": "Documentation Version Control for Education Support Teams",
+      "description": "A practical Education Support workflow for documentation version control for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-vendor-coordination-ledger",
+      "title": "Vendor Coordination Ledger for Education Support Teams",
+      "description": "A practical Education Support workflow for vendor coordination ledger for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-reporting-cadence-review",
+      "title": "Reporting Cadence Review for Education Support Teams",
+      "description": "A practical Education Support workflow for reporting cadence review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-client-onboarding-brief",
+      "title": "Client Onboarding Brief for Education Support Teams",
+      "description": "A practical Education Support workflow for client onboarding brief for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-quality-sample-review",
+      "title": "Quality Sample Review for Education Support Teams",
+      "description": "A practical Education Support workflow for quality sample review for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-closeout-audit",
+      "title": "Closeout Audit for Education Support Teams",
+      "description": "A practical Education Support workflow for closeout audit for education support teams, with evidence, ownership, exceptions, and review.",
+      "category": "Education Support Operations",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "admissions-inquiry-response-queue",
+      "title": "Build an Admissions Inquiry Response Queue",
+      "description": "A practical workflow for prospective student questions, ownership, approved answers, follow-up, and enrollment handoff.",
+      "category": "Admissions operations",
+      "date": "2026-10-22",
+      "image": "/october-22/admissions-inquiry-response-queue.webp"
+    },
+    {
+      "slug": "tuition-payment-plan-documentation",
+      "title": "Document Tuition Payment Plan Arrangements",
+      "description": "A workflow for plan terms, approvals, installments, missed payments, and student communication without giving financial advice.",
+      "category": "Student accounts",
+      "date": "2026-10-22",
+      "image": "/october-22/tuition-payment-plan-documentation.webp"
+    },
+    {
+      "slug": "course-waitlist-promotion-records",
+      "title": "Track Course Waitlist Promotions",
+      "description": "A controlled record for waitlist order, eligibility, offers, deadlines, and enrollment confirmation.",
+      "category": "Enrollment operations",
+      "date": "2026-10-22",
+      "image": "/october-22/course-waitlist-promotion-records.webp"
+    },
+    {
+      "slug": "student-accommodation-request-intake",
+      "title": "Design a Student Accommodation Request Intake",
+      "description": "A respectful intake workflow for accommodation requests, documentation, confidentiality, and timely routing.",
+      "category": "Student support",
+      "date": "2026-10-22",
+      "image": "/october-22/student-accommodation-request-intake.webp"
+    },
+    {
+      "slug": "exam-proctoring-exception-log",
+      "title": "Keep an Exam Proctoring Exception Log",
+      "description": "A record for technical, identity, timing, and accommodation exceptions during online proctoring without exposing sensitive data.",
+      "category": "Assessment operations",
+      "date": "2026-10-22",
+      "image": "/october-22/exam-proctoring-exception-log.webp"
+    },
+    {
+      "slug": "transcript-request-verification",
+      "title": "Verify Transcript Requests Before Release",
+      "description": "A controlled workflow for identity, authorization, destination, fees, and release evidence on transcript requests.",
+      "category": "Student records",
+      "date": "2026-10-22",
+      "image": "/october-22/transcript-request-verification.webp"
+    },
+    {
+      "slug": "alumni-communication-list-hygiene",
+      "title": "Keep Alumni Communication Lists Clean",
+      "description": "A practical process for consent, contact updates, suppression lists, and segmentation without losing alumni trust.",
+      "category": "Advancement operations",
+      "date": "2026-10-22",
+      "image": "/october-22/alumni-communication-list-hygiene.webp"
+    },
+    {
+      "slug": "learning-platform-roster-reconciliation",
+      "title": "Reconcile Learning Platform Rosters",
+      "description": "A term-start workflow for enrollment, sections, roles, access, and drops across the student information system and the learning platform.",
+      "category": "Platform operations",
+      "date": "2026-10-22",
+      "image": "/october-22/learning-platform-roster-reconciliation.webp"
+    },
+    {
+      "slug": "course-evaluation-release-checklist",
+      "title": "Build a Course Evaluation Release Checklist",
+      "description": "A workflow for response thresholds, anonymity, instructor access, and release timing without compromising trust.",
+      "category": "Assessment operations",
+      "date": "2026-10-22",
+      "image": "/october-22/course-evaluation-release-checklist.webp"
+    },
+    {
+      "slug": "field-trip-consent-safety-records",
+      "title": "Track Field Trip Consent and Safety Records",
+      "description": "A practical record for permissions, emergency contacts, accessibility needs, and trip-day readiness.",
+      "category": "Student support",
+      "date": "2026-10-22",
+      "image": "/october-22/field-trip-consent-safety-records.webp"
+    },
+    {
+      "slug": "faculty-onboarding-access-checklist",
+      "title": "Build a Faculty Onboarding Access Checklist",
+      "description": "A term-start workflow for accounts, roles, course access, and offboarding triggers for new faculty and instructors.",
+      "category": "Platform operations",
+      "date": "2026-10-22",
+      "image": "/october-22/faculty-onboarding-access-checklist.webp"
+    },
+    {
+      "slug": "student-withdrawal-refund-routing",
+      "title": "Route Student Withdrawals and Refund Requests",
+      "description": "A workflow for withdrawal dates, refund policy, approvals, communication, and record retention.",
+      "category": "Student accounts",
+      "date": "2026-10-22",
+      "image": "/october-22/student-withdrawal-refund-routing.webp"
+    },
+    {
+      "slug": "student-enrollment-document-handoff",
+      "title": "Building a Verifiable Student Enrollment Document Handoff",
+      "description": "A practical Education Virtual Assistant guide to enrollment document handoff, accountable escalation, and verified closure.",
+      "category": "Enrollment operations",
+      "date": "2026-10-12",
+      "image": "/october-12/student-enrollment-document-handoff.webp"
+    },
+    {
+      "slug": "accessible-course-material-request",
+      "title": "Routing Accessible Course Material Requests to the Right Owner",
+      "description": "A practical Education Virtual Assistant guide to accessible material requests, accountable escalation, and verified closure.",
+      "category": "Accessible education",
+      "date": "2026-10-12",
+      "image": "/october-12/accessible-course-material-request.webp"
+    },
+    {
+      "slug": "academic-calendar-change-record",
+      "title": "Maintaining an Academic Calendar Change Record",
+      "description": "A practical Education Virtual Assistant guide to academic calendar changes, accountable escalation, and verified closure.",
+      "category": "Calendar governance",
+      "date": "2026-10-12",
+      "image": "/october-12/academic-calendar-change-record.webp"
+    },
+    {
+      "slug": "faculty-office-hours-scheduling-boundary",
+      "title": "Coordinating Faculty Office Hours Without Changing Academic Decisions",
+      "description": "A practical Education Virtual Assistant guide to faculty office-hours coordination, accountable escalation, and verified closure.",
+      "category": "Faculty support",
+      "date": "2026-10-12",
+      "image": "/october-12/faculty-office-hours-scheduling-boundary.webp"
+    },
+    {
+      "slug": "learning-platform-access-recovery",
+      "title": "Handling Learning Platform Access Recovery with Identity Boundaries",
+      "description": "A practical Education Virtual Assistant guide to learning platform access recovery, accountable escalation, and verified closure.",
+      "category": "Learning technology",
+      "date": "2026-10-12",
+      "image": "/october-12/learning-platform-access-recovery.webp"
+    },
+    {
+      "slug": "assignment-extension-request-routing",
+      "title": "Routing Assignment Extension Requests Without Making the Decision",
+      "description": "A practical Education Virtual Assistant guide to assignment extension routing, accountable escalation, and verified closure.",
+      "category": "Student services",
+      "date": "2026-10-12",
+      "image": "/october-12/assignment-extension-request-routing.webp"
+    },
+    {
+      "slug": "education-record-correction-custody",
+      "title": "Preserving Custody in Education Record Correction Requests",
+      "description": "A practical Education Virtual Assistant guide to education record corrections, accountable escalation, and verified closure.",
+      "category": "Records governance",
+      "date": "2026-10-12",
+      "image": "/october-12/education-record-correction-custody.webp"
+    },
+    {
+      "slug": "virtual-class-session-readiness",
+      "title": "Verifying a Virtual Class Session Before Learners Arrive",
+      "description": "A practical Education Virtual Assistant guide to virtual class readiness, accountable escalation, and verified closure.",
+      "category": "Class operations",
+      "date": "2026-10-12",
+      "image": "/october-12/virtual-class-session-readiness.webp"
+    },
+    {
+      "slug": "student-support-referral-handoff",
+      "title": "Creating a Bounded Student Support Referral Handoff",
+      "description": "A practical Education Virtual Assistant guide to student support referrals, accountable escalation, and verified closure.",
+      "category": "Student support",
+      "date": "2026-10-12",
+      "image": "/october-12/student-support-referral-handoff.webp"
+    },
+    {
+      "slug": "course-content-version-release",
+      "title": "Releasing Course Content with Version and Approval Evidence",
+      "description": "A practical Education Virtual Assistant guide to course content version release, accountable escalation, and verified closure.",
+      "category": "Content operations",
+      "date": "2026-10-12",
+      "image": "/october-12/course-content-version-release.webp"
+    },
+    {
+      "slug": "practicum-placement-document-tracker",
+      "title": "Tracking Practicum Placement Documents Without Inventing Compliance",
+      "description": "A practical Education Virtual Assistant guide to practicum placement documents, accountable escalation, and verified closure.",
+      "category": "Placement operations",
+      "date": "2026-10-12",
+      "image": "/october-12/practicum-placement-document-tracker.webp"
+    },
+    {
+      "slug": "student-data-export-access-review",
+      "title": "Reviewing Access to Student Data Exports",
+      "description": "A practical Education Virtual Assistant guide to student data export access, accountable escalation, and verified closure.",
+      "category": "Information governance",
+      "date": "2026-10-12",
+      "image": "/october-12/student-data-export-access-review.webp"
+    },
+    {
+      "slug": "learning-resource-index",
+      "title": "Build a useful learning resource index",
+      "description": "A practical guide to build a useful learning resource index for school leaders, course creators, tutors, and education teams.",
+      "category": "Course systems",
+      "date": "2026-10-08",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "education-communication-escalation",
+      "title": "Design an education communication escalation path",
+      "description": "A practical guide to design an education communication escalation path for school leaders, course creators, tutors, and education teams.",
+      "category": "Education communication",
+      "date": "2026-10-07",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "course-administration-calendar",
+      "title": "Create a course administration calendar",
+      "description": "A practical guide to create a course administration calendar for school leaders, course creators, tutors, and education teams.",
+      "category": "Course systems",
+      "date": "2026-10-06",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "learner-record-review",
+      "title": "Build a learner record review routine",
+      "description": "A practical guide to build a learner record review routine for school leaders, course creators, tutors, and education teams.",
+      "category": "Learner operations",
+      "date": "2026-10-05",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "education-operations-manager-vs-education-va",
+      "title": "Education operations manager vs education VA",
+      "description": "A practical guide to education operations manager vs education va for school leaders, course creators, tutors, and education teams.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service5.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "how-many-midterm-grade-change-requests-wait-on-missing-instructor-approval",
+      "title": "How many midterm grade change requests wait on missing instructor approval?",
+      "description": "A review protocol for counting midterm grade change requests that stall because the instructor approval is missing, unclear, or undated.",
+      "category": "Learner records",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-many-midterm-grade-change-requests-wait-on-missing-instructor-approval.webp"
+    },
+    {
+      "slug": "what-share-of-dual-enrollment-packets-arrive-incomplete-before-the-college-deadline",
+      "title": "What share of dual enrollment packets arrive incomplete before the college deadline?",
+      "description": "A review protocol for measuring dual enrollment packets that reach the college with missing signatures, transcripts, or placement evidence.",
+      "category": "Course administration",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/what-share-of-dual-enrollment-packets-arrive-incomplete-before-the-college-deadline.webp"
+    },
+    {
+      "slug": "how-often-do-school-fee-waiver-reviews-pass-the-published-family-response-window",
+      "title": "How often do school fee waiver reviews pass the published family response window?",
+      "description": "A review protocol for counting fee waiver decisions that exceed the published review window and for separating family delay from school delay.",
+      "category": "Learner operations",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-often-do-school-fee-waiver-reviews-pass-the-published-family-response-window.webp"
+    },
+    {
+      "slug": "where-do-course-media-captioning-requests-stall-before-the-publish-date",
+      "title": "Where do course media captioning requests stall before the publish date?",
+      "description": "A review protocol for tracing captioning requests that miss the publish date and for separating request, production, and review delays.",
+      "category": "Course systems",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/where-do-course-media-captioning-requests-stall-before-the-publish-date.webp"
+    },
+    {
+      "slug": "how-often-do-tutoring-no-shows-go-unrecorded-before-the-next-session",
+      "title": "How often do tutoring no-shows go unrecorded before the next session?",
+      "description": "A review protocol for counting tutoring no-shows that are missing from the session record before the next scheduled meeting.",
+      "category": "Education communication",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-often-do-tutoring-no-shows-go-unrecorded-before-the-next-session.webp"
+    },
+    {
+      "slug": "where-do-alumni-diploma-replacement-requests-fail-identity-verification",
+      "title": "Where do alumni diploma replacement requests fail identity verification?",
+      "description": "A review protocol for tracing diploma replacement requests that stall or fail at identity verification and for separating document, record, and third-party issues.",
+      "category": "Learner records",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/where-do-alumni-diploma-replacement-requests-fail-identity-verification.webp"
+    },
+    {
+      "slug": "how-often-do-classroom-app-data-sharing-reviews-lapse-after-the-renewal-date",
+      "title": "How often do classroom app data-sharing reviews lapse after the renewal date?",
+      "description": "A review protocol for counting classroom apps that renew without a current data-sharing review and for separating lapsed, missing, and unowned agreements.",
+      "category": "Course systems",
+      "date": "2026-11-11",
+      "image": "/thumbnails/november-11/how-often-do-classroom-app-data-sharing-reviews-lapse-after-the-renewal-date.webp"
+    },
+    {
+      "slug": "how-often-do-transcript-requests-pass-the-stated-turnaround-without-an-update",
+      "title": "How often do transcript requests pass the stated turnaround without an update?",
+      "description": "A review protocol for counting transcript requests that pass the published service window without a status update and for separating school-side from destination-side delay.",
+      "category": "Learner records",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/how-often-do-transcript-requests-pass-the-stated-turnaround-without-an-update.webp"
+    },
+    {
+      "slug": "where-do-course-section-rollovers-carry-a-wrong-start-date-into-the-learning-platform",
+      "title": "Where do course section rollovers carry a wrong start date into the learning platform?",
+      "description": "A review protocol for tracing section start-date mismatches between the registration system, the learning platform, and published course pages.",
+      "category": "Course administration",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/where-do-course-section-rollovers-carry-a-wrong-start-date-into-the-learning-platform.webp"
+    },
+    {
+      "slug": "what-share-of-waitlisted-learners-never-receive-a-seat-release-notice",
+      "title": "What share of waitlisted learners never receive a seat release notice?",
+      "description": "A review protocol for counting waitlisted learners whose seat became available but who received no recorded release notice before the deadline.",
+      "category": "Enrollment operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/what-share-of-waitlisted-learners-never-receive-a-seat-release-notice.webp"
+    },
+    {
+      "slug": "how-often-do-field-trip-permission-forms-stay-unresolved-before-the-trip-date",
+      "title": "How often do field trip permission forms stay unresolved before the trip date?",
+      "description": "A review protocol for counting learners whose trip paperwork is still incomplete as the departure date approaches and for separating family, school, and vendor delays.",
+      "category": "Scheduling",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/how-often-do-field-trip-permission-forms-stay-unresolved-before-the-trip-date.webp"
+    },
+    {
+      "slug": "where-do-substitute-coverage-requests-fail-when-the-absence-reason-is-missing",
+      "title": "Where do substitute coverage requests fail when the absence reason is missing?",
+      "description": "A review protocol for tracing substitute coverage requests that stall or go unfilled when the absence record lacks a usable reason category.",
+      "category": "Scheduling",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/where-do-substitute-coverage-requests-fail-when-the-absence-reason-is-missing.webp"
+    },
+    {
+      "slug": "how-long-do-tuition-payment-plan-changes-wait-for-a-financial-aid-decision",
+      "title": "How long do tuition payment plan changes wait for a financial aid decision?",
+      "description": "A review protocol for measuring the time between a family's payment plan change request and a recorded financial aid or billing decision.",
+      "category": "Family communication",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/how-long-do-tuition-payment-plan-changes-wait-for-a-financial-aid-decision.webp"
+    },
+    {
+      "slug": "what-share-of-stopped-out-learners-receive-no-outreach-within-two-weeks",
+      "title": "What share of stopped-out learners receive no outreach within two weeks?",
+      "description": "A review protocol for counting learners who become inactive and receive no recorded outreach within a stated two-week window.",
+      "category": "Learner operations",
+      "date": "2026-11-10",
+      "image": "/thumbnails/november-10/what-share-of-stopped-out-learners-receive-no-outreach-within-two-weeks.webp"
+    },
+    {
+      "slug": "how-often-do-family-contact-preferences-go-stale-before-an-outreach-campaign",
+      "title": "How often do family contact preferences go stale before an outreach campaign?",
+      "description": "A review protocol for counting family contact records that remain unconfirmed past the review interval and for tracing which campaigns reach an unapproved audience.",
+      "category": "Family communication",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/how-often-do-family-contact-preferences-go-stale-before-an-outreach-campaign.webp"
+    },
+    {
+      "slug": "what-share-of-course-completion-certificates-fail-a-name-and-completion-check",
+      "title": "What share of course completion certificates fail a name and completion check?",
+      "description": "A review protocol for counting certificate rows held for a completion mismatch, a legal-name discrepancy, or a missing approval before release.",
+      "category": "Course administration",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/what-share-of-course-completion-certificates-fail-a-name-and-completion-check.webp"
+    },
+    {
+      "slug": "where-does-device-inventory-reconciliation-diverge-from-the-physical-count",
+      "title": "Where does device inventory reconciliation diverge from the physical count?",
+      "description": "A review protocol for locating device and textbook inventory differences by location, custody, and reason code before term start.",
+      "category": "Resource operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/where-does-device-inventory-reconciliation-diverge-from-the-physical-count.webp"
+    },
+    {
+      "slug": "how-long-do-enrollment-withdrawals-wait-for-a-refund-decision",
+      "title": "How long do enrollment withdrawals wait for a refund decision?",
+      "description": "A review protocol for measuring the time between a family's withdrawal notice and a documented refund decision, without mixing policy exceptions into the routine queue.",
+      "category": "Enrollment operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/how-long-do-enrollment-withdrawals-wait-for-a-refund-decision.webp"
+    },
+    {
+      "slug": "where-do-school-partnership-agreements-lapse-before-the-renewal-review",
+      "title": "Where do school partnership agreements lapse before the renewal review?",
+      "description": "A review protocol for finding agreements that pass their notice window or operate without current evidence before anyone reviews the renewal.",
+      "category": "Vendor operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/where-do-school-partnership-agreements-lapse-before-the-renewal-review.webp"
+    },
+    {
+      "slug": "how-often-do-online-program-onboarding-steps-remain-open-after-the-start-date",
+      "title": "How often do online program onboarding steps remain open after the start date?",
+      "description": "A review protocol for counting students who still lack access, materials, or a completed orientation after an online program begins.",
+      "category": "Course systems",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/how-often-do-online-program-onboarding-steps-remain-open-after-the-start-date.webp"
+    },
+    {
+      "slug": "when-do-volunteer-screening-renewals-fall-behind-the-school-calendar",
+      "title": "When do volunteer screening renewals fall behind the school calendar?",
+      "description": "A review protocol for measuring volunteer clearances that expire before a scheduled activity and for separating school-side delays from volunteer nonresponse.",
+      "category": "Compliance operations",
+      "date": "2026-11-09",
+      "image": "/thumbnails/november-09/when-do-volunteer-screening-renewals-fall-behind-the-school-calendar.webp"
+    },
+    {
+      "slug": "how-long-do-transcript-release-requests-wait-on-missing-authorization",
+      "title": "How long do transcript release requests wait on missing authorization?",
+      "description": "A review protocol for counting transcript release requests that remain open because a valid authorization, identity check, or scope confirmation is missing.",
+      "category": "Records operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/how-long-do-transcript-release-requests-wait-on-missing-authorization.webp"
+    },
+    {
+      "slug": "where-do-substitute-teacher-callouts-fail-to-reach-a-confirmed-replacement",
+      "title": "Where do substitute teacher callouts fail to reach a confirmed replacement?",
+      "description": "A review protocol for counting substitute callouts that remain uncovered after the acceptance window, with clear evidence for a confirmed replacement.",
+      "category": "Staffing operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/where-do-substitute-teacher-callouts-fail-to-reach-a-confirmed-replacement.webp"
+    },
+    {
+      "slug": "what-share-of-tuition-payment-plans-break-at-the-second-installment",
+      "title": "What share of tuition payment plans break at the second installment?",
+      "description": "A review protocol for counting tuition payment plans that miss or partly miss the second installment, with clear payment evidence and plan version history.",
+      "category": "Billing operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/what-share-of-tuition-payment-plans-break-at-the-second-installment.webp"
+    },
+    {
+      "slug": "how-often-do-accreditation-evidence-packets-miss-a-required-source-document",
+      "title": "How often do accreditation evidence packets miss a required source document?",
+      "description": "A review protocol for counting required accreditation evidence items that are missing or unusable at the internal submission deadline, with a clear item-level definition.",
+      "category": "Compliance operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/how-often-do-accreditation-evidence-packets-miss-a-required-source-document.webp"
+    },
+    {
+      "slug": "where-do-event-vendor-confirmations-lapse-before-the-school-event",
+      "title": "Where do event vendor confirmations lapse before the school event?",
+      "description": "A review protocol for counting event vendor commitments that were not reconfirmed, insured, permitted, or scoped before the school event deadline.",
+      "category": "Event operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/where-do-event-vendor-confirmations-lapse-before-the-school-event.webp"
+    },
+    {
+      "slug": "how-many-transfer-credit-evaluations-stall-after-the-initial-review",
+      "title": "How many transfer credit evaluations stall after the initial review?",
+      "description": "A review protocol for counting transfer credit evaluations that stall between initial review and posted credit, with separate reasons for syllabus, faculty, and posting waits.",
+      "category": "Enrollment operations",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/how-many-transfer-credit-evaluations-stall-after-the-initial-review.webp"
+    },
+    {
+      "slug": "when-do-field-trip-consent-forms-arrive-after-the-collection-deadline",
+      "title": "When do field trip consent forms arrive after the collection deadline?",
+      "description": "A review protocol for counting field trip consent forms that arrive after the published deadline, with separate reasons for late delivery, incomplete forms, and withdrawn students.",
+      "category": "Family communication",
+      "date": "2026-11-08",
+      "image": "/thumbnails/november-08/when-do-field-trip-consent-forms-arrive-after-the-collection-deadline.webp"
+    },
+    {
+      "slug": "how-many-parent-conference-requests-wait-on-interpreter-availability",
+      "title": "How many parent conference requests wait on interpreter availability?",
+      "description": "A measurement protocol for counting conference requests that stayed unscheduled because a qualified interpreter was not confirmed, with clear timestamps and reporting rules.",
+      "category": "Scheduling operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/how-many-parent-conference-requests-wait-on-interpreter-availability.webp"
+    },
+    {
+      "slug": "where-do-waitlist-seat-offers-expire-before-a-family-responds",
+      "title": "Where do waitlist seat offers expire before a family responds?",
+      "description": "A review protocol for counting waitlist seat offers that expire before a family replies, with a defined offer clock, response evidence, and open-seat reporting.",
+      "category": "Enrollment operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/where-do-waitlist-seat-offers-expire-before-a-family-responds.webp"
+    },
+    {
+      "slug": "how-often-do-iep-meeting-notes-return-for-correction-after-review",
+      "title": "How often do IEP meeting notes return for correction after review?",
+      "description": "A correction tracking protocol for special education meeting minutes, with a defined correction event, version evidence, and confidentiality aware reporting.",
+      "category": "Learner operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/how-often-do-iep-meeting-notes-return-for-correction-after-review.webp"
+    },
+    {
+      "slug": "what-share-of-course-refund-requests-exceed-the-policy-response-window",
+      "title": "What share of course refund requests exceed the policy response window?",
+      "description": "A response time protocol for course refund requests, with a complete request definition, a decision timestamp, and separate reporting for exceptions.",
+      "category": "Billing operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/what-share-of-course-refund-requests-exceed-the-policy-response-window.webp"
+    },
+    {
+      "slug": "how-often-does-professional-development-evidence-go-missing-at-renewal",
+      "title": "How often does professional development evidence go missing at renewal?",
+      "description": "A measurement protocol for professional development evidence gaps at renewal, with a defined requirement set, accepted evidence rules, and an honest denominator.",
+      "category": "Records control",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/how-often-does-professional-development-evidence-go-missing-at-renewal.webp"
+    },
+    {
+      "slug": "where-do-state-reporting-extracts-fail-the-field-crosswalk",
+      "title": "Where do state reporting extracts fail the field crosswalk?",
+      "description": "A crosswalk failure protocol for state reporting, with a field level population, transformation evidence, and separate counts for rejected and silent errors.",
+      "category": "Reporting operations",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/where-do-state-reporting-extracts-fail-the-field-crosswalk.webp"
+    },
+    {
+      "slug": "how-long-do-retired-courses-stay-live-after-their-replacement-launches",
+      "title": "How long do retired courses stay live after their replacement launches?",
+      "description": "A retirement lag protocol for course catalogs, with a defined live state, a replacement date, and separate counts for archived, hidden, and deleted material.",
+      "category": "Course systems",
+      "date": "2026-11-07",
+      "image": "/thumbnails/november-07/how-long-do-retired-courses-stay-live-after-their-replacement-launches.webp"
+    },
+    {
+      "slug": "how-often-do-enrollment-follow-up-queues-stall-at-the-guardian-reply",
+      "title": "How often do enrollment follow-up queues stall at the guardian reply?",
+      "description": "A review protocol for measuring where enrollment follow-up pauses after outreach, with a defined population, timestamp rules, and an honest reporting boundary.",
+      "category": "Enrollment operations",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/how-often-do-enrollment-follow-up-queues-stall-at-the-guardian-reply.webp"
+    },
+    {
+      "slug": "what-share-of-course-launch-checks-fail-at-the-accessibility-gate",
+      "title": "What share of course launch checks fail at the accessibility gate?",
+      "description": "A source-led review design for counting accessibility failures at course launch, with a page inventory, a criteria subset, severity coding, and retest rules.",
+      "category": "Course quality",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/what-share-of-course-launch-checks-fail-at-the-accessibility-gate.webp"
+    },
+    {
+      "slug": "where-do-tuition-reminder-disputes-originate-in-the-family-record",
+      "title": "Where do tuition reminder disputes originate in the family record?",
+      "description": "A review protocol for tracing tuition reminder disputes back to ledger timing, template versions, contact records, and the point where a message was approved.",
+      "category": "Billing operations",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/where-do-tuition-reminder-disputes-originate-in-the-family-record.webp"
+    },
+    {
+      "slug": "how-much-of-the-accommodation-calendar-depends-on-one-coordinator",
+      "title": "How much of the accommodation calendar depends on one coordinator?",
+      "description": "A coverage review protocol for accommodation scheduling that measures key-person dependency, handoff readiness, and the services most exposed to one owner.",
+      "category": "Service coverage",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/how-much-of-the-accommodation-calendar-depends-on-one-coordinator.webp"
+    },
+    {
+      "slug": "how-long-do-transcript-request-exceptions-wait-for-a-second-reviewer",
+      "title": "How long do transcript request exceptions wait for a second reviewer?",
+      "description": "A review protocol for measuring the wait between a transcript exception and its second-person release check, with clock rules, rework loops, and escalation evidence.",
+      "category": "Records control",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/how-long-do-transcript-request-exceptions-wait-for-a-second-reviewer.webp"
+    },
+    {
+      "slug": "do-tutoring-session-notes-meet-the-parent-facing-evidence-standard",
+      "title": "Do tutoring session notes meet the parent-facing evidence standard?",
+      "description": "A review design for tutoring notes that tests observable evidence, clear next steps, parent readability, and correction patterns without overstating learning outcomes.",
+      "category": "Evidence quality",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/do-tutoring-session-notes-meet-the-parent-facing-evidence-standard.webp"
+    },
+    {
+      "slug": "how-consistent-is-ferpa-review-across-school-social-media-drafts",
+      "title": "How consistent is FERPA review across school social media drafts?",
+      "description": "A review protocol for testing whether social media drafts receive the same consent, identifier, and approval checks, with a rubric, sample design, and honest limits.",
+      "category": "Privacy review",
+      "date": "2026-11-06",
+      "image": "/thumbnails/november-06/how-consistent-is-ferpa-review-across-school-social-media-drafts.webp"
+    },
+    {
+      "slug": "how-complete-is-the-evidence-in-the-course-administration-record",
+      "title": "How complete is the evidence in the course administration record?",
+      "description": "A repeatable measurement protocol for course administration in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Evidence Quality",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/how-complete-is-the-evidence-in-the-course-administration-record.webp"
+    },
+    {
+      "slug": "where-does-delay-accumulate-in-the-education-scheduling-handoff",
+      "title": "Where does delay accumulate in the education scheduling handoff?",
+      "description": "A repeatable measurement protocol for education scheduling in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Timing",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/where-does-delay-accumulate-in-the-education-scheduling-handoff.webp"
+    },
+    {
+      "slug": "how-old-are-the-exceptions-in-the-family-and-learner-communication-queue",
+      "title": "How old are the exceptions in the family and learner communication queue?",
+      "description": "A repeatable measurement protocol for family and learner communication in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Queue Health",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/how-old-are-the-exceptions-in-the-family-and-learner-communication-queue.webp"
+    },
+    {
+      "slug": "what-happens-to-resource-library-coverage-when-the-owner-is-away",
+      "title": "What happens to resource library coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for resource library in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Capacity",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/what-happens-to-resource-library-coverage-when-the-owner-is-away.webp"
+    },
+    {
+      "slug": "can-the-reporting-report-be-reproduced-from-its-sources",
+      "title": "Can the reporting report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for reporting in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Measurement",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/can-the-reporting-report-be-reproduced-from-its-sources.webp"
+    },
+    {
+      "slug": "do-exceptions-in-the-learner-records-queue-clear-within-one-business-day",
+      "title": "Do exceptions in the learner records queue clear within one business day?",
+      "description": "A repeatable measurement protocol for learner records in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Clearance",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/do-exceptions-in-the-learner-records-queue-clear-within-one-business-day.webp"
+    },
+    {
+      "slug": "how-stable-is-course-administration-queue-coverage-when-one-specialist-is-away",
+      "title": "How stable is course administration queue coverage when one specialist is away?",
+      "description": "A repeatable measurement protocol for course administration queue in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Coverage",
+      "date": "2026-11-05",
+      "image": "/thumbnails/november-05/how-stable-is-course-administration-queue-coverage-when-one-specialist-is-away.webp"
+    },
+    {
+      "slug": "how-complete-is-the-evidence-in-the-learner-records-record",
+      "title": "How complete is the evidence in the learner records record?",
+      "description": "A repeatable measurement protocol for learner records in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Evidence Quality",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/how-complete-is-the-evidence-in-the-learner-records-record.webp"
+    },
+    {
+      "slug": "where-does-delay-accumulate-in-the-course-administration-handoff",
+      "title": "Where does delay accumulate in the course administration handoff?",
+      "description": "A repeatable measurement protocol for course administration in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Timing",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/where-does-delay-accumulate-in-the-course-administration-handoff.webp"
+    },
+    {
+      "slug": "how-old-are-the-exceptions-in-the-education-scheduling-queue",
+      "title": "How old are the exceptions in the education scheduling queue?",
+      "description": "A repeatable measurement protocol for education scheduling in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Queue Health",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/how-old-are-the-exceptions-in-the-education-scheduling-queue.webp"
+    },
+    {
+      "slug": "what-happens-to-family-and-learner-communication-coverage-when-the-owner-is-away",
+      "title": "What happens to family and learner communication coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for family and learner communication in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Capacity",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/what-happens-to-family-and-learner-communication-coverage-when-the-owner-is-away.webp"
+    },
+    {
+      "slug": "can-the-resource-library-report-be-reproduced-from-its-sources",
+      "title": "Can the resource library report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for resource library in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Measurement",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/can-the-resource-library-report-be-reproduced-from-its-sources.webp"
+    },
+    {
+      "slug": "do-exceptions-in-the-reporting-queue-clear-within-one-business-day",
+      "title": "Do exceptions in the reporting queue clear within one business day?",
+      "description": "A repeatable measurement protocol for reporting in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Clearance",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/do-exceptions-in-the-reporting-queue-clear-within-one-business-day.webp"
+    },
+    {
+      "slug": "how-stable-is-learner-records-queue-coverage-when-one-specialist-is-away",
+      "title": "How stable is learner records queue coverage when one specialist is away?",
+      "description": "A repeatable measurement protocol for learner records queue in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com. Registrar staff log the accommodation approval, transcript receipt, course-catalog version, guardian consent, semester census date, and FERPA release reference EDU4-77 in the student-services binder, and the compliance reviewer initials each exception before the enrollment freeze.",
+      "category": "Coverage",
+      "date": "2026-11-04",
+      "image": "/thumbnails/november-04/how-stable-is-learner-records-queue-coverage-when-one-specialist-is-away.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-how-complete-is-the-evidence-in-the-learner-records-record-2026-11-03",
+      "title": "How complete is the evidence in the learner records record?",
+      "description": "A repeatable measurement protocol for learner records in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Evidence Quality",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-how-complete-is-the-evidence-in-the-learner-records-record-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-where-does-delay-accumulate-in-the-course-administration-handoff-2026-11-03",
+      "title": "Where does delay accumulate in the course administration handoff?",
+      "description": "A repeatable measurement protocol for course administration in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Timing",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-where-does-delay-accumulate-in-the-course-administration-handoff-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-how-old-are-the-exceptions-in-the-education-scheduling-queue-2026-11-03",
+      "title": "How old are the exceptions in the education scheduling queue?",
+      "description": "A repeatable measurement protocol for education scheduling in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Queue Health",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-how-old-are-the-exceptions-in-the-education-scheduling-queue-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-what-happens-to-family-and-learner-communication-coverage-when-the-owner-is-away-2026-11-03",
+      "title": "What happens to family and learner communication coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for family and learner communication in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Capacity",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-what-happens-to-family-and-learner-communication-coverage-when-the-owner-is-away-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-can-the-resource-library-report-be-reproduced-from-its-sources-2026-11-03",
+      "title": "Can the resource library report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for resource library in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Measurement",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-can-the-resource-library-report-be-reproduced-from-its-sources-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-do-exceptions-in-the-reporting-queue-clear-within-one-business-day-2026-11-03",
+      "title": "Do exceptions in the reporting queue clear within one business day?",
+      "description": "A repeatable measurement protocol for reporting in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Clearance",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-do-exceptions-in-the-reporting-queue-clear-within-one-business-day-2026-11-03.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-how-stable-is-learner-records-queue-coverage-when-one-specialist-is-away-2026-11-03",
+      "title": "How stable is learner records queue coverage when one specialist is away?",
+      "description": "A repeatable measurement protocol for learner records queue in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Coverage",
+      "date": "2026-11-03",
+      "image": "/thumbnails/november-03/educationvirtualassistant-how-stable-is-learner-records-queue-coverage-when-one-specialist-is-away-2026-11-03.webp"
+    },
+    {
+      "slug": "edu-nov02-intake-completeness",
+      "title": "Enrollment Intake Completeness",
+      "description": "A bounded record review for which facts are missing when an enrollment call ends?",
+      "category": "Education Operations Research",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-intake-completeness.webp"
+    },
+    {
+      "slug": "edu-nov02-attendance-response",
+      "title": "Attendance Follow-Up Response",
+      "description": "A bounded record review for how quickly does an absence receive an owner response?",
+      "category": "Education Operations Research",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-attendance-response.webp"
+    },
+    {
+      "slug": "edu-nov02-roster-change-lag",
+      "title": "Course Roster Change Lag",
+      "description": "A bounded record review for how long does a roster change wait before access is correct?",
+      "category": "Education Operations Research",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-roster-change-lag.webp"
+    },
+    {
+      "slug": "edu-nov02-message-response",
+      "title": "Family Message Response Time",
+      "description": "A bounded record review for how long do family messages wait before an owner responds?",
+      "category": "Education Operations Research",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-message-response.webp"
+    },
+    {
+      "slug": "edu-nov02-progress-report-defects",
+      "title": "Progress Report Defects",
+      "description": "A bounded record review for which defects appear in a term progress report sample?",
+      "category": "Education Operations Research",
+      "date": "2026-11-02",
+      "image": "/thumbnails/november-02/edu-nov02-progress-report-defects.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-how-complete-is-the-evidence-in-the-learner-records-record-2026-11-01",
+      "title": "How complete is the evidence in the learner records record?",
+      "description": "A repeatable measurement protocol for learner records in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Evidence Quality",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-how-complete-is-the-evidence-in-the-learner-records-record-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-where-does-delay-accumulate-in-the-course-administration-handoff-2026-11-01",
+      "title": "Where does delay accumulate in the course administration handoff?",
+      "description": "A repeatable measurement protocol for course administration in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Timing",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-where-does-delay-accumulate-in-the-course-administration-handoff-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-how-old-are-the-exceptions-in-the-education-scheduling-queue-2026-11-01",
+      "title": "How old are the exceptions in the education scheduling queue?",
+      "description": "A repeatable measurement protocol for education scheduling in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Queue Health",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-how-old-are-the-exceptions-in-the-education-scheduling-queue-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-what-happens-to-family-and-learner-communication-coverage-when-the-owner-is-away-2026-11-01",
+      "title": "What happens to family and learner communication coverage when the owner is away?",
+      "description": "A repeatable measurement protocol for family and learner communication in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Capacity",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-what-happens-to-family-and-learner-communication-coverage-when-the-owner-is-away-2026-11-01.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-can-the-resource-library-report-be-reproduced-from-its-sources-2026-11-01",
+      "title": "Can the resource library report be reproduced from its sources?",
+      "description": "A repeatable measurement protocol for resource library in education organizations, with definitions, sampling, limits, and reporting Prepared for the Education Virtual Assistant record at educationvirtualassistant.com.",
+      "category": "Measurement",
+      "date": "2026-11-01",
+      "image": "/thumbnails/november-01/educationvirtualassistant-can-the-resource-library-report-be-reproduced-from-its-sources-2026-11-01.webp"
+    },
+    {
+      "slug": "course-override-decision-record-review",
+      "title": "Reviewing Course Override Decision Records",
+      "description": "A reproducible review design for testing whether every course override has an identified decision owner, a stated basis, a scoped permission number, and an enrollment outcome that matches the approval.",
+      "category": "Enrollment operations research",
+      "date": "2026-10-28",
+      "image": "/october-28/course-override-decision-record-review.webp"
+    },
+    {
+      "slug": "make-up-exam-eligibility-review",
+      "title": "Reviewing Make-Up Exam Eligibility Evidence",
+      "description": "A protocol for testing whether a make-up exam sitting can be connected to an eligibility decision, an approved format, a proctor record, and a gradebook outcome.",
+      "category": "Assessment operations research",
+      "date": "2026-10-28",
+      "image": "/october-28/make-up-exam-eligibility-review.webp"
+    },
+    {
+      "slug": "grade-submission-exception-review",
+      "title": "Reviewing Grade Submission Exception Patterns",
+      "description": "A review design for section-level grade submission, roster exceptions, incomplete grades, posting confirmation, and the causes behind late or partial submissions.",
+      "category": "Academic records research",
+      "date": "2026-10-28",
+      "image": "/october-28/grade-submission-exception-review.webp"
+    },
+    {
+      "slug": "immunization-clearance-followup-review",
+      "title": "Reviewing Immunization Clearance Follow-Up",
+      "description": "A review protocol for testing whether immunization and health clearance gaps are identified, routed to the right reviewer, followed up, and closed without exposing unnecessary student detail.",
+      "category": "Student compliance research",
+      "date": "2026-10-28",
+      "image": "/october-28/immunization-clearance-followup-review.webp"
+    },
+    {
+      "slug": "diploma-name-change-evidence-review",
+      "title": "Reviewing Diploma Name Change Evidence",
+      "description": "A review design for testing whether a diploma name differs from the student record only when a documented, authorized change supports it and the vendor file reflects the final approval.",
+      "category": "Records and credentials research",
+      "date": "2026-10-28",
+      "image": "/october-28/diploma-name-change-evidence-review.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-substitute-coverage-evidence-audit",
+      "title": "Substitute Coverage Evidence Audit",
+      "description": "A reproducible protocol for testing whether every uncovered classroom, late arrival, and time adjustment has a named source and an accountable resolution in a school-day coverage file.",
+      "category": "Learner operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-transfer-credit-evidence-review",
+      "title": "Transfer Credit Evidence Review",
+      "description": "A protocol for inspecting whether a transfer credit decision is supported by the right transcript, catalog year, course evidence, and authorized evaluator signature.",
+      "category": "Course systems",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-financial-aid-document-followup-protocol",
+      "title": "Financial Aid Document Follow-Up Review",
+      "description": "A protocol for checking whether a missing-document queue identifies the correct requirement, protects the student's data, and records each follow-up attempt.",
+      "category": "Learner operations",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-course-reserve-access-recertification",
+      "title": "Course Reserve Access Recertification Review",
+      "description": "A protocol for checking whether each course reserve item still has a valid access basis, a working link, and a documented takedown date at the end of a term.",
+      "category": "Course systems",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-iep-notice-timeline-audit",
+      "title": "IEP Meeting Notice Timeline Audit",
+      "description": "A protocol for checking whether meeting notices, participant confirmations, interpretation arrangements, and follow-up documents can be reconstructed against the district's timeline.",
+      "category": "Education communication",
+      "date": "2026-10-27",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-intake-completeness-study-2",
+      "title": "Education Support Intake Completeness Study",
+      "description": "A reproducible review of which required fields and source artifacts are present at the point of assignment in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-handoff-latency-study-2",
+      "title": "Education Support Handoff Latency Study",
+      "description": "A reproducible review of how long each handoff takes and where acknowledgement or context is lost in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-exception-pattern-audit-2",
+      "title": "Education Support Exception Pattern Audit",
+      "description": "A reproducible review of which exception reasons recur and whether they receive a consistent owner and disposition in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-evidence-reliability-study-2",
+      "title": "Education Support Evidence Reliability Study",
+      "description": "A reproducible review of whether the source is reconstructable and consistent with the recorded final state in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-access-recertification-study-2",
+      "title": "Education Support Access Recertification Study",
+      "description": "A reproducible review of whether current access matches the approved role and whether removals are evidenced in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-26",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-intake-completeness-study",
+      "title": "Education Support Intake Completeness Study",
+      "description": "A reproducible review of which required fields and source artifacts are present at the point of assignment in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-handoff-latency-study",
+      "title": "Education Support Handoff Latency Study",
+      "description": "A reproducible review of how long each handoff takes and where acknowledgement or context is lost in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-exception-pattern-audit",
+      "title": "Education Support Exception Pattern Audit",
+      "description": "A reproducible review of which exception reasons recur and whether they receive a consistent owner and disposition in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-evidence-reliability-study",
+      "title": "Education Support Evidence Reliability Study",
+      "description": "A reproducible review of whether the source is reconstructable and consistent with the recorded final state in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "educationvirtualassistant-access-recertification-study",
+      "title": "Education Support Access Recertification Study",
+      "description": "A reproducible review of whether current access matches the approved role and whether removals are evidenced in Education Support operations.",
+      "category": "Education Support Research",
+      "date": "2026-10-25",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "enrollment-record-completeness-measurement",
+      "title": "Measuring Enrollment Record Completeness",
+      "description": "A source-bounded method for defining required enrollment fields, evidence, exclusions, and reviewable exceptions.",
+      "category": "Enrollment research",
+      "date": "2026-10-22",
+      "image": "/october-22/enrollment-record-completeness-measurement.webp"
+    },
+    {
+      "slug": "academic-calendar-publication-consistency",
+      "title": "Reviewing Academic Calendar Publication Consistency",
+      "description": "A method for comparing calendar versions, audience pages, and change records before dates reach students.",
+      "category": "Calendar research",
+      "date": "2026-10-22",
+      "image": "/october-22/academic-calendar-publication-consistency.webp"
+    },
+    {
+      "slug": "learning-platform-access-recovery-timing",
+      "title": "Reviewing Learning Platform Access Recovery Timing",
+      "description": "A method for defining access incidents, response steps, recovery evidence, and the limits of timing measures.",
+      "category": "Platform research",
+      "date": "2026-10-22",
+      "image": "/october-22/learning-platform-access-recovery-timing.webp"
+    },
+    {
+      "slug": "accommodation-request-evidence-quality",
+      "title": "Reviewing Accommodation Request Evidence Quality",
+      "description": "A privacy-conscious method for examining completeness, timeliness, and implementation evidence without judging disability.",
+      "category": "Student support research",
+      "date": "2026-10-22",
+      "image": "/october-22/accommodation-request-evidence-quality.webp"
+    },
+    {
+      "slug": "student-data-retention-boundary-review",
+      "title": "Reviewing Student Data Retention Boundaries",
+      "description": "A method for mapping student data stores, retention rules, access, and deletion evidence without making a legal conclusion.",
+      "category": "Records research",
+      "date": "2026-10-22",
+      "image": "/october-22/student-data-retention-boundary-review.webp"
+    },
+    {
+      "slug": "student-record-correction-reproducibility-study",
+      "title": "Reproducibility of Student Record Correction Reviews",
+      "description": "A source-bounded Education Virtual Assistant study of student record correction review, adverse controls, and accountable decisions.",
+      "category": "Records governance",
+      "date": "2026-10-12",
+      "image": "/october-12/student-record-correction-reproducibility-study.webp"
+    },
+    {
+      "slug": "learning-platform-access-recovery-study",
+      "title": "Completeness of Learning Platform Access Recovery Evidence",
+      "description": "A source-bounded Education Virtual Assistant study of learning platform access recovery, adverse controls, and accountable decisions.",
+      "category": "Learning technology",
+      "date": "2026-10-12",
+      "image": "/october-12/learning-platform-access-recovery-study.webp"
+    },
+    {
+      "slug": "accessible-material-fulfillment-study",
+      "title": "Accessible Course Material Fulfillment Evidence",
+      "description": "A source-bounded Education Virtual Assistant study of accessible material fulfillment, adverse controls, and accountable decisions.",
+      "category": "Accessible education",
+      "date": "2026-10-12",
+      "image": "/october-12/accessible-material-fulfillment-study.webp"
+    },
+    {
+      "slug": "academic-calendar-publication-drift-study",
+      "title": "Publication Drift in Academic Calendar Changes",
+      "description": "A source-bounded Education Virtual Assistant study of academic calendar publication drift, adverse controls, and accountable decisions.",
+      "category": "Calendar governance",
+      "date": "2026-10-12",
+      "image": "/october-12/academic-calendar-publication-drift-study.webp"
+    },
+    {
+      "slug": "student-data-export-revocation-study",
+      "title": "Revocation of Student Data Export Access",
+      "description": "A source-bounded Education Virtual Assistant study of student data export revocation, adverse controls, and accountable decisions.",
+      "category": "Information governance",
+      "date": "2026-10-12",
+      "image": "/october-12/student-data-export-revocation-study.webp"
+    },
+    {
+      "slug": "course-administration-exception-pattern-study-8",
+      "title": "Course administration: exception pattern study",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve course administration workflows.",
+      "category": "Role design",
+      "date": "2026-10-08",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "family-learner-communication-workflow-boundary-review-16",
+      "title": "Family and learner communication: workflow boundary review",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve family and learner communication workflows.",
+      "category": "Role design",
+      "date": "2026-10-08",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "learner-records-source-quality-audit-7",
+      "title": "Learner records support: source quality audit",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve learner records support workflows.",
+      "category": "Education communication",
+      "date": "2026-10-07",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "scheduling-support-review-consistency-report-15",
+      "title": "Education scheduling support: review consistency report",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve education scheduling support workflows.",
+      "category": "Education communication",
+      "date": "2026-10-07",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "reporting-preparation-workflow-boundary-review-6",
+      "title": "Reporting preparation: workflow boundary review",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve reporting preparation workflows.",
+      "category": "Course systems",
+      "date": "2026-10-06",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "course-administration-handoff-reliability-brief-14",
+      "title": "Course administration: handoff reliability brief",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve course administration workflows.",
+      "category": "Course systems",
+      "date": "2026-10-06",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "resource-library-support-review-consistency-report-5",
+      "title": "Resource library support: review consistency report",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve resource library support workflows.",
+      "category": "Learner operations",
+      "date": "2026-10-05",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "learner-records-exception-pattern-study-13",
+      "title": "Learner records support: exception pattern study",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve learner records support workflows.",
+      "category": "Learner operations",
+      "date": "2026-10-05",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "family-learner-communication-handoff-reliability-brief-4",
+      "title": "Family and learner communication: handoff reliability brief",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve family and learner communication workflows.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "reporting-preparation-source-quality-audit-12",
+      "title": "Reporting preparation: source quality audit",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve reporting preparation workflows.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "course-administration-review-consistency-report-20",
+      "title": "Course administration: review consistency report",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve course administration workflows.",
+      "category": "Role design",
+      "date": "2026-10-04",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "scheduling-support-exception-pattern-study-3",
+      "title": "Education scheduling support: exception pattern study",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve education scheduling support workflows.",
+      "category": "Education communication",
+      "date": "2026-10-03",
+      "image": "/refresh-20261113/service3.webp"
+    },
+    {
+      "slug": "resource-library-support-workflow-boundary-review-11",
+      "title": "Resource library support: workflow boundary review",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve resource library support workflows.",
+      "category": "Education communication",
+      "date": "2026-10-03",
+      "image": "/refresh-20261113/service4.webp"
+    },
+    {
+      "slug": "learner-records-handoff-reliability-brief-19",
+      "title": "Learner records support: handoff reliability brief",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve learner records support workflows.",
+      "category": "Education communication",
+      "date": "2026-10-03",
+      "image": "/refresh-20261113/service5.webp"
+    },
+    {
+      "slug": "course-administration-source-quality-audit-2",
+      "title": "Course administration: source quality audit",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve course administration workflows.",
+      "category": "Course systems",
+      "date": "2026-10-02",
+      "image": "/refresh-20261113/service6.webp"
+    },
+    {
+      "slug": "family-learner-communication-review-consistency-report-10",
+      "title": "Family and learner communication: review consistency report",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve family and learner communication workflows.",
+      "category": "Course systems",
+      "date": "2026-10-02",
+      "image": "/refresh-20261113/service7.webp"
+    },
+    {
+      "slug": "reporting-preparation-exception-pattern-study-18",
+      "title": "Reporting preparation: exception pattern study",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve reporting preparation workflows.",
+      "category": "Course systems",
+      "date": "2026-10-02",
+      "image": "/refresh-20261113/service8.webp"
+    },
+    {
+      "slug": "learner-records-workflow-boundary-review-1",
+      "title": "Learner records support: workflow boundary review",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve learner records support workflows.",
+      "category": "Learner operations",
+      "date": "2026-10-01",
+      "image": "/refresh-20261113/service1.webp"
+    },
+    {
+      "slug": "scheduling-support-handoff-reliability-brief-9",
+      "title": "Education scheduling support: handoff reliability brief",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve education scheduling support workflows.",
+      "category": "Learner operations",
+      "date": "2026-10-01",
+      "image": "/refresh-20261113/service2.webp"
+    },
+    {
+      "slug": "resource-library-support-source-quality-audit-17",
+      "title": "Resource library support: source quality audit",
+      "description": "A source-led brief on how school leaders, course creators, tutors, and education teams can define, inspect, and improve resource library support workflows.",
+      "category": "Learner operations",
+      "date": "2026-10-01",
+      "image": "/refresh-20261113/service3.webp"
+    }
+  ],
+  "photos": {
+    "home": {
+      "alt": "A teacher focused on her laptop in a bright, modern classroom setting.",
+      "position": "50% 50%"
+    },
+    "services": {
+      "alt": "Cheerful students and teacher collaborating in a university library.",
+      "position": "50% 50%"
+    },
+    "blog": {
+      "alt": "A diverse group of students and a teacher collaborating in a library setting.",
+      "position": "50% 50%"
+    },
+    "research": {
+      "alt": "Two women focusing on laptop research in a university library.",
+      "position": "50% 50%"
+    },
+    "service1": {
+      "alt": "Teacher helping a student at a computer in a busy library setting, engaging in educational interaction.",
+      "position": "50% 50%"
+    },
+    "service2": {
+      "alt": "Children focus on schoolwork as a teacher oversees in a bright, modern classroom.",
+      "position": "50% 50%"
+    },
+    "service3": {
+      "alt": "Happy teacher and students taking a selfie in a library with a tablet.",
+      "position": "50% 50%"
+    },
+    "service4": {
+      "alt": "A teacher and child reading a book together in a library, engaging in education.",
+      "position": "50% 50%"
+    },
+    "service5": {
+      "alt": "A student studies on a laptop while a teacher supervises in a university library.",
+      "position": "50% 50%"
+    },
+    "service6": {
+      "alt": "A teacher guiding senior adults in a library, using laptops for learning and support.",
+      "position": "50% 50%"
+    },
+    "service7": {
+      "alt": "A teacher supervising two smiling teenagers working on laptops in a classroom setting, focusing on technology and learning.",
+      "position": "50% 50%"
+    },
+    "service8": {
+      "alt": "A teacher engages in an online class from an empty classroom, using a laptop for learning.",
+      "position": "50% 50%"
+    }
+  }
+}
