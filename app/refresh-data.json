@@ -526,6 +526,70 @@
   ],
   "blog": [
     {
+      "slug": "educationvirtualassistant-build-a-student-record-correction-log-the-registrar-can-audit",
+      "title": "Build a student record correction log the registrar can audit",
+      "description": "A bounded operational guide to student record correction log, with explicit evidence, decision rights, and a verified close.",
+      "category": "Student records",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-build-a-student-record-correction-log-the-registrar-can-audit.png"
+    },
+    {
+      "slug": "educationvirtualassistant-set-a-course-waitlist-release-rule-families-can-understand",
+      "title": "Set a course waitlist release rule families can understand",
+      "description": "A bounded operational guide to course waitlist release rule, with explicit evidence, decision rights, and a verified close.",
+      "category": "Course administration",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-set-a-course-waitlist-release-rule-families-can-understand.png"
+    },
+    {
+      "slug": "educationvirtualassistant-prepare-a-school-accreditation-site-visit-binder-from-source-documents",
+      "title": "Prepare a school accreditation site visit binder from source documents",
+      "description": "A bounded operational guide to accreditation site visit binder, with explicit evidence, decision rights, and a verified close.",
+      "category": "Accreditation",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-prepare-a-school-accreditation-site-visit-binder-from-source-documents.png"
+    },
+    {
+      "slug": "educationvirtualassistant-handle-a-transcript-hold-without-losing-the-student-s-appeal-window",
+      "title": "Handle a transcript hold without losing the student's appeal window",
+      "description": "A bounded operational guide to transcript hold and appeal window, with explicit evidence, decision rights, and a verified close.",
+      "category": "Student records",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-handle-a-transcript-hold-without-losing-the-student-s-appeal-window.png"
+    },
+    {
+      "slug": "educationvirtualassistant-write-a-substitute-teacher-onboarding-packet-that-closes-compliance-gaps",
+      "title": "Write a substitute teacher onboarding packet that closes compliance gaps",
+      "description": "A bounded operational guide to substitute teacher onboarding packet, with explicit evidence, decision rights, and a verified close.",
+      "category": "Staffing",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-write-a-substitute-teacher-onboarding-packet-that-closes-compliance-gaps.png"
+    },
+    {
+      "slug": "educationvirtualassistant-track-a-tuition-refund-appeal-through-the-business-office",
+      "title": "Track a tuition refund appeal through the business office",
+      "description": "A bounded operational guide to tuition refund appeal, with explicit evidence, decision rights, and a verified close.",
+      "category": "Finance",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-track-a-tuition-refund-appeal-through-the-business-office.png"
+    },
+    {
+      "slug": "educationvirtualassistant-create-a-classroom-technology-request-queue-for-teachers",
+      "title": "Create a classroom technology request queue for teachers",
+      "description": "A bounded operational guide to classroom technology request queue, with explicit evidence, decision rights, and a verified close.",
+      "category": "Operations",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-create-a-classroom-technology-request-queue-for-teachers.png"
+    },
+    {
+      "slug": "educationvirtualassistant-run-a-semester-attendance-reporting-check-before-the-state-submission",
+      "title": "Run a semester attendance reporting check before the state submission",
+      "description": "A bounded operational guide to semester attendance reporting check, with explicit evidence, decision rights, and a verified close.",
+      "category": "Reporting",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-run-a-semester-attendance-reporting-check-before-the-state-submission.png"
+    },
+    {
       "slug": "build-a-midterm-grade-change-request-queue-with-a-written-audit-trail",
       "title": "Build a midterm grade change request queue with a written audit trail",
       "description": "A practical queue design for collecting instructor approval, applying grade corrections, and leaving a reviewable trail after grades post.",
@@ -1911,6 +1975,62 @@
     }
   ],
   "research": [
+    {
+      "slug": "educationvirtualassistant-how-often-do-student-record-corrections-cite-the-original-source-document",
+      "title": "How often do student record corrections cite the original source document?",
+      "description": "A measurement protocol for student record corrections citing the original source document, with a frozen population, an evidence sample, and a dated review.",
+      "category": "Student records",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-how-often-do-student-record-corrections-cite-the-original-source-document.png"
+    },
+    {
+      "slug": "educationvirtualassistant-what-share-of-waitlist-releases-follow-the-published-order",
+      "title": "What share of waitlist releases follow the published order?",
+      "description": "A measurement protocol for waitlist releases that follow the published order, with a frozen population, an evidence sample, and a dated review.",
+      "category": "Course administration",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-what-share-of-waitlist-releases-follow-the-published-order.png"
+    },
+    {
+      "slug": "educationvirtualassistant-how-complete-is-the-accreditation-binder-at-the-site-visit",
+      "title": "How complete is the accreditation binder at the site visit?",
+      "description": "A measurement protocol for accreditation binders at the site visit, with a frozen population, an evidence sample, and a dated review.",
+      "category": "Accreditation",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-how-complete-is-the-accreditation-binder-at-the-site-visit.png"
+    },
+    {
+      "slug": "educationvirtualassistant-how-long-do-transcript-holds-wait-on-an-appeal-decision",
+      "title": "How long do transcript holds wait on an appeal decision?",
+      "description": "A measurement protocol for transcript holds waiting on an appeal decision, with a frozen population, an evidence sample, and a dated review.",
+      "category": "Student records",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-how-long-do-transcript-holds-wait-on-an-appeal-decision.png"
+    },
+    {
+      "slug": "educationvirtualassistant-what-share-of-substitute-onboarding-packets-miss-a-compliance-item",
+      "title": "What share of substitute onboarding packets miss a compliance item?",
+      "description": "A measurement protocol for substitute onboarding packets missing a compliance item, with a frozen population, an evidence sample, and a dated review.",
+      "category": "Staffing",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-what-share-of-substitute-onboarding-packets-miss-a-compliance-item.png"
+    },
+    {
+      "slug": "educationvirtualassistant-where-does-delay-accumulate-in-tuition-refund-appeals",
+      "title": "Where does delay accumulate in tuition refund appeals?",
+      "description": "A measurement protocol for delay in tuition refund appeals, with a frozen population, an evidence sample, and a dated review.",
+      "category": "Finance",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-where-does-delay-accumulate-in-tuition-refund-appeals.png"
+    },
+    {
+      "slug": "educationvirtualassistant-how-often-do-classroom-technology-requests-reach-a-named-owner",
+      "title": "How often do classroom technology requests reach a named owner?",
+      "description": "A measurement protocol for classroom technology requests reaching a named owner, with a frozen population, an evidence sample, and a dated review.",
+      "category": "Operations",
+      "date": "2026-11-12",
+      "image": "/thumbnails/november-12/educationvirtualassistant-how-often-do-classroom-technology-requests-reach-a-named-owner.png"
+    },
     {
       "slug": "how-many-midterm-grade-change-requests-wait-on-missing-instructor-approval",
       "title": "How many midterm grade change requests wait on missing instructor approval?",
