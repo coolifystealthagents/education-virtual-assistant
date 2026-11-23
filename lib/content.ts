@@ -14,6 +14,7 @@ import { november19BlogPosts } from './november19-blog';
 import { november21BlogPosts } from './november21-blog';
 import { november20BlogPosts } from './november20-blog';
 import { november22BlogPosts } from './november22-blog';
+import { november23BlogPosts } from './november23-blog';
 import { november08BlogPosts } from './november08-blog';
 import { november12ResearchPosts } from './november12-research';
 import { november16ResearchPosts } from './november16-research';
@@ -23,6 +24,7 @@ import { november19ResearchPosts } from './november19-research';
 import { november21ResearchPosts } from './november21-research';
 import { november20ResearchPosts } from './november20-research';
 import { november22ResearchPosts } from './november22-research';
+import { november23ResearchPosts } from './november23-research';
 import { november08ResearchPosts } from './november08-research';
 import { november07BlogPosts } from './november07-blog';
 import { november07ResearchPosts } from './november07-research';
@@ -47,6 +49,7 @@ import { october27ResearchPosts } from './october27-research';
 import { october28EducationBlogPosts, october28EducationResearchPosts } from './october28EducationBatch';
 
 export const blogPosts: BlogPost[] = [
+  ...november23BlogPosts,
   ...november22BlogPosts,
   ...november21BlogPosts,
   ...november11BlogPosts,
@@ -532,6 +535,7 @@ export const blogPosts: BlogPost[] = [
 ];
 blogPosts.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 export const researchPosts: ResearchPost[] = [
+  ...november23ResearchPosts,
   ...november22ResearchPosts,
   ...november21ResearchPosts,
   ...november11ResearchPosts,
