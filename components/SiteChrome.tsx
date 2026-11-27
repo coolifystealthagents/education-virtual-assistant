@@ -29,7 +29,7 @@ export function Header() {
   }, []);
 
   return (
-    <header className="site-header" data-scrolled={scrolled ? 'true' : 'false'}>
+    <header data-site-header="sticky" className="site-header" data-scrolled={scrolled ? 'true' : 'false'}>
       <Link className="brand" href="/" aria-label={`${site.name} home`}>
         <Image src="/logo.svg" alt="" width={42} height={42} priority />
         <span>{site.name}</span>
@@ -47,7 +47,7 @@ export function Header() {
 
 export function Footer() {
   return (
-    <footer>
+    <footer data-site-footer="true">
       <div>
         <Link className="brand inverse" href="/">
           <Image src="/logo.svg" alt="" width={44} height={44} />

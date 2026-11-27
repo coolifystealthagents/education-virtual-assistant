@@ -14,19 +14,22 @@ export function ReviewMarquee() {
     if (reduced.matches) return;
 
     let frame = 0;
+    let motionOffset = viewport.scrollLeft;
     let previous = performance.now();
     const move = (now: number) => {
       const elapsed = Math.min(now - previous, 40);
       previous = now;
       if (!paused) {
-        viewport.scrollLeft += elapsed * 0.035;
+        motionOffset += elapsed * 0.035;
+        viewport.scrollLeft = Math.round(motionOffset);
         const first = viewport.firstElementChild as HTMLElement | null;
         if (first) {
           const gap = Number.parseFloat(getComputedStyle(viewport).columnGap) || 0;
           const distance = first.getBoundingClientRect().width + gap;
-          if (viewport.scrollLeft >= distance) {
+          if (motionOffset >= distance) {
             viewport.appendChild(first);
-            viewport.scrollLeft -= distance;
+            motionOffset -= distance;
+            viewport.scrollLeft = Math.round(motionOffset);
           }
         }
       }
@@ -42,8 +45,8 @@ export function ReviewMarquee() {
       ref={viewportRef}
       aria-label="Verified StealthAgents client reviews"
       aria-live="off"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
+      
+      
       onFocusCapture={() => setPaused(true)}
       onBlurCapture={(event) => {
         if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setPaused(false);
